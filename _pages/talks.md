@@ -8,7 +8,7 @@ author_profile: true
 Oral presentations at domestic (in Japan) conferences, symposiums, etc
 ======
 
-1. <ins>Z.Lai</ins>, K. Sato, T. Okuno, and A. Takeda. Stable linear system identification with prior knowledge by elastic Riemannian sequential quadratic optimization. arXiv:2112.14043, Dec. 2021. [[arXiv]](https://arxiv.org/abs/2112.14043)
+1. <ins>Z.Lai</ins>, Y.Akiko,T. Okuno, Riemannian Interior Point Methods for Constrained Optimization on Manifolds, 2023 Spring National Conference of Operations Research Society of Japan, Tokyo, 2023-03.
 2. <ins>Z.Lai</ins>, Y.Akiko, On the Global Convergence of Riemannian Interior Point Method, Japan Society for Industrial and Applied Mathematics 2022 Annual Meeting, Sapporo, 2022-09.
 3. <ins>Z.Lai</ins>, Y.Akiko, Superlinear and Quadratic Convergence of Riemannian Interior Point Methods, 2022 Spring National Conference of Operations Research Society of Japan, 2022-03. Online.
 4. <ins>Z.Lai</ins>, Y.Akiko,Completely Positive Factorization via Orthogonality Constrained Problem and Application of Smoothing Method, Kyoto University Mathematical Analysis Research Institute Research Meeting, 2021-08. Online.
@@ -19,7 +19,7 @@ Oral presentations at domestic (in Japan) conferences, symposiums, etc
 Oral presentations at international conference
 ======
 1. <ins>Z.Lai</ins>, Y.Akiko, Riemannian Interior Point Methods for Constrained Optimization on Manifolds, International Workshop on Continuous Optimization, 2022-12. Online.
-2. <ins>Z.Lai</ins>, Y.Akiko,Completely Positive Factorization via Orthogonality Constrained Problem, 2021 SIAM Conference on Optimization (OP21), 2021-07. Online.
+2. <ins>Z.Lai</ins>, Y.Akiko, Completely Positive Factorization via Orthogonality Constrained Problem, 2021 SIAM Conference on Optimization (OP21), 2021-07. Online.
 
 
 
