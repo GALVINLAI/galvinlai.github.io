@@ -26,5 +26,4 @@ News
 ========
 - [2023.06] Opened this website.
 
-<a href="https://clustrmaps.com/site/1bc1p" title="Visit tracker"><img src="//clustrmaps.com/map_v2.png?cl=080808&w=268&t=tt&d=ClGOXY2uKf0Io0DSAJkrBfZlEVYRsuP6Esld81tT5GE&co=ffffff&ct=808080" /></a>
-
+<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=J6_1YGeLg-J7t5ToGOrm1lj_HeE4j7CR-SSuDJOBqso"></script>
