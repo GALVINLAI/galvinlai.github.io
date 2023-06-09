@@ -33,7 +33,8 @@ News
 Contact
 ========
  - Phone: +81 070-1186-5012
- - Work E-mail: s2130117 [at] s.tsukuba.ac.jp
- - Personal E-mail: laizhijian100 [at] outlook.com
+ - First e-mail: s2130117 [at] s.tsukuba.ac.jp
+ - Second e-mail: laizhijian100 [at] outlook.com
+ - WeChat ID: EulerRiemann
 
 <a href="https://clustrmaps.com/site/1bv2n"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=J6_1YGeLg-J7t5ToGOrm1lj_HeE4j7CR-SSuDJOBqso&cl=ffffff" /></a>
