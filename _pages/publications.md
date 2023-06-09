@@ -13,5 +13,5 @@ Preprint
 
 Journal Papers
 ======
-1. <ins>Z. Lai</ins>, A. Yoshise. A. Completely positive factorization by a Riemannian smoothing method. Computational Optimization and Applications, 83(3), 933-966 (2022). [[Journal]](https://doi.org/10.1007/s10589-022-00417-4)
+1. <ins>Z. Lai</ins>, A. Yoshise. Completely positive factorization by a Riemannian smoothing method. Computational Optimization and Applications, 83(3), 933-966 (2022). [[Journal]](https://doi.org/10.1007/s10589-022-00417-4)
 
