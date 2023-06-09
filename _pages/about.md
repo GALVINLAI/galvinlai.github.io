@@ -22,7 +22,7 @@ Agenda
 ========
 Currently, I plan to participate in the following events:
  - [Summer School on Continuous Optimization and Related Fields](https://www.ism.ac.jp/~mirai/sscoke/2023/). The Institue of Statistical Mathematics, Tokyo, Japan. **August 9-11, 2023.**
- - The 10th International Congress on Industrial and Applied Mathematics [(ICIAM)](https://iciam2023.org/). Waseda University, Tokyo, Japan.
+ - The 10th [International Congress on Industrial and Applied Mathematics (ICIAM)](https://iciam2023.org/). Waseda University, Tokyo, Japan.
 **August 20-25, 2023.**
 
 
