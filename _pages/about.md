@@ -12,7 +12,9 @@ About me
 ========
 Currently, I am a Ph.D. student at [Graduate School of Systems and Information Engineering](https://www.sie.tsukuba.ac.jp/eng/), [University of Tsukuba](https://www.tsukuba.ac.jp/en/) and I am pursuing the [Doctoral Programs in Policy and Planning Sciences](https://www.sk.tsukuba.ac.jp/PPS/en/). My supervisor is [Prof. Akiko Yoshise](https://infoshako.sk.tsukuba.ac.jp/~yoshise/).
 
-My research interests include mathematical optimization and its applications to machine learning, and other fields. 
+Research Interests
+========
+My research interests include mathematical optimization, especially manifold optimization, and its applications to machine learning and other fields.
 
 Contact
 ========
@@ -22,12 +24,9 @@ Work E-mail: s2130117 [at] s.tsukuba.ac.jp
 
 Personal E-mail: laizhijian100 [at] outlook.com
 
-
-Recent News
+News
 ========
-<div style="overflow:scroll; width:100%; height:200px">  
-  <ul>
-    <li> Jun. 2023: Opened this website. </li>
-  </ul>
-</div>
+- [2023.06] Opened this website.
+
+<a href="https://clustrmaps.com/site/1bc1p" title="Visit tracker"><img src="//clustrmaps.com/map_v2.png?cl=080808&w=268&t=tt&d=ClGOXY2uKf0Io0DSAJkrBfZlEVYRsuP6Esld81tT5GE&co=ffffff&ct=808080" /></a>
 
