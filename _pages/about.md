@@ -12,7 +12,8 @@ About me
 ========
 Currently, I am a Ph.D. student at [Graduate School of Systems and Information Engineering](https://www.sie.tsukuba.ac.jp/eng/), [University of Tsukuba](https://www.tsukuba.ac.jp/en/) and I am taking the [Doctoral Programs in Policy and Planning Sciences](https://www.sk.tsukuba.ac.jp/PPS/en/). 
 
-My supervisor is [Prof. Akiko Yoshise](https://infoshako.sk.tsukuba.ac.jp/~yoshise/).
+My supervisor is [Prof. Akiko Yoshise](https://infoshako.sk.tsukuba.ac.jp/~yoshise/).　We are team PhilOpt )))).
+
 
 Research Interests
 ========
