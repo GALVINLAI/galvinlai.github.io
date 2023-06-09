@@ -7,7 +7,7 @@ author_profile: true
 
 My research lies in the interface of **manifold optimization** and **deep learning**.
 
-### manifold optimization
+### Manifold Optimization
 
 *To be continued...* (coming soon)
   
@@ -15,7 +15,7 @@ My research lies in the interface of **manifold optimization** and **deep learni
 
 *To be continued...* (coming soon)
 
-### quatunm computing 
+### Quatunm Computing 
 
 *To be continued...* (coming soon)
 
