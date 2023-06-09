@@ -1,16 +1,17 @@
 # main links links
 main:
+
+  - title: "Curriculum Vitae"
+    url: /cv/
+    
   - title: "Publications"
     url: /publications/
 
   - title: "Talks"
-    url: /talks/    
-
-  - title: "Teaching"
-    url: /teaching/    
+    url: /talks/  
     
-  - title: "CV"
-    url: /cv/
+ #- #title: "Teaching"
+    #url: /teaching/    
     
  #- #title: "Guide"
     #url: /markdown/
