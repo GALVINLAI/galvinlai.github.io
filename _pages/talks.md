@@ -13,7 +13,7 @@ Congress on Industrial and Applied Mathematics (ICIAM), Tokyo, Japan, Aug. 2023.
 3. <ins>Z. Lai</ins>, A. Yoshise, Riemannian Interior Point Methods for Constrained Optimization on Manifolds, International Workshop on Continuous Optimization, Tokyo (virtual), Dec. 2022. [[Program]](http://www.opt.c.titech.ac.jp/DecemberWorkshop/schedule.html) [[slides]](https://galvinlai.github.io/academicpages/files/2022_12_4_IWCO.pdf)
 4. <ins>Z. Lai</ins>, A. Yoshise, Completely Positive Factorization via Orthogonality Constrained Problem. SIAM Conference on Optimization (OP21), Hong Kong (virtual), Jul. 2021. [[Program]](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=71097) [[slides]](https://galvinlai.github.io/academicpages/files/2021_07_22_SIAM_OP21.pdf)
 
-Oral presentations at domestic (in Japan) conferences, symposiums, etc
+Oral presentations at domestic (Japan) conference
 ======
 
 1. <ins>Z. Lai</ins>, A. Yoshise, Riemannian Interior Point Methods for Constrained Optimization on Manifolds. Research Association of Optimization Theory and Algorithms (RAOTA): Gathering of Young Researchers for the Future 2023, Tsukuba, May 2023. [[Program]](https://orsj.org/raota/wp-content/uploads/sites/16/2023/05/tsukuba23program.pdf) [[slides]](https://galvinlai.github.io/academicpages/files/2023_05_20_RAOTA.pdf)
