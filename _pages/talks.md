@@ -9,7 +9,7 @@ Oral presentations at international conference
 ======
 1. <ins>Z. Lai</ins>, A. Yoshise, Riemannian Interior Point Methods for Constrained Optimization on Manifolds. The 10th International
 Congress on Industrial and Applied Mathematics (ICIAM), Tokyo, Japan, Aug. 2023. [[Program]](https://iciam2023.org/registered_data?id=01064)
-2. <ins>Z. Lai</ins>, A. Yoshise, Interior Point Methods for Nonlinear Optimization on Riemannian Manifolds. SIAM Conference on Optimization (OP23), Seattle, USA, Jun. 2023. [[Program]](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=75974) [[slides]]([https://github.com/GALVINLAI/academicpages/blob/master](https://galvinlai.github.io/academicpages/files/SeattleSIAMOP.pdf)
+2. <ins>Z. Lai</ins>, A. Yoshise, Interior Point Methods for Nonlinear Optimization on Riemannian Manifolds. SIAM Conference on Optimization (OP23), Seattle, USA, Jun. 2023. [[Program]](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=75974) [[slides]](https://galvinlai.github.io/academicpages/files/SeattleSIAMOP.pdf)
 3. <ins>Z. Lai</ins>, A. Yoshise, Riemannian Interior Point Methods for Constrained Optimization on Manifolds, International Workshop on Continuous Optimization, Tokyo (virtual), Dec. 2022. [[Program]](http://www.opt.c.titech.ac.jp/DecemberWorkshop/schedule.html)
 4. <ins>Z. Lai</ins>, A. Yoshise, Completely Positive Factorization via Orthogonality Constrained Problem. SIAM Conference on Optimization (OP21), Hong Kong (virtual), Jul. 2021. [[Program]](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=71097)
 
