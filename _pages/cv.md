@@ -17,7 +17,7 @@ Education
   * Graduate School of Systems and Information Engineering
 * Jul. 2017 -- Mar. 2019: Preparing for entering Graduate School in Japan. [ARC Tokyo Japanese Language School](https://www.arc.ac.jp/Tokyo/en/), Tyoto, Japan.
   * Graduate School Preparation Class
-* Sep. 2013 -- Jun. 2017: Bachelor of Management, [Dongbei University of Finance and Economics](www.dufe.edu.cn), Dalian, China.
+* Sep. 2013 -- Jun. 2017: Bachelor of Management, Dongbei University of Finance and Economics, Dalian, China.
   * School of Business Administration
 
 Grants and fellowship
