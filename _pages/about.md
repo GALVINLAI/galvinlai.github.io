@@ -27,7 +27,7 @@ Recent News
 ========
 <div style="overflow:scroll; width:100%; height:200px">  
   <ul>
-    <li> Mar. 2023: Opened this website. </li>
+    <li> Jun. 2023: Opened this website. </li>
   </ul>
 </div>
 
