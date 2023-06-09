@@ -11,11 +11,11 @@ redirect_from:
 
 Education
 ======
-* Apr. 2021 -- present: Ph.D. student, [University of Tsukuba](https://www.tsukuba.ac.jp/en/), Ibaraki, Japan.
+* Apr. 2021 -- present: Ph.D. student, University of Tsukuba, Ibaraki, Japan.
   * Graduate School of Systems and Information Engineering
-* Apr. 2019 -- Mar. 2021: Master of Science in Policy and Planning Sciences, [University of Tsukuba](https://www.tsukuba.ac.jp/en/), Ibaraki, Japan.
+* Apr. 2019 -- Mar. 2021: Master of Science in Policy and Planning Sciences, University of Tsukuba, Ibaraki, Japan.
   * Graduate School of Systems and Information Engineering
-* Jul. 2017 -- Mar. 2019: Preparing for entering Graduate School in Japan. [ARC Tokyo Japanese Language School](https://www.arc.ac.jp/Tokyo/en/), Tokyo, Japan.
+* Jul. 2017 -- Mar. 2019: Preparing for entering Graduate School in Japan. ARC Tokyo Japanese Language School, Tokyo, Japan.
   * Graduate School Preparation Class
 * Sep. 2013 -- Jun. 2017: Bachelor of Management, Dongbei University of Finance and Economics, Dalian, China.
   * School of Business Administration
