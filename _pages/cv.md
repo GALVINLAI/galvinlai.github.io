@@ -24,6 +24,11 @@ Grants and fellowship
 ======
   - Sep. 2021 -- present: Research fellowship from [Support for Pioneering Research Initiated by the Next Generation (SPRING)](https://www.jst.go.jp/jisedai/index.html)
 
+Skills
+======
+  - JLPT N1 (134) Dec. 2016.
+  - Programming Skill: Matlab, Python.
+
 Teaching
 ======
 I will be a teaching assistant for:
@@ -38,7 +43,6 @@ I was hired as a subject tutor to support research students preparing for [the M
  - "Linear Algebra" for entrance exams in Aug. 2021.
  - "Calculus" for entrance exams in Dec. 2019.
  - "Calculus" for entrance exams in Aug. 2019.
-
 
 
 
