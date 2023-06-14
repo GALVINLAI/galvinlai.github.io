@@ -28,6 +28,7 @@ Skills
 ======
   - JLPT N1 (134) Dec. 2016.
   - Programming Skill: Matlab, Python.
+  - Latex
 
 Teaching
 ======
