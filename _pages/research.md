@@ -15,7 +15,7 @@ My research lies in the interface of **manifold optimization** and **deep learni
 
 *To be continued...* (coming soon)
 
-### Quatunm Computing 
+### Quantum Computing 
 
 *To be continued...* (coming soon)
 
