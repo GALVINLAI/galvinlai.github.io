@@ -9,8 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-My complete CV can be found [here](https://github.com/GALVINLAI/academicpages/blob/master/files/Curriculum_Vitae_Lai.pdf).
+My complete CV can be found [here](https://galvinlai.github.io/academicpages/files/Curriculum_Vitae_Lai.pdf).
 
+<!---
 Education
 ======
 * Apr. 2021 -- present: Ph.D. student, University of Tsukuba, Ibaraki, Japan.
@@ -47,7 +48,7 @@ I was hired as a subject tutor to support research students preparing for [the M
  - "Calculus" for entrance exams in Dec. 2019.
  - "Calculus" for entrance exams in Aug. 2019.
 
-
+--->
 
 
 
