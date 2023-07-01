@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+My complete CV can be found [here](https://github.com/GALVINLAI/academicpages/blob/master/files/Curriculum_Vitae_Lai.pdf).
+
 Education
 ======
 * Apr. 2021 -- present: Ph.D. student, University of Tsukuba, Ibaraki, Japan.
