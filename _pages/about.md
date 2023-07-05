@@ -42,4 +42,6 @@ Contact
  - Second e-mail: laizhijian100@outlook.com
  - WeChat ID: EulerRiemann
 
+<center>
 <a href="https://clustrmaps.com/site/1bv2n"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=J6_1YGeLg-J7t5ToGOrm1lj_HeE4j7CR-SSuDJOBqso&cl=ffffff" /></a>
+</center>
