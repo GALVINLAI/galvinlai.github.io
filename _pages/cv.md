@@ -9,9 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
-My complete CV can be found [here](https://galvinlai.github.io/files/Curriculum_Vitae_Lai.pdf).
+My complete CV is [here](https://galvinlai.github.io/files/LatexCV/Curriculum_Vitae_Lai.pdf).
 
 <!---
+
 Education
 ======
 * Apr. 2021 -- present: Ph.D. student, University of Tsukuba, Ibaraki, Japan.
