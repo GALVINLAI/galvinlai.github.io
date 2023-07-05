@@ -25,7 +25,7 @@ Oral Presentations at Domestic (Japan) Conference
 7. <ins>Z. Lai</ins>, A. Yoshise, Completely Positive Factorization via Orthogonality Constrained Problem. The 2021 spring national conference of operations research society of Japan, Tokyo (virtual), Mar. 2021. [[Program]](https://www.orsj.or.jp/nc/2021s/?page_id=20) [[slides]](https://galvinlai.github.io/files/slides/20210302_OR21_spring.pdf)
 8. <ins>Z. Lai</ins>, A. Yoshise, A New Approach to the Recognition Problem of Completely Positive Matrices. Kyoto University mathematical analysis research institute research meeting, Kyoto (virtual), Aug. 2020. [[Program]](https://sites.google.com/view/akiyoshishioura/rimsmeeting2020) [[slides]](https://galvinlai.github.io/files/slides/RIMSmeeting20200824.pdf)
 
-Poster presentations
+Poster Presentations
 ======
 1. <ins>Z. Lai</ins>, Riemannian Interior Point Methods for Manifold Optimization. Poster Session of SPRING Fellowship (JST), Tsukuba, Mar. 2023. [[poster]](https://galvinlai.github.io/files/posters/202130117_poster.pdf)
 
