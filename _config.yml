@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Zhijian Lai (頼志堅)" # on the top 
+title                    : "Zhijian Lai (頼志堅)" # on the top # 重要
 title_separator          : "-"
-name                     : &name "ZHIJIAN LAI"
+name                     : &name "ZHIJIAN LAI" # 重要
 description              : &description "personal description"
-url                      : "https://galvinlai.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://galvinlai.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io" # 重要
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "galvinlai.github.io"
+repository               : "galvinlai.github.io" # 重要
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Zhijian Lai" # on the left side 
-  avatar           : "myphoto.png" # your photo here!
-  bio              : "Ph.D. student at University of Tsukuba"
-  location         : "Ibaraki, Japan"
+  name             : "Zhijian Lai" # on the left side  # 重要
+  avatar           : "myphoto.png" # your photo here! # 重要
+  bio              : "Ph.D. student at University of Tsukuba" # 重要
+  location         : "Ibaraki, Japan" # 重要
   employer         :
-  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.co.uk/citations?hl=en&view_op=list_works&gmla=AHoSzlWWEJbH0QWoVDeyyjNXIfU-A0Ti4fZ5ZN6eV_zw6xiYTdjVnFOLnoVMbcAc9LD1HYsVfL4mPA_Kxxqpsq3NTEXC&user=0OJnW0wAAAAJ"
-  email            : "s2130117@s.tsukuba.ac.jp"
+  pubmed           :  # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : "https://scholar.google.com/citations?user=0OJnW0wAAAAJ&hl=en&oi=sra" # 重要
+  email            : "s2130117@s.tsukuba.ac.jp" # 重要
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,26 +96,26 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "GALVINLAI"
+  github           : "GALVINLAI" # 重要
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      : # "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "zhijian-lai-8706b715b"
-  orcid            : "http://orcid.org/0009-0001-1548-0794"
+  linkedin         : "zhijian-lai-8706b715b" # 重要
+  orcid            : "http://orcid.org/0009-0001-1548-0794" # 重要
   pinterest        :
   soundcloud       :
-  stackoverflow    : #http://stackoverflow.com/users/123456/username
+  stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : #"replacethistwitterhandle"
+  twitter          : # "replacethistwitterhandle"
   vine             :
   weibo            :
   xing             :
   youtube          :
   wikipedia        :
-  bilibili         : "https://space.bilibili.com/16115578"
+  # bilibili         : "https://space.bilibili.com/16115578" # 重要??
 
 
 # Reading Files
