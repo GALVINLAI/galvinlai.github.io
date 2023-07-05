@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Zhijian Lai (頼志堅)" # on the top # 重要
 title_separator          : "-"
-name                     : &name "ZHIJIAN LAI" # 重要
+name                     : &name "ZHIJIAN LAI" # 重要 # 出现在最下方页脚
 description              : &description "personal description"
 url                      : "https://galvinlai.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io" # 重要
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
