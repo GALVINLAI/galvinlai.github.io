@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=latex 2020.5.7)  5 JUL 2023 22:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.5.7)  6 JUL 2023 02:04
 entering extended mode
  restricted \write18 enabled.
- Source specials enabled.
  %&-line parsing enabled.
 **Curriculum_Vitae_Lai.tex
 (./Curriculum_Vitae_Lai.tex
@@ -66,10 +65,10 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 (c:/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: dvips.def on input line 105.
+Package graphics Info: Driver file: pdftex.def on input line 105.
 
-(c:/texlive/2020/texmf-dist/tex/latex/graphics-def/dvips.def
-File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
+(c:/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen136
 \Gin@req@width=\dimen137
@@ -97,7 +96,7 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
+Package pdftexcmds Info: \pdfdraftmode found.
 )
 (c:/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
@@ -179,28 +178,21 @@ Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 \c@Item=\count186
 \c@Hfootnote=\count187
 )
-Package hyperref Info: Driver (default): hdvips.
+Package hyperref Info: Driver (autodetected): hpdftex.
 
-(c:/texlive/2020/texmf-dist/tex/latex/hyperref/hdvips.def
-File: hdvips.def 2020/01/14 v7.00d Hyperref driver for dvips
-
-(c:/texlive/2020/texmf-dist/tex/latex/hyperref/pdfmark.def
-File: pdfmark.def 2020/01/14 v7.00d Hyperref definitions for pdfmark specials
-\pdf@docset=\toks19
-\pdf@box=\box49
-\pdf@toks=\toks20
-\pdf@defaulttoks=\toks21
-\HyField@AnnotCount=\count188
-\Fld@listcount=\count189
-\c@bookmark@seq@number=\count190
-
-(c:/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+(c:/texlive/2020/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
 
 (c:/texlive/2020/texmf-dist/tex/latex/atveryend/atveryend.sty
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
 )
+\Fld@listcount=\count188
+\c@bookmark@seq@number=\count189
+
+(c:/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
 (c:/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
@@ -208,7 +200,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
 \Hy@SectionHShift=\skip53
-))
+)
 (c:/texlive/2020/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
@@ -232,10 +224,10 @@ Package: everypage 2007/06/20 1.1 Hooks to run on every page
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip63
 \enit@outerparindent=\dimen142
-\enit@toks=\toks22
-\enit@inbox=\box50
-\enit@count@id=\count191
-\enitdp@description=\count192
+\enit@toks=\toks19
+\enit@inbox=\box49
+\enit@count@id=\count190
+\enitdp@description=\count191
 )
 (c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/01/20 v2.17e AMS math features
@@ -247,7 +239,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks23
+\@emptytoks=\toks20
 \ex@=\dimen143
 ))
 (c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -257,41 +249,41 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (c:/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count193
+\inf@bad=\count192
 LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count194
-\leftroot@=\count195
+\uproot@=\count193
+\leftroot@=\count194
 LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count196
-\DOTSCASE@=\count197
+\classnum@=\count195
+\DOTSCASE@=\count196
 LaTeX Info: Redefining \ldots on input line 486.
 LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
-\Mathstrutbox@=\box51
-\strutbox@=\box52
+\Mathstrutbox@=\box50
+\strutbox@=\box51
 \big@size=\dimen145
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count198
-\c@MaxMatrixCols=\count199
+\macc@depth=\count197
+\c@MaxMatrixCols=\count198
 \dotsspace@=\muskip17
-\c@parentequation=\count266
-\dspbrk@lvl=\count267
-\tag@help=\toks24
-\row@=\count268
-\column@=\count269
-\maxfields@=\count270
-\andhelp@=\toks25
+\c@parentequation=\count199
+\dspbrk@lvl=\count266
+\tag@help=\toks21
+\row@=\count267
+\column@=\count268
+\maxfields@=\count269
+\andhelp@=\toks22
 \eqnshift@=\dimen146
 \alignsep@=\dimen147
 \tagshift@=\dimen148
 \tagwidth@=\dimen149
 \totwidth@=\dimen150
 \lineht@=\dimen151
-\@envbody=\toks26
+\@envbody=\toks23
 \multlinegap=\skip65
 \multlinetaggap=\skip66
-\mathdisplay@stack=\toks27
+\mathdisplay@stack=\toks24
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
@@ -301,9 +293,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (c:/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count271
-\Gm@cntv=\count272
-\c@Gm@tempcnt=\count273
+\Gm@cnth=\count270
+\Gm@cntv=\count271
+\c@Gm@tempcnt=\count272
 \Gm@bindingoffset=\dimen152
 \Gm@wd@mp=\dimen153
 \Gm@odd@mp=\dimen154
@@ -312,7 +304,7 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutheight=\dimen157
 \Gm@layouthoffset=\dimen158
 \Gm@layoutvoffset=\dimen159
-\Gm@dimlist=\toks28
+\Gm@dimlist=\toks25
 )
 (c:/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
@@ -320,8 +312,9 @@ Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 (c:/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: dvips.def on input line 225.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
@@ -350,10 +343,10 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (c:/texlive/2020/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (c:/texlive/2020/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks29
-\XKV@tempa@toks=\toks30
+\XKV@toks=\toks26
+\XKV@tempa@toks=\toks27
 )
-\XKV@depth=\count274
+\XKV@depth=\count273
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (c:/texlive/2020/texmf-dist/tex/latex/base/textcomp.sty
@@ -384,18 +377,18 @@ Package: newtxmath 2020/03/02 v1.625
 `newtxmath' v1.625, 2020/03/02 Math macros based originally on txfonts (msharpe
 ) (c:/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count275
+\etb@tempcnta=\count274
 )
 (c:/texlive/2020/texmf-dist/tex/latex/oberdiek/centernot.sty
 Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
 )
-\tx@cntz=\count276
+\tx@cntz=\count275
 
 (c:/texlive/2020/texmf-dist/tex/generic/kastrup/binhex.tex)
-\tx@Isdigit=\count277
-\tx@IsAlNum=\count278
-\tx@tA=\toks31
-\tx@tB=\toks32
+\tx@Isdigit=\count276
+\tx@IsAlNum=\count277
+\tx@tA=\toks28
+\tx@tB=\toks29
 \tx@su=\read2
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 317.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -492,7 +485,7 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 LaTeX Font Info:    Overwriting symbol font `largesymbolsTXA' in version `bold'
 
 (Font)                  U/ntxexa/m/n --> U/ntxexa/b/n on input line 570.
-\tx@sbptoks=\toks33
+\tx@sbptoks=\toks30
 LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 792.
 LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 793.
 LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 794.
@@ -507,24 +500,19 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 851.
 LaTeX Font Info:    Redeclaring math accent \dot on input line 876.
 LaTeX Font Info:    Redeclaring math accent \ddot on input line 877.
 LaTeX Font Info:    Redeclaring math accent \vec on input line 1940.
-\ntx@numstart=\count279
-\ntx@UCstart=\count280
-\ntx@lcstart=\count281
-\ntx@tmpc=\count282
-\ntx@imath=\count283
-\ntx@jmath=\count284
+\ntx@numstart=\count278
+\ntx@UCstart=\count279
+\ntx@lcstart=\count280
+\ntx@tmpc=\count281
+\ntx@imath=\count282
+\ntx@jmath=\count283
 LaTeX Info: Redefining \Bbbk on input line 2449.
 LaTeX Info: Redefining \not on input line 2598.
 )
-(c:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
-File: l3backend-dvips.def 2020-03-12 L3 backend support: dvips
-\l__pdf_internal_box=\box53
-\g__pdf_backend_object_int=\count285
-\l__pdf_backend_content_box=\box54
-\l__pdf_backend_model_box=\box55
-\g__pdf_backend_annotation_int=\count286
-\g__pdf_backend_link_int=\count287
-\g__pdf_backend_link_sf_int=\count288
+(c:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count284
+\l__pdf_internal_box=\box52
 )
 (./Curriculum_Vitae_Lai.aux)
 \openout1 = `Curriculum_Vitae_Lai.aux'.
@@ -582,7 +570,38 @@ LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 10.0pt on input line 40.
-\AtBeginShipoutBox=\box56
+
+(c:/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count285
+\scratchdimen=\dimen160
+\scratchbox=\box53
+\nofMPsegments=\count286
+\nofMParguments=\count287
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count288
+\MPscratchDim=\dimen161
+\MPnumerator=\count289
+\makeMPintoPDFobject=\count290
+\everyMPtoPDFconversion=\toks32
+) (c:/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(c:/texlive/2020/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(c:/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box54
 Package hyperref Info: Link coloring ON on input line 40.
 
 (c:/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -594,7 +613,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (c:/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count289
+\c@section@level=\count291
 )
 LaTeX Info: Redefining \ref on input line 40.
 LaTeX Info: Redefining \pageref on input line 40.
@@ -606,9 +625,9 @@ LaTeX Info: Redefining \nameref on input line 40.
 
 
 *geometry* driver: auto-detecting
-*geometry* detected driver: dvips
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: dvips
+* driver: pdftex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -639,8 +658,8 @@ LaTeX Info: Redefining \nameref on input line 40.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@mv@tabular=\count290
-\c@mv@boldtabular=\count291
+\c@mv@tabular=\count292
+\c@mv@boldtabular=\count293
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 24.88pt on input line 43.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/sc' will be
@@ -653,7 +672,7 @@ LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/sc' will be
 (Font)              scaled to size 10.0pt on input line 59.
 
 Underfull \hbox (badness 10000) in paragraph at lines 59--60
-[][]|[][]\OT1/LinuxLibertineT-TLF/m/sc/10 Connect
+[]|[][]\OT1/LinuxLibertineT-TLF/m/sc/10 Connect
  []
 
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
@@ -698,25 +717,38 @@ LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 10.0pt on input line 87.
  [1
 
-]
+{c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 236.
  [2]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 236.
-
-(./Curriculum_Vitae_Lai.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 236.
+ (./Curriculum_Vitae_Lai.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 236.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 236.
 Package rerunfilecheck Info: File `Curriculum_Vitae_Lai.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 236.
  ) 
 Here is how much of TeX's memory you used:
- 10543 strings out of 480609
- 153514 string characters out of 5907563
- 438557 words of memory out of 5000000
- 26239 multiletter control sequences out of 15000+600000
- 556256 words of font info for 57 fonts, out of 8000000 for 9000
+ 10969 strings out of 480608
+ 159839 string characters out of 5907537
+ 440663 words of memory out of 5000000
+ 26640 multiletter control sequences out of 15000+600000
+ 558261 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,9n,45p,902b,499s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,8n,45p,902b,462s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2020/texmf-dist/fonts/enc/dvips/libertine/lbtn_lyu3x3.enc}{c:/tex
+live/2020/texmf-dist/fonts/enc/dvips/libertine/lbtn_3dk467.enc}{c:/texlive/2020
+/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{c:/texlive/2020/texmf-di
+st/fonts/enc/dvips/libertine/lbtn_kijugd.enc}{c:/texlive/2020/texmf-dist/fonts/
+enc/dvips/libertine/lbtn_n3gv2c.enc}<c:/texlive/2020/texmf-dist/fonts/type1/pub
+lic/libertine/LinLibertineMT.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public
+/libertine/LinLibertineT.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/lib
+ertine/LinLibertineTB.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/libert
+ine/LinLibertineTI.pfb>
+Output written on Curriculum_Vitae_Lai.pdf (2 pages, 271684 bytes).
+PDF statistics:
+ 43 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
+ 4 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on Curriculum_Vitae_Lai.dvi (2 pages, 17024 bytes).
