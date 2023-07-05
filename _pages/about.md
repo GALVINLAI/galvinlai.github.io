@@ -11,7 +11,7 @@ redirect_from:
 About me
 ========
 
-<img src="https://caihanlin.com/caihanlin.jpg" class="floatpic" width="360" height="480">
+<img src="https://galvinlai.github.io/images/seatle.jpg" class="floatpic" width="360" height="480">
 
 Hi, here is **Zhjian Lai (Galvin, [赖志坚](https://galvinlai.github.io/files/LatexCV/Curriculum_Vitae_Lai/Curriculum_Vitae_Lai.pdf))**. 
 
@@ -21,11 +21,11 @@ My supervisor is [Prof. Akiko Yoshise](https://infoshako.sk.tsukuba.ac.jp/~yoshi
 
 Research Interests
 ========
-My research interests include mathematical optimization, especially manifold optimization, and its applications to machine learning and other fields.
+Mathematical Optimization, Riemannian Optimization, Machine Learning, Deep Learning, Quantum Computing
 
 Agenda
 ========
-Currently, I plan to participate in the following events:
+**<font color='red'>[Highlight]</font>** Currently, I plan to participate in the following events:
  - [Summer School on Continuous Optimization and Related Fields](https://www.ism.ac.jp/~mirai/sscoke/2023/). The Institue of Statistical Mathematics, Tokyo, Japan. **August 9-11, 2023.**
  - The 10th [International Congress on Industrial and Applied Mathematics (ICIAM)](https://iciam2023.org/). Waseda University, Tokyo, Japan.
 **August 20-25, 2023.** I will give a talk [here](https://iciam2023.org/registered_data?id=01064).
