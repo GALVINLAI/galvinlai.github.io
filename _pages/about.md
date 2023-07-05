@@ -11,9 +11,7 @@ redirect_from:
 About me
 ========
 
-<img src="https://galvinlai.github.io/images/seatle.jpg" class="floatpic" width="360" height="480">
-
-Hi, here is **Zhjian Lai (Galvin, [赖志坚](https://galvinlai.github.io/files/LatexCV/Curriculum_Vitae_Lai/Curriculum_Vitae_Lai.pdf))**. 
+Hi, here is **Zhjian Lai (Galvin, 赖志坚)**. 
 
 Currently, I am a Ph.D. student at [Graduate School of Systems and Information Engineering](https://www.sie.tsukuba.ac.jp/eng/), [University of Tsukuba](https://www.tsukuba.ac.jp/en/) and I am taking the [Doctoral Programs in Policy and Planning Sciences](https://www.sk.tsukuba.ac.jp/PPS/en/). 
 
@@ -21,7 +19,9 @@ My supervisor is [Prof. Akiko Yoshise](https://infoshako.sk.tsukuba.ac.jp/~yoshi
 
 Research Interests
 ========
-Mathematical Optimization, Riemannian Optimization, Machine Learning, Deep Learning, Quantum Computing
+- Mathematical Optimization, especially in Manifold Optimization
+- Machine Learning, Deep Learning
+- Quantum Interior Point Methods
 
 Agenda
 ========
