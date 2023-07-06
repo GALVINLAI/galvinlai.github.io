@@ -1,0 +1,22 @@
+# main links links
+main:    
+  - title: "Curriculum Vitae"
+    url: /cv/
+    
+  - title: "Publications"
+    url: /publications/
+
+  - title: "Talks"
+    url: /talks/  
+    
+ #- title: "Guide"
+    #url: /markdown/
+     
+ #- title: "Portfolio"
+    #url: /portfolio/
+        
+ - title: "Blog Posts"
+    url: /year-archive/
+
+  #- title: "Research"
+    #url: /research/
