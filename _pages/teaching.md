@@ -1,13 +1,13 @@
 ---
 permalink: /teaching/
-title: "Teaching and Services"
+title: " "
 author_profile: true
 redirect_from: 
   - /md/
   - /markdown.html
 ---
 
-## Teaching 
+# Teaching 
 
 I will be a teaching assistant for:
 
