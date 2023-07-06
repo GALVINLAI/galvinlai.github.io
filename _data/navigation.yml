@@ -1,8 +1,5 @@
 # main links links
-main:
-  #- title: "Research"
-    #url: /research/
-    
+main:    
   - title: "Curriculum Vitae"
     url: /cv/
     
@@ -20,3 +17,6 @@ main:
         
  - title: "Blog Posts"
     url: /year-archive/
+
+  #- title: "Research"
+    #url: /research/
