@@ -1,6 +1,6 @@
 ---
 title: "疫情解除后久违的交流与冲击"
-excerpt: "纪念郑豪师兄来筑波大学访问的日子<br/><img src='/zhenghao.assets/b3c24ca50ee042faf71ae768ee51de5f.JPG'>"
+excerpt: "纪念郑豪师兄来筑波大学访问的日子<br/><img src='../_portfolio/zhenghao.assets/b3c24ca50ee042faf71ae768ee51de5f.JPG'>"
 collection: portfolio
 ---
 
