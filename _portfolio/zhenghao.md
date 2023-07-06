@@ -10,4 +10,9 @@ collection: portfolio
 
 下面是送行郑豪师兄的合照。
 
-![b3c24ca50ee042faf71ae768ee51de5f](zhenghao.assets/b3c24ca50ee042faf71ae768ee51de5f.JPG) it will be parsed as HTML. 
+
+
+![b3c24ca50ee042faf71ae768ee51de5f](zhenghao.assets/b3c24ca50ee042faf71ae768ee51de5f.JPG)
+
+
+
