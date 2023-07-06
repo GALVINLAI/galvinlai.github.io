@@ -31,9 +31,9 @@ Agenda
 **August 20-25, 2023.** I will give a talk [here](https://iciam2023.org/registered_data?id=01064).
 
 
-News
+News and Updates
 ========
-- [2023.06] Opened this website.
+- **[2023.06]** Opened this website.
 
 Contact
 ========
