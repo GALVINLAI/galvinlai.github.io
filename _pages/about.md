@@ -44,5 +44,5 @@ Contact
 
 
 <center>
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=400&t=tt&d=J6_1YGeLg-J7t5ToGOrm1lj_HeE4j7CR-SSuDJOBqso&co=2d78ad&ct=ffffff&cmo=3acc3a&cmn=ff5353'></script>
+<script type='text/javascript' id='clstr_globe' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=400&t=tt&d=J6_1YGeLg-J7t5ToGOrm1lj_HeE4j7CR-SSuDJOBqso&co=2d78ad&ct=ffffff&cmo=3acc3a&cmn=ff5353'></script>
 </center>
