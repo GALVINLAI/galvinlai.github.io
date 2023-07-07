@@ -44,5 +44,5 @@ Contact
 
 
 <center>
-<a href='https://clustrmaps.com/site/1bv2n'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=ffffff&w=a&t=n&d=J6_1YGeLg-J7t5ToGOrm1lj_HeE4j7CR-SSuDJOBqso'/></a>
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=n&d=J6_1YGeLg-J7t5ToGOrm1lj_HeE4j7CR-SSuDJOBqso'></script>
 </center>
