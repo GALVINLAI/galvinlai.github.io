@@ -17,7 +17,7 @@ Currently, I am a Ph.D. student at [Graduate School of Systems and Information E
 
 My supervisor is [Prof. Akiko Yoshise](https://infoshako.sk.tsukuba.ac.jp/~yoshise/). We are team PhilOpt )))).
 
-**<font color='red'>[Highlight!]</font>** **Now, I am actively looking for a postdoctoral program!**
+<font color='red'>Now, I am actively looking for a postdoctoral program!</font>
 
 Research Interests
 ========
@@ -27,7 +27,7 @@ Research Interests
 
 Agenda
 ========
-**<font color='red'>[Highlight!]</font>** Currently, I plan to participate in the following events:
+<font color='red'>Currently, I plan to participate in the following events:</font> 
  - [Summer School on Continuous Optimization and Related Fields](https://www.ism.ac.jp/~mirai/sscoke/2023/). The Institue of Statistical Mathematics, Tokyo, Japan. August 9-11, 2023.
  - The 10th [International Congress on Industrial and Applied Mathematics (ICIAM)](https://iciam2023.org/). Waseda University, Tokyo, Japan.
 August 20-25, 2023. I will give a talk [here](https://iciam2023.org/registered_data?id=01064).
