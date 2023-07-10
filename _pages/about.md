@@ -41,7 +41,7 @@ Contact
 ========
  - Phone: +81 070-1186-5012
  - First e-mail: s2130117@s.tsukuba.ac.jp
- - Second e-mail: laizhijian100@outlook.com
+ - Second e-mail: galvin.lai@outlook.com
  - WeChat ID: EulerRiemann
 
 
