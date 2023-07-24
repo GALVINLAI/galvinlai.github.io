@@ -2,7 +2,7 @@
 
 % --- Set document class and font size ---
 
-\documentclass[12pt]{article}
+\documentclass[letterpaper,11pt]{article}
 
 % --- Package imports ---
 
@@ -39,6 +39,7 @@
 \renewcommand{\footrulewidth}{0.4pt}  % 设置页脚上的横线宽度为 0.4pt
 
 \fancypagestyle{plain}{  % 定义一个新的页面样式 'plain'
+	\fancyhead{}  % 清除页眉的默认设置
 	\renewcommand{\headrulewidth}{0pt}  % 将 'plain' 样式的页眉下的横线宽度设置为 0，即去除横线
 }
 
@@ -54,7 +55,9 @@
 % Note: each section of this table (Education, Awards, Publications etc.) is 
 % stored in a two-column table. The left-hand column is narrow (1 inch) and is 
 % meant to store dates. The right-hand column is wide (5.2 inches) and stores 
-% the main text.  Sections in which each entry might have multiple lines 
+% the main text.  
+
+% Sections in which each entry might have multiple lines 
 % (e.g., Education) are stored in a 'SectionTable' environment). Sections in 
 % which each entry might just have one line are stored in a 'SectionTableSingleSpace'
 % environment. The only difference between the two environments is the line 
@@ -63,16 +66,52 @@
 
 % Define settings for left-hand column in which dates are printed
 \newcolumntype{R}{>{\raggedleft}p{1in}}
+%这段 LaTeX 代码定义了一个新的列类型 `R`，它用于表格中的列格式设置。
+%
+%下面是对这段代码的解释：
+%
+%- `\newcolumntype{R}{>{\raggedleft}p{1in}}`：这是 LaTeX 中定义新的列类型的命令。`R` 是新列类型的名称，`>{\raggedleft}p{1in}` 是这个新列类型的定义。
+%
+%`>{\raggedleft}p{1in}` 可以被分解为两部分：
+%
+%1. `>{\raggedleft}`：这个部分使用了 `array` 包提供的 `>` 命令，该命令用于在每个单元格开始之前插入一些代码。在这里，它插入了 `\raggedleft` 命令，该命令会使得列中的文本右对齐。
+%
+%2. `p{1in}`：这个部分定义了列的宽度。`p{1in}` 定义了一个具有固定宽度的段落列，宽度为 `1in`（1 英寸）。
+%
+%所以，这段代码定义的 `R` 列类型将会创建一个宽度为 `1in` 的列，其中的文本右对齐。
+
 
 % Define 'SectionTable' environment
 \newenvironment{SectionTable}[1]{
 	\renewcommand*{\arraystretch}{1.7}
 	\setlength{\tabcolsep}{10pt}
-	\begin{longtable}{Rp{5.2in}} & #1 \\
+	\begin{longtable}{Rp{5.2in}} & #1 \\ % `R` 和 `p{5.2in}` 是两个列的格式
 	}
 	{
 	\end{longtable}\vspace{-.3cm}
 }
+
+%这段 LaTeX 代码定义了一个新的环境 `SectionTable`，这个环境主要用于创建一个特殊样式的长表格（`longtable`）。
+%
+%下面是这段代码的逐行解释：
+%
+%- `\newenvironment{SectionTable}[1]{...}{...}`：这是 LaTeX 中定义新环境的命令。`SectionTable` 是新环境的名称，`[1]` 表示这个环境接受一个参数。
+%
+%环境的定义有两部分：
+%
+%1. 第一部分 `{...}` 是在进入环境时执行的代码：
+%- `\renewcommand*{\arraystretch}{1.7}`：这行代码改变了表格的行高。`arraystretch` 是一个比例因子，原始的行高会乘以这个比例因子。默认的值是 `1`，这里将它设置为 `1.7`，所以新的行高会是原始行高的 `1.7` 倍。
+%- `\setlength{\tabcolsep}{10pt}`：这行代码设置了表格中的列间距（也就是列与列之间的空白距离）。这里将它设置为 `10pt`。
+%- `\begin{longtable}{Rp{5.2in}} & #1 \\}`：这行代码开始了一个 `longtable` 环境，并且指定了列格式。`R` 和 `p{5.2in}` 是两个列的格式，`R` 可能是一个自定义的列类型。`#1` 是传递给 `SectionTable` 环境的参数，它将作为表格的第一行的内容。最后的 `\\` 是换行命令，表示结束这一行。
+%
+%2. 第二部分 `{...}` 是在离开环境时执行的代码：
+%- `\end{longtable}\vspace{-.3cm}`：这行代码结束了 `longtable` 环境，并且添加了一个负的垂直空间 `-0.3cm`。负的垂直空间实际上会减少后面内容的前导空白。
+%
+%总的来说，`SectionTable` 环境是为了创建一个样式特定的长表格。这个表格接受一个参数作为第一行的内容，列格式是 `R` 和 `p{5.2in}`，行高是原始行高的 `1.7` 倍，列间距是 `10pt`，并且在表格结束后减少 `0.3cm` 的前导空白。
+
+
+
+
 
 % Define 'SectionTableSingleSpace' environment
 \newenvironment{SectionTableSingleSpace}[1]{
@@ -94,89 +133,109 @@
 % --- Name and contact information ---
 
 
-\begin{SectionTable}{\Huge Zhijian Lai} & 
-email@cornell.edu   $\;\boldsymbol{\cdot}\;$ 
-www.yourwebsite.com $\;\boldsymbol{\cdot}\;$ 
-314-159-2654 \newline
-Citizenship: Country
+\begin{SectionTable}{\Huge Zhijian Lai} 
+& 
+%s2130117@s.tsukuba.ac.jp $\;\boldsymbol{\cdot}\;$ www.yourwebsite.com $\;\boldsymbol{\cdot}\;$ 314-159-2654 \newline
+%Citizenship: Country
+{Email}: s2130117@s.tsukuba.ac.jp \newline
+{Office}: 3E310, 1-1-1 Tennodai, Tsukuba, Ibaraki, 305-8577, Japan \newline
+{Homepage}: \footnotesize\url{https://galvinlai.github.io/}
 \end{SectionTable}
 
 % --- Section: Research interests ---
 
 \begin{SectionTable}{\headingfont Research interests}
-& Your favorite topic, another topic, another topic, another topic, another topic
+& Mathematical Optimization, Riemannian Optimization, Machine Learning, Deep Learning, Quantum Computing
 \end{SectionTable}
 
 % --- Section: Education ---
 
 \begin{SectionTable}{\headingfont Education}
-2019 -- Present & 
-\textbf{University 1} -- City, State \newline
-PhD in Subject \newline 
-Mentors: Professors A, B. \textit{GPA: X.YZ}. \\
+2021 -- Present & 
+\textbf{University of Tsukuba} -- Tsukuba, Japan\newline
+Ph.D. in Policy and Planning Sciences \newline 
+Supervisor:
+\href{https://infoshako.sk.tsukuba.ac.jp/~yoshise/}{Prof. Akiko Yoshise}\\
 
-2017 -- 2019 & 
-\textbf{University 2} -- City, State \newline
-MA in Subject \newline 
-Mentors: Professors C, D. \textit{GPA: X.YZ}. \\
+2019 -- 2021 & 
+\textbf{University of Tsukuba} -- Tsukuba, Japan\newline
+Master of Science (M.S.) in Policy and Planning Sciences \newline 
+Supervisor:
+\href{https://infoshako.sk.tsukuba.ac.jp/~yoshise/}{Prof. Akiko Yoshise}\\
 
-2013 -- 2017 & \textbf{University 1} -- City, State \newline
-BA in Subject 1, minor in Subject 2\newline 
-Mentors: Professors E, F. \textit{GPA: X.YZ}. \\
+2013 -- 2017 & 
+\textbf{Dongbei University of Finance and Economics} -- Dalian, China \newline
+Bachelor of Management (B.Mgmt.)\\ 
+
+%Mentors: Professors E, F. \textit{GPA: X.YZ}. \\
 
 % --- Un-comment the next few lines if you want to include some courses you've taken ---
 
-& \textbf{Selected coursework}
-\begin{itemize}[itemsep=0pt, leftmargin=*]
-\item \textit{Statistics}: Asymptotic statistics, Mathematical statistics, Functional data analysis, High-dimensional statistics, Information theory
-\item \textit{Mathematics}: Measure theory, Functional analysis, Measure-theoretic probability with martingales
-\end{itemize}
+%& \textbf{Selected coursework}
+%\begin{itemize}[itemsep=0pt, leftmargin=*]
+%\item \textit{Statistics}: Asymptotic statistics, Mathematical statistics, Functional data analysis, High-dimensional statistics, Information theory
+%\item \textit{Mathematics}: Measure theory, Functional analysis, Measure-theoretic probability with martingales
+%\end{itemize}
 
 \end{SectionTable}
 
-% --- Section: Awards, scholarships, etc ---
 
-\begin{SectionTableSingleSpace}{\headingfont Honors and scholarships}
-2021 & 
-Award 1 (Organization that gave you the award)\newline
-\textit{Maybe this award needs a short description}. \\
+\begin{SectionTable}{\headingfont Grants}
+	2021 -- Present &
+	Research fellowship of \textit{Support for Pioneering Research Initiated by the Next Generation} (SPRING), Japan Science and Technology Agency
+\end{SectionTable}
 
-2020 &
-Award 2 (Organization that gave you the award; \href{https://en.wikibooks.org/wiki/LaTeX/Hyperlinks}{link if you want}) \\
 
-2019 &
-Award 3 (Organization that gave you the award) \\
-
-2018 &
-Award 4 (Organization that gave you the award) \\
-
-2017 &
-Award 5 (Organization that gave you the award)
-\end{SectionTableSingleSpace}
+%% --- Section: Awards, scholarships, etc ---
+%
+%\begin{SectionTableSingleSpace}{\headingfont Honors and scholarships}
+%2021 & 
+%Award 1 (Organization that gave you the award)\newline
+%\textit{Maybe this award needs a short description}. \\
+%
+%2020 &
+%Award 2 (Organization that gave you the award; \href{https://en.wikibooks.org/wiki/LaTeX/Hyperlinks}{link if you want}) \\
+%
+%2019 &
+%Award 3 (Organization that gave you the award) \\
+%
+%2018 &
+%Award 4 (Organization that gave you the award) \\
+%
+%2017 &
+%Award 5 (Organization that gave you the award)
+%%\end{SectionTableSingleSpace}
 
 % --- Section: Publications ---
 
-\begin{SectionTable}{\headingfont Publications} 
-2021 & 
-\textbf{Title of your most recent research paper} \newline
-First author, second author, third author, fourth author. \newline
-\textit{Journal of something or the other}. \\
+\begin{SectionTable}{\headingfont Publications and Preprints} 
+2022 & 
+\textbf{Riemannian Interior Point Methods for Constrained Optimization on Manifolds} \newline
+{Zhijian Lai}, Akiko Yoshise. \newline
+\textit{arxiv.org/abs/2203.09762} (Under review). \\
 
-2020 & 
-\textbf{Title of your second most recent research paper} \newline
-First author, second author, third author, fourth author. \newline
-\textit{Journal of something or the other}. \\
-
-2020 & 
-\textbf{Title of your third most recent research paper} \newline
-First author, second author, third author, fourth author. \newline
-\textit{Journal of something or the other}. \\
-
-2019 & 
-\textbf{Title of your fourth most recent research paper} \newline
-First author, second author, third author, fourth author. \newline
-\textit{Journal of something or the other}.
+2022 & 
+\textbf{Completely Positive Factorization by a Riemannian Smoothing Method} \newline
+{Zhijian Lai}, Akiko Yoshise. \newline
+\textit{Computational Optimization and Applications}. \\
 \end{SectionTable}
+
+
+\begin{SectionTable}{\headingfont Working Papers} 
+	2023 & 
+	\textbf{CLAP: A Contrastive Learning Structure for App-usage Prediction} \newline
+	Xin Yang, Zhijian Lai, Qian Wu, Maiko Shigeno. \\
+	
+	2023 & 
+	\textbf{HGCL4REC: Hyperbolic Graph Contrastive Learning for Recommender System} \newline
+	Xin Yang, Zhijian Lai, Qian Wu, Maiko Shigeno. \\
+\end{SectionTable}
+
+
+
+
+
+
 
 % --- Section: Research experience ---
 
@@ -206,37 +265,78 @@ Topics and description of your responsibilities. Aliquam volutpat est vel massa.
 \textit{Average student rating: X/5.}
 \end{SectionTable}
 
-% --- Section: Industry experience ---
-
-\begin{SectionTable}{\headingfont Industry experience}
-Summer 2020 &
-\textbf{Name of company (Title of job or internship)} -- City, State \newline
-Description of your responsibilities. Integer pretium semper justo. Proin risus. Nullam id quam. Nam neque. Phasellus at purus et lib ero lacinia dictum.  \\
-
-Summer 2019 &
-\textbf{Name of company (Title of job or internship)} -- City, State \newline
-Description of your responsibilities. Integer pretium semper justo. Proin risus. Nullam id quam. Nam neque. Phasellus at purus et lib ero lacinia dictum.  \\
-
-Summer 2018 &
-\textbf{Name of company (Title of job or internship)} -- City, State \newline
-Description of your responsibilities. Integer pretium semper justo. Proin risus. Nullam id quam. Nam neque. Phasellus at purus et lib ero lacinia dictum.  \\
-\end{SectionTable}
+%% --- Section: Industry experience ---
+%
+%\begin{SectionTable}{\headingfont Industry experience}
+%Summer 2020 &
+%\textbf{Name of company (Title of job or internship)} -- City, State \newline
+%Description of your responsibilities. Integer pretium semper justo. Proin risus. Nullam id quam. Nam neque. Phasellus at purus et lib ero lacinia dictum.  \\
+%
+%Summer 2019 &
+%\textbf{Name of company (Title of job or internship)} -- City, State \newline
+%Description of your responsibilities. Integer pretium semper justo. Proin risus. Nullam id quam. Nam neque. Phasellus at purus et lib ero lacinia dictum.  \\
+%
+%Summer 2018 &
+%\textbf{Name of company (Title of job or internship)} -- City, State \newline
+%Description of your responsibilities. Integer pretium semper justo. Proin risus. Nullam id quam. Nam neque. Phasellus at purus et lib ero lacinia dictum.  \\
+%\end{SectionTable}
 
 % --- Section: Talks and tutorials ---
 
-\begin{SectionTable}{\headingfont Talks and tutorials}
-Month Year &
-Title of your most recent presentation \newline
-\textit{Name of conference, workshop, seminar, etc., or a description} \\
 
-Month Year &
-Title of your second most recent presentation \newline
-\textit{Name of conference, workshop, seminar, etc., or a description} \\
-
-Month Year &
-Title of your third most recent presentation \newline
-\textit{Name of conference, workshop, seminar, etc., or a description} \\
+\begin{SectionTable}{\headingfont Conference Talks}
+	Aug. 2023 & ICIAM 2023 \newline
+	\textit{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}, Tokyo. \\
+	
+	June 2023 & SIAM OP23 \newline 
+	\textit{Interior Point Methods for Nonlinear Optimization on Riemannian Manifolds}, Seattle. \\
+	
+%	May 2023 &	RAOTA: Gathering of Young Researchers for the Future 2023 \newline 
+%	\textit{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}, Tsukuba, Japan. \\
+	
+	Mar. 2023 & The 2023 spring national conference of Operations Research Society of Japan \newline 
+	\textit{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}, Tokyo, Japan. \\
+	
+	Dec. 2022 & International Workshop on Continuous Optimization \newline 
+	\textit{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}, Tokyo (virtual). \\
+	
+	Sep. 2022 & The 2022 autumn national conference of Operations Research Society of Japan \newline
+	\textit{On the Global Convergence of Riemannian Interior Point Method}, Niigata (virtual), Japan. \\
+	
+	Sep. 2022 & The Japan Society for Industrial and Applied Mathematics 2022 annual meeting \newline
+	\textit{On the Global Convergence of Riemannian Interior Point Method}, Sapporo, Japan. \\
+	
+	Mar. 2022 & The 2022 spring national conference of Operations Research Society of Japan \newline
+	\textit{Superlinear and Quadratic Convergence of Riemannian Interior Point Methods}, Gunma (virtual), Japan. \\
+	
+	July 2021 &	SIAM OP21 \newline 
+	\textit{Completely Positive Factorization via Orthogonality Constrained Problem}, Hong Kong (virtual). \\
+	
+	Aug. 2021 & Meeting 2021 of Kyoto University Research Institute for Mathematical Sciences \newline
+	\textit{Application of Smoothing Methods for Completely Positive Matrices via Orthogonality Constrained Problem}, Kyoto (virtual), Japan. \\
+	
+	Mar. 2021 & The 2021 spring national conference of Operations Research Society of Japan \newline
+	\textit{Completely Positive Factorization via Orthogonality Constrained Problem}, Tokyo (virtual), Japan. \\
+	
+	Aug. 2020 & Meeting 2020 of Kyoto University Research Institute for Mathematical Sciences \newline
+	\textit{A New Approach to the Recognition Problem of Completely Positive Matrices}, Kyoto (virtual), Japan. \\
+	
 \end{SectionTable}
+
+%\begin{SectionTable}{\headingfont Talks and tutorials}
+%Month Year &
+%Title of your most recent presentation \newline
+%\textit{Name of conference, workshop, seminar, etc., or a description} \\
+%
+%Month Year &
+%Title of your second most recent presentation \newline
+%\textit{Name of conference, workshop, seminar, etc., or a description} \\
+%
+%Month Year &
+%Title of your third most recent presentation \newline
+%\textit{Name of conference, workshop, seminar, etc., or a description} \\
+%\end{SectionTable}
+
 
 % --- Section: Mentorship and service ---
 
