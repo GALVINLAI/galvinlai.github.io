@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.13)  16 JUL 2023 11:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.13)  24 JUL 2023 14:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -744,10 +744,10 @@ Package rerunfilecheck Info: File `Curriculum_Vitae_Lai.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 14775 strings out of 478268
- 224871 string characters out of 5850345
+ 14774 strings out of 478268
+ 224861 string characters out of 5850345
  541358 words of memory out of 5000000
- 32758 multiletter control sequences out of 15000+600000
+ 32757 multiletter control sequences out of 15000+600000
  495292 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,8n,63p,240b,480s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -760,7 +760,7 @@ lic/libertine/LinLibertineMT.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public
 /libertine/LinLibertineT.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/lib
 ertine/LinLibertineTB.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/libert
 ine/LinLibertineTI.pfb>
-Output written on Curriculum_Vitae_Lai.pdf (3 pages, 275820 bytes).
+Output written on Curriculum_Vitae_Lai.pdf (3 pages, 275893 bytes).
 PDF statistics:
  52 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream
