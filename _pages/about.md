@@ -17,7 +17,7 @@ Currently, I am a Ph.D. student at [Graduate School of Systems and Information E
 
 My supervisor is [Prof. Akiko Yoshise](https://infoshako.sk.tsukuba.ac.jp/~yoshise/). We are team PhilOpt )))).
 
-<font color='red'>Now, I am actively looking for a postdoctoral program!</font>
+<font color='red'>Right now I'm actively looking for a postdoctoral position.</font> 
 
 Research Interests
 ========
