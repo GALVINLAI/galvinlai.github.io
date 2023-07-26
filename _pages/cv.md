@@ -9,7 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
-My complete CV is [here](https://galvinlai.github.io/files/LatexCV/Curriculum_Vitae_Lai/Curriculum_Vitae_Lai.pdf).
+My complete CV is [here](https://galvinlai.github.io/files/LatexCV/CV_Lai_for_postdoc/main.pdf).
+
+<!---(https://galvinlai.github.io/files/LatexCV/Curriculum_Vitae_Lai/Curriculum_Vitae_Lai.pdf)
+-->
 
 <!---以下都被注释掉了，因为内容和pdf高度重合-->
 

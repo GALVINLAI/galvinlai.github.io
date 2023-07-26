@@ -11,7 +11,7 @@
 % --- Page layout settings ---
 
 % Set page margins
-\usepackage[left=0.7in, right=0.8in, bottom=.8in, top=0.8in, headsep=0in, footskip=.2in]{geometry}
+\usepackage[left=0.8in, right=0.7in, bottom=.8in, top=0.8in, headsep=0in, footskip=.2in]{geometry}
 
 % Set line spacing
 \renewcommand{\baselinestretch}{1.2}
@@ -35,10 +35,10 @@
 \usepackage{fancyhdr}  % 导入 fancyhdr 包，用于自定义页眉和页脚
 \fancyhf{}  % 清除页眉和页脚的默认设置
 
-\setlength{\headsep}{2mm} % \headsep 命令定义了页眉底部线与正文顶部线之间的距离。 这将页眉和正文之间的距离设置为1英寸
-\setlength{\footskip}{2mm} % \footskip 的值来增加页脚上方的空白。 这将页脚和正文之间的距离设置为1英寸
+\setlength{\headsep}{3mm} % \headsep 命令定义了页眉底部线与正文顶部线之间的距离。 这将页眉和正文之间的距离设置为1英寸
+\setlength{\footskip}{3mm} % \footskip 的值来增加页脚上方的空白。 这将页脚和正文之间的距离设置为1英寸
 
-\fancyhead[L]{Ph.D. candidate Zhijian Lai}  % 设置页眉左侧的内容为 "PhD Zhijian Lai"
+\fancyhead[L]{Ph.D. Zhijian Lai}  % 设置页眉左侧的内容为 "PhD Zhijian Lai"
 \fancyhead[C]{Curriculum Vitae}  % 设置页眉右侧的内容为 "University of Tsukuba"
 \fancyhead[R]{{\it Updated \today}}  % 设置页眉右侧的内容为 "University of Tsukuba"
 \fancyfoot[C]{\thepage/\pageref{LastPage}}  % 设置页脚中心的内容为 "当前页码/总页数"
@@ -49,7 +49,7 @@
 \fancypagestyle{plain}{  % 定义一个新的页面样式 'plain'
 	\fancyhead{}  % 清除页眉的默认设置
 	\renewcommand{\headrulewidth}{0pt}  % 将 'plain' 样式的页眉下的横线宽度设置为 0，即去除横线
-	\fancyhead[L]{Ph.D. candidate Zhijian Lai} 
+	\fancyhead[L]{Ph.D. Zhijian Lai} 
 %	\fancyhead[C]{Curriculum Vitae}
 	\fancyhead[R]{{\it Updated \today}} 
 }
@@ -163,16 +163,12 @@
 %	Place of Birth: Puyang, Henan, China \hfill Marital Status: Single 	 
 %\end{SectionTable}
 
-% --- Section: Research interests ---
 
-\begin{SectionTable}{\headingfont Research Interests}
-	& Mathematical Optimization, especially in Manifold Optimization, Machine Learning, Deep Reinforcement Learning, Quantum Interior Point Methods
-\end{SectionTable}
 
-\begin{SectionTable}{\headingfont Professinal Profile}
-	& 	
-	I have devoted myself to the optimization algorithms on manifolds, with a specific emphasis on variant problems characterized by nonsmooth objectives or additional constraints. I am actively engaged in exploring the possibilities of integrating Riemannian geometry into various classical optimization domains. Currently, I am deeply involved in self-studying advanced topics such as geodesic convex optimization, bilevel optimization, and multi-objective optimization.
-\end{SectionTable}
+%\begin{SectionTable}{\headingfont Professinal Profile}
+%	& 	
+%	I have devoted myself to the optimization algorithms on manifolds, with a specific emphasis on variant problems characterized by nonsmooth objectives or additional constraints. I am actively engaged in exploring the possibilities of integrating Riemannian geometry into various classical optimization domains. Currently, I am deeply involved in self-studying advanced topics such as geodesic convex optimization, bilevel optimization, and multi-objective optimization.
+%\end{SectionTable}
 
 % --- Section: Education ---
 
@@ -193,12 +189,18 @@ Dissertation: ``\textit{A new method for completely positive matrix factorizatio
 
 2013 -- 2017 & 
 \textbf{Dongbei University of Finance and Economics} -- Dalian, China \newline
-B.Mgmt.
+B.Mgmt. Major: Logistics Management
+\end{SectionTable}
+
+% --- Section: Research interests ---
+
+\begin{SectionTable}{\headingfont Research Interests}
+	& Mathematical Optimization, Manifold Optimization, Geodesic Convex Optimization, Bilevel Optimization, and Multi-objective Optimization, Quantum Interior Point Methods, Machine Learning, Deep Reinforcement Learning 
 \end{SectionTable}
 
 % --- Section: Publications ---
 
-\begin{SectionTable}{\headingfont Publications and Preprints} 
+\begin{SectionTable}{\headingfont Publications} 
 2022 & 
 \textbf{Zhijian Lai}, Akiko Yoshise. 
 ``Riemannian Interior Point Methods for Constrained Optimization on Manifolds''.
@@ -220,17 +222,7 @@ B.Mgmt.
 	``Hyperbolic Graph Contrastive Learning for Recommender System''.
 \end{SectionTable}
 
-\begin{SectionTable}{\headingfont Fellowship}
-	2021 -- Present &
-	Research fellowship of 
-	{\textbf{S}upport for \textbf{P}ioneering \textbf{R}esearch \textbf{I}nitiated by the \textbf{N}ext \textbf{G}eneration} (SPRING), funded by Japan Science and Technology Agency (JST). \newline
-	Research Topic: ``\textit{The development of optimization theory of Riemannian manifolds and cones and its application to mathematical information engineering}''. \newline
-	Fellowship Qualified Students (Class 1):
-	Annual amount of 20,503 US dollars. \\
-	
-	2023 & The Institue of Statistical Mathematics Summer Travel Grant
-%	American Council of Learning Societies Predissertation Summer Travel Grant
-\end{SectionTable}
+
 % --- Section: Research experience ---
 
 
@@ -279,18 +271,79 @@ B.Mgmt.
 
 
 \begin{SectionTable}{\headingfont Research Experience}
-	2023 -- Present & 
-	\textbf{Research Assistant, University of Tsukuba} \newline
-	Research Assistant to Prof. Akiko Yoshise \newline
-	Research Project: \textit{Theory and Implementation of General Algorithms for Constrained Optimization Problems on Riemannian Manifolds}. \\
-	
 	2022 -- Present & 
-	\textbf{Research Assistant, University of Tsukuba} \newline
-	Research Assistant to Prof. Akiko Yoshise \newline
-	Research Project: \textit{Development of New Data Collaboration Methods Based on Optimization Theory on Riemannian Manifolds}. \\
+	\textbf{Research Assistant to Prof. Akiko Yoshise, University of Tsukuba} \newline
+	Research Project: ``\textit{Theory and Implementation of General Algorithms for Constrained Optimization Problems on Riemannian Manifolds}''. \newline
+	Research Project: ``\textit{Development of New Data Collaboration Methods Based on Optimization Theory on Riemannian Manifolds}''. \\
 	
-	2022 & fuller-inc.com
-	\textbf{Fro, University of Tsukuba}
+	2022 &
+	\textbf{Facilitation Training Programs, University of Tsukuba}
+	\newline
+	Research Project: Big data analysis and marketing strategy formulation
+	\newline
+	Date: Device information of Android users, as well as limited demographic information such as the gender and age of users, provided by \href{https://en.fuller-inc.com/}{Fuller, Inc.}. \newline
+	Teaming up with others, we are focusing on the problem of predicting app-usage prediction problem using graph neural network (GNN).
+\end{SectionTable}
+
+% --- Section: Professional society memberships ---
+\begin{SectionTable}{\headingfont Conference Talks}
+	Aug. 2023 & 10th International Congress on Industrial and Applied Mathematics (ICIAM), Tokyo, Japan. ``\textit{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}''. \\
+	
+	June 2023 & SIAM Conference on Optimization (OP23), Seattle, US.  
+	``\textit{Interior Point Methods for Nonlinear Optimization on Riemannian Manifolds}''. \\
+	
+	May 2023 & Operations Research Society of Japan, Research Division: Theory and Algorithms of Optimization, Tsukuba, Japan.  
+	``\textit{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}''. \\
+	
+	Mar. 2023 & The 2023 Spring National Conference of Operations Research Society of Japan, Tokyo, Japan.  
+	``\textit{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}''. \\
+	
+	Dec. 2022 & International Workshop on Continuous Optimization, Tokyo, Japan (virtual).  
+	``\textit{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}''. \\
+	
+	Sep. 2022 & The 2022 Autumn National Conference of Operations Research Society of Japan, Niigata, Japan (virtual). 
+	``\textit{On the Global Convergence of Riemannian Interior Point Method}''.\\
+	
+	Sep. 2022 & The Japan Society for Industrial and Applied Mathematics 2022 Annual Meeting, Sapporo, Japan. 
+	``\textit{On the Global Convergence of Riemannian Interior Point Method}''.\\
+	
+	Mar. 2022 & The 2022 Spring National Conference of Operations Research Society of Japan, Gunma, Japan (virtual).
+	``\textit{Superlinear and Quadratic Convergence of Riemannian Interior Point Methods}''. \\
+	
+	July 2021 & SIAM Conference on Optimization (OP21), Hong Kong (virtual).  
+	``\textit{Completely Positive Factorization via Orthogonality Constrained Problem}''. \\
+	
+	Aug. 2021 & Meeting 2021 of Kyoto University Research Institute for Mathematical Sciences, Kyoto, Japan (virtual). 
+	``\textit{Application of Smoothing Methods for Completely Positive Matrices via Orthogonality Constrained Problem}''. \\
+	
+	Mar. 2021 & The 2021 Spring National Conference of Operations Research Society of Japan, Tokyo, Japan (virtual). 
+	``\textit{Completely Positive Factorization via Orthogonality Constrained Problem}''. \\
+	
+	Aug. 2020 & Meeting 2020 of Kyoto University Research Institute for Mathematical Sciences, Kyoto, Japan (virtual).``\textit{A New Approach to the Recognition Problem of Completely Positive Matrices}''.
+\end{SectionTable}
+
+\begin{SectionTable}{\headingfont Posters}
+	Aug. 2023 & Summer School on Continuous Optimization and Related Fields, Institue of Statistical Mathematics, Tokyo, Japan.  
+	``\textit{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}``. \\
+	
+	Mar. 2023 & 2022 SPRING Fellowship Research Meeting, Tsukuba, Japan. 
+	``\textit{Riemannian Interior Point Methods for Manifold Optimization}``. \\
+	
+	Mar. 2022 & 2021 SPRING Fellowship Research Meeting, Tsukuba, Japan.
+	``\textit{Riemannian Optimization and Its Applications}``. 
+\end{SectionTable}
+
+\begin{SectionTable}{\headingfont Grant and Fellowship}
+	2023 & The Institue of Statistical Mathematics Summer Travel Grant \\
+	
+	2021 -- Present &
+	Research fellowship of 
+	{\textbf{S}upport for \textbf{P}ioneering \textbf{R}esearch \textbf{I}nitiated by the \textbf{N}ext \textbf{G}eneration} (SPRING), funded by Japan Science and Technology Agency. \newline
+	Research Topic: ``\textit{The development of optimization theory of Riemannian manifolds and cones and its application to mathematical information engineering}''. \newline
+	Fellowship Qualified Students (Class 1):
+	Annual amount of 20,503 US dollars. 
+	
+	%	American Council of Learning Societies Predissertation Summer Travel Grant
 \end{SectionTable}
 
 % --- Section: Teaching experience ---
@@ -340,79 +393,21 @@ B.Mgmt.
 	Each lasted for six weeks, totaling 12 hours of instruction. During the COVID-19 pandemic, I uploaded the course videos to the \href{https://space.bilibili.com/16115578}{Bilibili platform} to help those students in need. \\
 	 
 	 2019 -- 2021 &
-	 \textbf{University-High School Collaboration Project: Optimizing Local Issues in the Community.} \newline
-%	 I participated in an activity called “High School-University Collaboration,” which is a collaboration between Tsukuba University and Japanese high schools, Ibaraki Prefectural Hitachi Kita High School and Toshimaoka Girls’ School. Here, I served as a mathematics teacher, responsible for guiding mathematical modeling.” 	
-	This project is a part of the ``Science Partner Project'' supported by Japan Science and Technology Agency. Its aim is to allow high school students to discover problems from their living environment, propose solutions using optimization models and solvers. During 2019-2021, I had the privilege of serving as a TA for three consecutive years, where my responsibilities included guiding a group and overseeing the following topics: \newline	
-	--  Equalizing the number of cafeteria users. (2019) \newline
-	--  Mitigating congestion caused by the decision of stops on the Tobu Isezaki Line. (2019) \newline
-	--  Selecting evacuation shelters during disasters. (2020) \newline
-	--  Developing a self-study schedule program to maximize efficiency. (2021) \newline	
-	 \begin{itemize}[nosep, leftmargin=*] \vspace{-15pt} 
-	 	\item Collaborated with high school students to develop a model for mitigating overcrowding during tsunami evacuations in Hitachi City.
-	 	\item Taught basic math and programming to the students while collecting data and conducting experiments.
-	 	\item Assisted high school students in creating the final presentation.
-	 \vspace{-15pt} \end{itemize}
-	 \\
-	 
-%	 Equalizing the number of cafeteria users.
-%	 Mitigating congestion caused by the decision of stops on the Tobu Isezaki Line.
-%	 In University-Community Collaboration 2020:
-%	 
-%	 Selecting evacuation shelters during disasters.
-%	 In University-Community Collaboration 2021:
-%	 
-%	 Developing a self-study schedule program to maximize efficiency.
-%	 
+	 \textbf{University-High School Collaboration Project: Optimizing Issues in the Community.} \newline	
+	This project is a part of the "Science Partner Project" supported by the Japan Science and Technology Agency. Its aim is to enable high school students to identify problems within their living environment and propose solutions using optimization models (e.g., MILP) and solvers (e.g., Xpress, Gurobi). From 2019 to 2021, I had the privilege of serving as a TA, during which time my responsibilities included guiding a group and overseeing the following topics: \newline	
+	--  \textit{Developing a self-study schedule program to maximize efficiency}. (2021) \newline
+	--  \textit{Selecting evacuation shelters during disasters}. (2020) \newline 
+	--  \textit{Leveling out the number of people using the school cafeterias}. (2019) \newline
+	--  \textit{Ease congestion by determining stops on the Tobu Isezaki Line}. (2019) 
+%	 \begin{itemize}[nosep, leftmargin=*] \vspace{-15pt} 
+%	 	\item Collaborated with high school students to develop a model for mitigating overcrowding during tsunami evacuations in Hitachi City.
+%	 	\item Taught basic math and programming to the students while collecting data and conducting experiments.
+%	 	\item Assisted high school students in creating the final presentation.
+%	 \vspace{-15pt} \end{itemize}
 \end{SectionTable}
 
 
-% --- Section: Professional society memberships ---
-\begin{SectionTable}{\headingfont Conference Talks}
-	Aug. 2023 & ICIAM 2023, Tokyo, Japan. ``\textit{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}''. \\
-	
-	June 2023 & SIAM OP23, Seattle, US.  
-	``\textit{Interior Point Methods for Nonlinear Optimization on Riemannian Manifolds}''. \\
-	
-	May 2023 & RAOTA: Gathering of Young Researchers for the Future 2023, Tsukuba, Japan.  
-	``\textit{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}''. \\
-	
-	Mar. 2023 & The 2023 spring national conference of Operations Research Society of Japan (ORSJ), Tokyo, Japan.  
-	``\textit{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}''. \\
-	
-	Dec. 2022 & International Workshop on Continuous Optimization, Tokyo, Japan (virtual).  
-	``\textit{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}''. \\
-	
-	Sep. 2022 & The 2022 autumn national conference of ORSJ, Niigata, Japan (virtual). 
-	``\textit{On the Global Convergence of Riemannian Interior Point Method}''.\\
-	
-	Sep. 2022 & JSIAM 2022 annual meeting, Sapporo, Japan. 
-	``\textit{On the Global Convergence of Riemannian Interior Point Method}''.\\
-	
-	Mar. 2022 & The 2022 spring national conference of ORSJ, Gunma, Japan (virtual).
-	``\textit{Superlinear and Quadratic Convergence of Riemannian Interior Point Methods}''. \\
-	
-	July 2021 & SIAM OP21, Hong Kong (virtual).  
-	``\textit{Completely Positive Factorization via Orthogonality Constrained Problem}''. \\
-	
-	Aug. 2021 & Meeting 2021 of Kyoto University Research Institute for Mathematical Sciences, Kyoto, Japan (virtual). 
-	``\textit{Application of Smoothing Methods for Completely Positive Matrices via Orthogonality Constrained Problem}''. \\
-	
-	Mar. 2021 & The 2021 spring national conference of ORSJ, Tokyo, Japan (virtual). 
-	``\textit{Completely Positive Factorization via Orthogonality Constrained Problem}''. \\
-	
-	Aug. 2020 & Meeting 2020 of Kyoto University Research Institute for Mathematical Sciences, Kyoto, Japan (virtual).``\textit{A New Approach to the Recognition Problem of Completely Positive Matrices}''.
-\end{SectionTable}
 
-\begin{SectionTable}{\headingfont Posters}
-	Aug. 2023 & Summer School on Continuous Optimization and Related Fields, Institue of Statistical Mathematics, Tokyo, Japan.  
-	``\textit{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}``. \\
-	
-	Mar. 2023 & Poster Session of 2022 SPRING Fellowship, Tsukuba, Japan. 
-	``\textit{Riemannian Interior Point Methods for Manifold Optimization}``. \\
-	
-	Mar. 2022 & Poster Session of 2021 SPRING Fellowship, Tsukuba, Japan.
-	``\textit{Riemannian Optimization and Its Applications}``. 
-\end{SectionTable}
 
 
 \begin{SectionTable}{\headingfont Professional Memberships}
@@ -433,6 +428,26 @@ Chinese (Native), English (Fluent), Japanese (Advanced): JLPT N1.
 \end{SectionTable}
 
 % --- Section: Other interests/hobbies ---
+
+
+\begin{SectionTable}{\headingfont Graduate Coursework}
+	& 
+	Social Simulation (A+) \newline
+	Discrete Mathematics (A) \newline
+	Mathematical Optimization Theory (A) \newline
+	Information Security (A) \newline
+	Mathematics for Policy and Planning Sciences (A+) \newline
+	Statistical Analysis (A) \newline
+	Seminar: Quantum Computing and Optimization (A) \newline 
+	Seminar: Semi-definite positive programming (A+) 
+%	Introductory Technical Writing
+%	Academic Presentations 1
+%	Academic Speaking 1
+%	Technical Communication
+%	Global Communication Skills Training
+%	Career Paths for PhDs
+\end{SectionTable}
+
 
 \begin{SectionTable}{\headingfont Additional Education}
 	2017 -- 2019 & ARC Tokyo Japanese Language School -- Tokyo, Japan \newline
@@ -457,15 +472,15 @@ Chinese (Native), English (Fluent), Japanese (Advanced): JLPT N1.
 	Graduate School of Science and Technology, University of Tsukuba, Ibaraki, Japan \newline 
 	Phone: ?, Email: miao@sk.tsukuba.ac.jp\\
 	
-	& 
-	\textbf{Prof. Ying Miao} \newline
-	Graduate School of Systems and Information, University of Tsukuba, Ibaraki, Japan \newline 
-	Phone: ?, Email: miao@sk.tsukuba.ac.jp\\
-	
-	&
-	\textbf{Prof. Ying Miao} \newline
-	Graduate School of Systems and Information, University of Tsukuba, Ibaraki, Japan \newline 
-	Phone: ?, Email: miao@sk.tsukuba.ac.jp\\
+%	& 
+%	\textbf{Prof. Ying Miao} \newline
+%	Graduate School of Systems and Information, University of Tsukuba, Ibaraki, Japan \newline 
+%	Phone: ?, Email: miao@sk.tsukuba.ac.jp\\
+%	
+%	&
+%	\textbf{Prof. Ying Miao} \newline
+%	Graduate School of Systems and Information, University of Tsukuba, Ibaraki, Japan \newline 
+%	Phone: ?, Email: miao@sk.tsukuba.ac.jp\\
 \end{SectionTable}
 	
 % --- End of CV! ---
