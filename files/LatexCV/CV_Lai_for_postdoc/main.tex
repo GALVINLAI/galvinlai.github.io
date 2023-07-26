@@ -2,7 +2,7 @@
 
 % --- Set document class and font size ---
 
-\documentclass[letterpaper,11pt]{article}
+\documentclass[letterpaper,10pt]{article}
 
 % --- Package imports ---
 
@@ -23,8 +23,10 @@
 \hypersetup{colorlinks=true, linkcolor=MidnightBlue, urlcolor=MidnightBlue}
 
 % Set font to Libertine, including math support
-\usepackage{libertine}
-\usepackage[libertine]{newtxmath}
+%\usepackage{libertine}
+%\usepackage[libertine]{newtxmath}
+
+\usepackage{times}
 
 % Remove page numbering
 %\pagenumbering{gobble}
@@ -32,15 +34,24 @@
 % page numbering
 \usepackage{fancyhdr}  % 导入 fancyhdr 包，用于自定义页眉和页脚
 \fancyhf{}  % 清除页眉和页脚的默认设置
-\fancyhead[L]{Ph.D. Zhijian Lai}  % 设置页眉左侧的内容为 "PhD Zhijian Lai"
-\fancyhead[R]{University of Tsukuba}  % 设置页眉右侧的内容为 "University of Tsukuba"
+
+\setlength{\headsep}{2mm} % \headsep 命令定义了页眉底部线与正文顶部线之间的距离。 这将页眉和正文之间的距离设置为1英寸
+\setlength{\footskip}{2mm} % \footskip 的值来增加页脚上方的空白。 这将页脚和正文之间的距离设置为1英寸
+
+\fancyhead[L]{Ph.D. candidate Zhijian Lai}  % 设置页眉左侧的内容为 "PhD Zhijian Lai"
+\fancyhead[C]{Curriculum Vitae}  % 设置页眉右侧的内容为 "University of Tsukuba"
+\fancyhead[R]{{\it Updated \today}}  % 设置页眉右侧的内容为 "University of Tsukuba"
 \fancyfoot[C]{\thepage/\pageref{LastPage}}  % 设置页脚中心的内容为 "当前页码/总页数"
-\renewcommand{\headrulewidth}{0.4pt}  % 设置页眉下的横线宽度为 0.4pt
-\renewcommand{\footrulewidth}{0.4pt}  % 设置页脚上的横线宽度为 0.4pt
+
+\renewcommand{\headrulewidth}{0.pt}  % 设置页眉下的横线宽度为 0.4pt
+\renewcommand{\footrulewidth}{0.pt}  % 设置页脚上的横线宽度为 0.4pt
 
 \fancypagestyle{plain}{  % 定义一个新的页面样式 'plain'
 	\fancyhead{}  % 清除页眉的默认设置
 	\renewcommand{\headrulewidth}{0pt}  % 将 'plain' 样式的页眉下的横线宽度设置为 0，即去除横线
+	\fancyhead[L]{Ph.D. candidate Zhijian Lai} 
+%	\fancyhead[C]{Curriculum Vitae}
+	\fancyhead[R]{{\it Updated \today}} 
 }
 
 \pagestyle{fancy}  % 设置默认页面样式为 'fancy'
@@ -48,7 +59,8 @@
 
 
 % Define font size and color for section headings
-\newcommand{\headingfont}{\Large\color{OliveGreen}}
+\newcommand{\headingfont}{\LARGE }
+%\newcommand{\headingfont}{\Large\color{OliveGreen}}
 
 % --- CV section settings ---
 
@@ -83,9 +95,11 @@
 
 % Define 'SectionTable' environment
 \newenvironment{SectionTable}[1]{
-	\renewcommand*{\arraystretch}{1.7}
+	\renewcommand*{\arraystretch}{1.0}
 	\setlength{\tabcolsep}{10pt}
-	\begin{longtable}{Rp{5.2in}} & #1 \\ % `R` 和 `p{5.2in}` 是两个列的格式
+	\begin{longtable}{Rp{5.2in}} 
+		\rule{2.5cm}{4pt} 
+		& #1 \\ % `R` 和 `p{5.2in}` 是两个列的格式
 	}
 	{
 	\end{longtable}\vspace{-.3cm}
@@ -115,7 +129,7 @@
 
 % Define 'SectionTableSingleSpace' environment
 \newenvironment{SectionTableSingleSpace}[1]{
-	\renewcommand*{\arraystretch}{1.2}
+	\renewcommand*{\arraystretch}{1.0}
 	\setlength{\tabcolsep}{10pt}
 	\begin{longtable}{Rp{5.2in}} & #1 \\[0.6em]
 	}
@@ -132,254 +146,328 @@
 
 % --- Name and contact information ---
 
-
-\begin{SectionTable}{\Huge Zhijian Lai} 
-& 
-%s2130117@s.tsukuba.ac.jp $\;\boldsymbol{\cdot}\;$ www.yourwebsite.com $\;\boldsymbol{\cdot}\;$ 314-159-2654 \newline
-%Citizenship: Country
-{Email}: s2130117@s.tsukuba.ac.jp \newline
-{Office}: 3E310, 1-1-1 Tennodai, Tsukuba, Ibaraki, 305-8577, Japan \newline
-{Homepage}: \footnotesize\url{https://galvinlai.github.io/}
+\begin{center}
+	{\Huge \bf Zhijian Lai} 
+\end{center}
+\begin{SectionTable}{\headingfont Contact Information} 
+	&
+	Office: 3E310, University of Tsukuba \hfill +81 (0)70-1186-5012 \newline
+	1-1-1 Tennodai, Tsukuba, Ibaraki \hfill s2130117@s.tsukuba.ac.jp \newline
+	305-8577, Japan  \hfill 
+	Homepage: \href{https://galvinlai.github.io}{https:galvinlai.github.io}	
 \end{SectionTable}
+
+%\begin{SectionTable}{\headingfont Personal Information} 
+%	& 
+%	Date of Birth: February 11, 1995 \hfill Citizenship: China  \newline
+%	Place of Birth: Puyang, Henan, China \hfill Marital Status: Single 	 
+%\end{SectionTable}
 
 % --- Section: Research interests ---
 
-\begin{SectionTable}{\headingfont Research interests}
-& Mathematical Optimization, Riemannian Optimization, Machine Learning, Deep Learning, Quantum Computing
+\begin{SectionTable}{\headingfont Research Interests}
+	& Mathematical Optimization, especially in Manifold Optimization, Machine Learning, Deep Reinforcement Learning, Quantum Interior Point Methods
+\end{SectionTable}
+
+\begin{SectionTable}{\headingfont Professinal Profile}
+	& 	
+	I have devoted myself to the optimization algorithms on manifolds, with a specific emphasis on variant problems characterized by nonsmooth objectives or additional constraints. I am actively engaged in exploring the possibilities of integrating Riemannian geometry into various classical optimization domains. Currently, I am deeply involved in self-studying advanced topics such as geodesic convex optimization, bilevel optimization, and multi-objective optimization.
 \end{SectionTable}
 
 % --- Section: Education ---
 
 \begin{SectionTable}{\headingfont Education}
 2021 -- Present & 
-\textbf{University of Tsukuba} -- Tsukuba, Japan\newline
-Ph.D. in Policy and Planning Sciences \newline 
+\textbf{University of Tsukuba} -- Ibaraki, Japan\newline
+Ph.D. in Policy and Planning Sciences (expected Mar. 2024) \newline 
 Supervisor:
-\href{https://infoshako.sk.tsukuba.ac.jp/~yoshise/}{Prof. Akiko Yoshise}\\
+\href{https://infoshako.sk.tsukuba.ac.jp/~yoshise/}{Prof. Akiko Yoshise} \newline
+Dissertation: ``\textit{Riemannian optimization algorithms for applications and their theoretical properties}''\\
 
 2019 -- 2021 & 
-\textbf{University of Tsukuba} -- Tsukuba, Japan\newline
-Master of Science (M.S.) in Policy and Planning Sciences \newline 
+\textbf{University of Tsukuba} -- Ibaraki, Japan\newline
+M.S. in Policy and Planning Sciences \newline 
 Supervisor:
-\href{https://infoshako.sk.tsukuba.ac.jp/~yoshise/}{Prof. Akiko Yoshise}\\
+\href{https://infoshako.sk.tsukuba.ac.jp/~yoshise/}{Prof. Akiko Yoshise} \newline
+Dissertation: ``\textit{A new method for completely positive matrix factorization}''\\
 
 2013 -- 2017 & 
 \textbf{Dongbei University of Finance and Economics} -- Dalian, China \newline
-Bachelor of Management (B.Mgmt.)\\ 
-
-%Mentors: Professors E, F. \textit{GPA: X.YZ}. \\
-
-% --- Un-comment the next few lines if you want to include some courses you've taken ---
-
-%& \textbf{Selected coursework}
-%\begin{itemize}[itemsep=0pt, leftmargin=*]
-%\item \textit{Statistics}: Asymptotic statistics, Mathematical statistics, Functional data analysis, High-dimensional statistics, Information theory
-%\item \textit{Mathematics}: Measure theory, Functional analysis, Measure-theoretic probability with martingales
-%\end{itemize}
-
+B.Mgmt.
 \end{SectionTable}
-
-
-\begin{SectionTable}{\headingfont Grants}
-	2021 -- Present &
-	Research fellowship of \textit{Support for Pioneering Research Initiated by the Next Generation} (SPRING), Japan Science and Technology Agency
-\end{SectionTable}
-
-
-%% --- Section: Awards, scholarships, etc ---
-%
-%\begin{SectionTableSingleSpace}{\headingfont Honors and scholarships}
-%2021 & 
-%Award 1 (Organization that gave you the award)\newline
-%\textit{Maybe this award needs a short description}. \\
-%
-%2020 &
-%Award 2 (Organization that gave you the award; \href{https://en.wikibooks.org/wiki/LaTeX/Hyperlinks}{link if you want}) \\
-%
-%2019 &
-%Award 3 (Organization that gave you the award) \\
-%
-%2018 &
-%Award 4 (Organization that gave you the award) \\
-%
-%2017 &
-%Award 5 (Organization that gave you the award)
-%%\end{SectionTableSingleSpace}
 
 % --- Section: Publications ---
 
 \begin{SectionTable}{\headingfont Publications and Preprints} 
 2022 & 
-\textbf{Riemannian Interior Point Methods for Constrained Optimization on Manifolds} \newline
-{Zhijian Lai}, Akiko Yoshise. \newline
-\textit{arxiv.org/abs/2203.09762} (Under review). \\
+\textbf{Zhijian Lai}, Akiko Yoshise. 
+``Riemannian Interior Point Methods for Constrained Optimization on Manifolds''.
+\textit{arxiv.org/abs/2203.09762} (under review). \\
 
 2022 & 
-\textbf{Completely Positive Factorization by a Riemannian Smoothing Method} \newline
-{Zhijian Lai}, Akiko Yoshise. \newline
-\textit{Computational Optimization and Applications}. \\
+\textbf{Zhijian Lai}, Akiko Yoshise.
+``Completely Positive Factorization by a Riemannian Smoothing Method''. \textit{Comput. Optim. Appl.} \textbf{83}, 933–966 (2022).
 \end{SectionTable}
 
 
 \begin{SectionTable}{\headingfont Working Papers} 
 	2023 & 
-	\textbf{CLAP: A Contrastive Learning Structure for App-usage Prediction} \newline
-	Xin Yang, Zhijian Lai, Qian Wu, Maiko Shigeno. \\
+	Xin Yang, \textbf{Zhijian Lai}, Qian Wu, Maiko Shigeno.
+	``CLAP: A Contrastive Learning Structure for App-usage Prediction''. \\
 	
 	2023 & 
-	\textbf{HGCL4REC: Hyperbolic Graph Contrastive Learning for Recommender System} \newline
-	Xin Yang, Zhijian Lai, Qian Wu, Maiko Shigeno. \\
+	Xin Yang, \textbf{Zhijian Lai}, Qian Wu, Maiko Shigeno.
+	``Hyperbolic Graph Contrastive Learning for Recommender System''.
 \end{SectionTable}
 
-
-
-
-
-
-
+\begin{SectionTable}{\headingfont Fellowship}
+	2021 -- Present &
+	Research fellowship of 
+	{\textbf{S}upport for \textbf{P}ioneering \textbf{R}esearch \textbf{I}nitiated by the \textbf{N}ext \textbf{G}eneration} (SPRING), funded by Japan Science and Technology Agency (JST). \newline
+	Research Topic: ``\textit{The development of optimization theory of Riemannian manifolds and cones and its application to mathematical information engineering}''. \newline
+	Fellowship Qualified Students (Class 1):
+	Annual amount of 20,503 US dollars. \\
+	
+	2023 & The Institue of Statistical Mathematics Summer Travel Grant
+%	American Council of Learning Societies Predissertation Summer Travel Grant
+\end{SectionTable}
 % --- Section: Research experience ---
 
-\begin{SectionTable}{\headingfont Research experience}
-Month Year -- Present &
-\textbf{Title of project or lab where research was conducted} \newline
-Mentors: Professor A (University). \newline
-Description of your work. Summary of findings available \href{https://en.wikibooks.org/wiki/LaTeX/Hyperlinks}{here}. Sed dolor lacus, imperdiet non, ornare non, commodo eu, neque. Integer pretium semper justo. \\
-
-Month Year -- Month Year &
-\textbf{Title of project or lab where research was conducted} \newline
-Mentors: Professor B (University). \newline
-Description of your work. Summary of findings available \href{https://en.wikibooks.org/wiki/LaTeX/Hyperlinks}{here}. Sed dolor lacus, imperdiet non, ornare non, commodo eu, neque. Integer pretium semper justo. \\
-\end{SectionTable}
-
-% --- Section: Teaching experience ---
-
-\begin{SectionTable}{\headingfont Teaching experience}
-Fall 2020 & 
-\textbf{Teaching assistant, STAT 123: Course name here (University)} \newline
-Topics and description of your responsibilities. Aliquam volutpat est vel massa. Sed dolor lacus, imperdiet non, ornare non, commodo eu, neque. \newline
-\textit{Average student rating: X/5.} \\
-
-Spring 2020 & 
-\textbf{Teaching assistant, MATH 234: Course name here (University)} \newline
-Topics and description of your responsibilities. Aliquam volutpat est vel massa. Sed dolor lacus, imperdiet non, ornare non, commodo eu, neque. \newline
-\textit{Average student rating: X/5.}
-\end{SectionTable}
-
-%% --- Section: Industry experience ---
-%
-%\begin{SectionTable}{\headingfont Industry experience}
-%Summer 2020 &
-%\textbf{Name of company (Title of job or internship)} -- City, State \newline
-%Description of your responsibilities. Integer pretium semper justo. Proin risus. Nullam id quam. Nam neque. Phasellus at purus et lib ero lacinia dictum.  \\
-%
-%Summer 2019 &
-%\textbf{Name of company (Title of job or internship)} -- City, State \newline
-%Description of your responsibilities. Integer pretium semper justo. Proin risus. Nullam id quam. Nam neque. Phasellus at purus et lib ero lacinia dictum.  \\
-%
-%Summer 2018 &
-%\textbf{Name of company (Title of job or internship)} -- City, State \newline
-%Description of your responsibilities. Integer pretium semper justo. Proin risus. Nullam id quam. Nam neque. Phasellus at purus et lib ero lacinia dictum.  \\
-%\end{SectionTable}
 
 % --- Section: Talks and tutorials ---
 
 
-\begin{SectionTable}{\headingfont Conference Talks}
-	Aug. 2023 & ICIAM 2023 \newline
-	\textit{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}, Tokyo. \\
-	
-	June 2023 & SIAM OP23 \newline 
-	\textit{Interior Point Methods for Nonlinear Optimization on Riemannian Manifolds}, Seattle. \\
-	
-%	May 2023 &	RAOTA: Gathering of Young Researchers for the Future 2023 \newline 
-%	\textit{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}, Tsukuba, Japan. \\
-	
-	Mar. 2023 & The 2023 spring national conference of Operations Research Society of Japan \newline 
-	\textit{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}, Tokyo, Japan. \\
-	
-	Dec. 2022 & International Workshop on Continuous Optimization \newline 
-	\textit{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}, Tokyo (virtual). \\
-	
-	Sep. 2022 & The 2022 autumn national conference of Operations Research Society of Japan \newline
-	\textit{On the Global Convergence of Riemannian Interior Point Method}, Niigata (virtual), Japan. \\
-	
-	Sep. 2022 & The Japan Society for Industrial and Applied Mathematics 2022 annual meeting \newline
-	\textit{On the Global Convergence of Riemannian Interior Point Method}, Sapporo, Japan. \\
-	
-	Mar. 2022 & The 2022 spring national conference of Operations Research Society of Japan \newline
-	\textit{Superlinear and Quadratic Convergence of Riemannian Interior Point Methods}, Gunma (virtual), Japan. \\
-	
-	July 2021 &	SIAM OP21 \newline 
-	\textit{Completely Positive Factorization via Orthogonality Constrained Problem}, Hong Kong (virtual). \\
-	
-	Aug. 2021 & Meeting 2021 of Kyoto University Research Institute for Mathematical Sciences \newline
-	\textit{Application of Smoothing Methods for Completely Positive Matrices via Orthogonality Constrained Problem}, Kyoto (virtual), Japan. \\
-	
-	Mar. 2021 & The 2021 spring national conference of Operations Research Society of Japan \newline
-	\textit{Completely Positive Factorization via Orthogonality Constrained Problem}, Tokyo (virtual), Japan. \\
-	
-	Aug. 2020 & Meeting 2020 of Kyoto University Research Institute for Mathematical Sciences \newline
-	\textit{A New Approach to the Recognition Problem of Completely Positive Matrices}, Kyoto (virtual), Japan. \\
-	
-\end{SectionTable}
-
-%\begin{SectionTable}{\headingfont Talks and tutorials}
-%Month Year &
-%Title of your most recent presentation \newline
-%\textit{Name of conference, workshop, seminar, etc., or a description} \\
-%
-%Month Year &
-%Title of your second most recent presentation \newline
-%\textit{Name of conference, workshop, seminar, etc., or a description} \\
-%
-%Month Year &
-%Title of your third most recent presentation \newline
-%\textit{Name of conference, workshop, seminar, etc., or a description} \\
+%\begin{SectionTable}{\headingfont Conference Talks}
+%	Aug. 2023 & ICIAM 2023, Tokyo, Japan. \newline
+%	{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}. \\
+%	
+%	June 2023 & SIAM OP23, Seattle, US. \newline 
+%	\textit{Interior Point Methods for Nonlinear Optimization on Riemannian Manifolds}. \\
+%	
+%	May 2023 &	RAOTA: Gathering of Young Researchers for the Future 2023, Tsukuba, Japan. \newline 
+%	\textit{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}. \\
+%	
+%	Mar. 2023 & The 2023 spring national conference of Operations Research Society of Japan (ORSJ), Tokyo, Japan. \newline 
+%	\textit{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}. \\
+%	
+%	Dec. 2022 & International Workshop on Continuous Optimization, Tokyo, Japan (virtual). \newline 
+%	\textit{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}. \\
+%	
+%	Sep. 2022 & The 2022 autumn national conference of ORSJ, Niigata, Japan (virtual). \newline
+%	\textit{On the Global Convergence of Riemannian Interior Point Method}.\\
+%	
+%	Sep. 2022 & JSIAM 2022 annual meeting, Sapporo, Japan. \newline
+%	\textit{On the Global Convergence of Riemannian Interior Point Method}.\\
+%	
+%	Mar. 2022 & The 2022 spring national conference of ORSJ, Gunma, Japan (virtual). \newline
+%	\textit{Superlinear and Quadratic Convergence of Riemannian Interior Point Methods}. \\
+%	
+%	July 2021 &	SIAM OP21, Hong Kong (virtual). \newline 
+%	\textit{Completely Positive Factorization via Orthogonality Constrained Problem}. \\
+%	
+%	Aug. 2021 & Meeting 2021 of Kyoto University Research Institute for Mathematical Sciences, Kyoto, Japan (virtual). \newline
+%	\textit{Application of Smoothing Methods for Completely Positive Matrices via Orthogonality Constrained Problem}. \\
+%	
+%	Mar. 2021 & The 2021 spring national conference of ORSJ, Tokyo, Japan (virtual). \newline
+%	\textit{Completely Positive Factorization via Orthogonality Constrained Problem}. \\
+%	
+%	Aug. 2020 & Meeting 2020 of Kyoto University Research Institute for Mathematical Sciences, Kyoto, Japan (virtual). \newline
+%	\textit{A New Approach to the Recognition Problem of Completely Positive Matrices}. \\
+%	
 %\end{SectionTable}
 
 
-% --- Section: Mentorship and service ---
 
-\begin{SectionTable}{\headingfont Mentorship and service}
-Month Year -- Present &
-\textbf{Title of organization you are in (Name of your role)} \newline
-Description of your responsibilities. Integer pretium semper justo. Proin risus. Nullam id quam. Nam neque. Phasellus at purus et lib ero lacinia dictum. \\
-
-Month Year -- Month Year &
-\textbf{Title of organization you were in (Name of your role)} \newline
-Description of your responsibilities. Integer pretium semper justo. Proin risus. Nullam id quam. Nam neque. Phasellus at purus et lib ero lacinia dictum. \\
+\begin{SectionTable}{\headingfont Research Experience}
+	2023 -- Present & 
+	\textbf{Research Assistant, University of Tsukuba} \newline
+	Research Assistant to Prof. Akiko Yoshise \newline
+	Research Project: \textit{Theory and Implementation of General Algorithms for Constrained Optimization Problems on Riemannian Manifolds}. \\
+	
+	2022 -- Present & 
+	\textbf{Research Assistant, University of Tsukuba} \newline
+	Research Assistant to Prof. Akiko Yoshise \newline
+	Research Project: \textit{Development of New Data Collaboration Methods Based on Optimization Theory on Riemannian Manifolds}. \\
+	
+	2022 & fuller-inc.com
+	\textbf{Fro, University of Tsukuba}
 \end{SectionTable}
+
+% --- Section: Teaching experience ---
+
+\begin{SectionTable}{\headingfont Teaching Experience} % Teaching Assistant, 
+%	2022 -- 2023 & 
+%	\textbf{University of Tsukuba, College of Policy and Planning Sciences} \newline
+%	 Teaching Assistant -- FH61141, Society and Optimization -- Two semesters \newline
+%	\begin{itemize}[nosep, leftmargin=*]\vspace{-15pt}
+%		\item Designed weekly lesson plans for small group discussions
+%		\item Graded weekly quizzes 
+%	\vspace{-15pt} \end{itemize}
+%	\\
+
+	2021 -- 2023 & 
+	\textbf{University of Tsukuba, College of Policy and Planning Sciences} \newline
+	 Teaching Assistant \newline
+	-- FH61141, Society and Optimization, 2023 Fall \newline
+	-- FH35012, Problem Identification and Resolution, 2022 Fall \newline
+	-- FH61141, Society and Optimization, 2022 Fall \newline
+	-- 0AL5100, Supply Chain Management, 2021 Fall \\
+	
+%	2022 & 
+%	\textbf{University of Tsukuba, College of Policy and Planning Sciences} \newline
+%	Teaching Assistant -- FH35012, Problem Identification and Resolution -- One semester \newline
+%	\begin{itemize}[nosep, leftmargin=*] \vspace{-15pt} 
+%		\item Designed weekly lesson plans for small group discussions
+%		\item Graded weekly quizzes 
+%	\vspace{-15pt} \end{itemize}
+%	\\
+%
+%	2021 & 
+%	\textbf{University of Tsukuba, College of Policy and Planning Sciences} \newline
+%	Teaching Assistant -- 0AL5100, Supply Chain Management -- One semester \newline
+%	\begin{itemize}[nosep, leftmargin=*] \vspace{-15pt}
+%		\item Designed weekly lesson plans for small group discussions
+%		\item Graded weekly quizzes 
+%	\vspace{-15pt} \end{itemize}
+%	\\
+
+	2019 -- 2021 &
+	\textbf{University of Tsukuba, Graduate School of Science and Technology} \newline
+	Mathematics Tutoring for Graduate Admission Examination of Master's Program in Policy and Planning Sciences \newline
+	-- ``Linear Algebra'' subject for summer admission exams, Aug. 2021  \newline
+	-- ``Calculus'' subject for winter admission exams, Dec. 2019 \newline
+	-- ``Calculus'' subject for summer admission exams, Aug. 2019 \newline
+	Each lasted for six weeks, totaling 12 hours of instruction. During the COVID-19 pandemic, I uploaded the course videos to the \href{https://space.bilibili.com/16115578}{Bilibili platform} to help those students in need. \\
+	 
+	 2019 -- 2021 &
+	 \textbf{University-High School Collaboration Project: Optimizing Local Issues in the Community.} \newline
+%	 I participated in an activity called “High School-University Collaboration,” which is a collaboration between Tsukuba University and Japanese high schools, Ibaraki Prefectural Hitachi Kita High School and Toshimaoka Girls’ School. Here, I served as a mathematics teacher, responsible for guiding mathematical modeling.” 	
+	This project is a part of the ``Science Partner Project'' supported by Japan Science and Technology Agency. Its aim is to allow high school students to discover problems from their living environment, propose solutions using optimization models and solvers. During 2019-2021, I had the privilege of serving as a TA for three consecutive years, where my responsibilities included guiding a group and overseeing the following topics: \newline	
+	--  Equalizing the number of cafeteria users. (2019) \newline
+	--  Mitigating congestion caused by the decision of stops on the Tobu Isezaki Line. (2019) \newline
+	--  Selecting evacuation shelters during disasters. (2020) \newline
+	--  Developing a self-study schedule program to maximize efficiency. (2021) \newline	
+	 \begin{itemize}[nosep, leftmargin=*] \vspace{-15pt} 
+	 	\item Collaborated with high school students to develop a model for mitigating overcrowding during tsunami evacuations in Hitachi City.
+	 	\item Taught basic math and programming to the students while collecting data and conducting experiments.
+	 	\item Assisted high school students in creating the final presentation.
+	 \vspace{-15pt} \end{itemize}
+	 \\
+	 
+%	 Equalizing the number of cafeteria users.
+%	 Mitigating congestion caused by the decision of stops on the Tobu Isezaki Line.
+%	 In University-Community Collaboration 2020:
+%	 
+%	 Selecting evacuation shelters during disasters.
+%	 In University-Community Collaboration 2021:
+%	 
+%	 Developing a self-study schedule program to maximize efficiency.
+%	 
+\end{SectionTable}
+
 
 % --- Section: Professional society memberships ---
-
-\begin{SectionTable}{\headingfont Professional memberships}
-Year -- Present &
-Name of professional society \newline
-\textit{Short description or conferences you attended.} \\
-
-Year -- Present &
-Name of professional society \newline
-\textit{Short description or conferences you attended.} \\
+\begin{SectionTable}{\headingfont Conference Talks}
+	Aug. 2023 & ICIAM 2023, Tokyo, Japan. ``\textit{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}''. \\
+	
+	June 2023 & SIAM OP23, Seattle, US.  
+	``\textit{Interior Point Methods for Nonlinear Optimization on Riemannian Manifolds}''. \\
+	
+	May 2023 & RAOTA: Gathering of Young Researchers for the Future 2023, Tsukuba, Japan.  
+	``\textit{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}''. \\
+	
+	Mar. 2023 & The 2023 spring national conference of Operations Research Society of Japan (ORSJ), Tokyo, Japan.  
+	``\textit{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}''. \\
+	
+	Dec. 2022 & International Workshop on Continuous Optimization, Tokyo, Japan (virtual).  
+	``\textit{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}''. \\
+	
+	Sep. 2022 & The 2022 autumn national conference of ORSJ, Niigata, Japan (virtual). 
+	``\textit{On the Global Convergence of Riemannian Interior Point Method}''.\\
+	
+	Sep. 2022 & JSIAM 2022 annual meeting, Sapporo, Japan. 
+	``\textit{On the Global Convergence of Riemannian Interior Point Method}''.\\
+	
+	Mar. 2022 & The 2022 spring national conference of ORSJ, Gunma, Japan (virtual).
+	``\textit{Superlinear and Quadratic Convergence of Riemannian Interior Point Methods}''. \\
+	
+	July 2021 & SIAM OP21, Hong Kong (virtual).  
+	``\textit{Completely Positive Factorization via Orthogonality Constrained Problem}''. \\
+	
+	Aug. 2021 & Meeting 2021 of Kyoto University Research Institute for Mathematical Sciences, Kyoto, Japan (virtual). 
+	``\textit{Application of Smoothing Methods for Completely Positive Matrices via Orthogonality Constrained Problem}''. \\
+	
+	Mar. 2021 & The 2021 spring national conference of ORSJ, Tokyo, Japan (virtual). 
+	``\textit{Completely Positive Factorization via Orthogonality Constrained Problem}''. \\
+	
+	Aug. 2020 & Meeting 2020 of Kyoto University Research Institute for Mathematical Sciences, Kyoto, Japan (virtual).``\textit{A New Approach to the Recognition Problem of Completely Positive Matrices}''.
 \end{SectionTable}
 
-\begin{SectionTable}{\headingfont Technical skills}
-& \textbf{Programming languages} \newline
-Proficient in: language 1, language 2, language 3 \newline
-Familiar with: language 4, language 5 \\
+\begin{SectionTable}{\headingfont Posters}
+	Aug. 2023 & Summer School on Continuous Optimization and Related Fields, Institue of Statistical Mathematics, Tokyo, Japan.  
+	``\textit{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}``. \\
+	
+	Mar. 2023 & Poster Session of 2022 SPRING Fellowship, Tsukuba, Japan. 
+	``\textit{Riemannian Interior Point Methods for Manifold Optimization}``. \\
+	
+	Mar. 2022 & Poster Session of 2021 SPRING Fellowship, Tsukuba, Japan.
+	``\textit{Riemannian Optimization and Its Applications}``. 
+\end{SectionTable}
 
-& \textbf{Software} \newline
-\LaTeX, Git, another piece of software \\
+
+\begin{SectionTable}{\headingfont Professional Memberships}
+2021 -- Present & 
+The Operations Research Society of Japan (ORSJ)\newline
+Society for Industrial and Applied Mathematics (SIAM) \newline
+The Institute for Operations Research and the Management Sciences (INFORMS)\\
+\end{SectionTable}
+
+
+\begin{SectionTable}{\headingfont Technical Skills}
+& \textbf{Computer Skills} \newline
+Proficient in: Matlab, \LaTeX, Mathematica, Zotero, Mathpix. \newline
+Familiar with: Python, GuRoBi, Xpress. \\
 
 & \textbf{Languages} \newline
-English (fluent), Another language (advanced)
+Chinese (Native), English (Fluent), Japanese (Advanced): JLPT N1.
 \end{SectionTable}
 
 % --- Section: Other interests/hobbies ---
 
-\begin{SectionTable}{\headingfont Other interests}
-& Some of your hobbies, etc.
+\begin{SectionTable}{\headingfont Additional Education}
+	2017 -- 2019 & ARC Tokyo Japanese Language School -- Tokyo, Japan \newline
+	Graduate School Preparation Class \\
 \end{SectionTable}
 
+% --- Section: Other interests/hobbies ---
+
+%\begin{SectionTable}{\headingfont Other Interests}
+%	& Travel, cooking and badminton.
+%\end{SectionTable}
+
+
+\begin{SectionTable}{\headingfont References}
+	&
+	\textbf{Prof. Akiko Yoshise} \newline
+	Graduate School of Science and Technology, University of Tsukuba, Ibaraki, Japan \newline 
+	Phone: +81 (0)29 853 5557, Email: yoshise@sk.tsukuba.ac.jp  \\
+	
+	& 
+	\textbf{Prof. Ying Miao} \newline
+	Graduate School of Science and Technology, University of Tsukuba, Ibaraki, Japan \newline 
+	Phone: ?, Email: miao@sk.tsukuba.ac.jp\\
+	
+	& 
+	\textbf{Prof. Ying Miao} \newline
+	Graduate School of Systems and Information, University of Tsukuba, Ibaraki, Japan \newline 
+	Phone: ?, Email: miao@sk.tsukuba.ac.jp\\
+	
+	&
+	\textbf{Prof. Ying Miao} \newline
+	Graduate School of Systems and Information, University of Tsukuba, Ibaraki, Japan \newline 
+	Phone: ?, Email: miao@sk.tsukuba.ac.jp\\
+\end{SectionTable}
+	
 % --- End of CV! ---
 
 \label{LastPage}  % 在文档的最后添加一个标签，以便于引用总页数。
