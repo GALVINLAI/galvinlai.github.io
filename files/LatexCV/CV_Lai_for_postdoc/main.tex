@@ -2,7 +2,7 @@
 
 % --- Set document class and font size ---
 
-\documentclass[letterpaper,10pt]{article}
+\documentclass[letterpaper,11pt]{article}
 
 % --- Package imports ---
 
@@ -11,10 +11,12 @@
 % --- Page layout settings ---
 
 % Set page margins
-\usepackage[left=0.8in, right=0.7in, bottom=.8in, top=0.8in, headsep=0in, footskip=.2in]{geometry}
+\usepackage[left=0.75in, right=0.75in, bottom=.5in, top=0.5in, headsep=0in, footskip=.2in]{geometry}
 
 % Set line spacing
-\renewcommand{\baselinestretch}{1.2}
+\renewcommand{\baselinestretch}{1.0}
+
+%\linespread{1.5}
 
 % --- Page formatting settings ---
 
@@ -59,7 +61,7 @@
 
 
 % Define font size and color for section headings
-\newcommand{\headingfont}{\LARGE }
+\newcommand{\headingfont}{\LARGE \MakeUppercase }
 %\newcommand{\headingfont}{\Large\color{OliveGreen}}
 
 % --- CV section settings ---
@@ -99,7 +101,7 @@
 	\setlength{\tabcolsep}{10pt}
 	\begin{longtable}{Rp{5.2in}} 
 		\rule{2.5cm}{4pt} 
-		& #1 \\ % `R` 和 `p{5.2in}` 是两个列的格式
+		& \underline{#1} \\ % `R` 和 `p{5.2in}` 是两个列的格式
 	}
 	{
 	\end{longtable}\vspace{-.3cm}
@@ -123,19 +125,6 @@
 %
 %总的来说，`SectionTable` 环境是为了创建一个样式特定的长表格。这个表格接受一个参数作为第一行的内容，列格式是 `R` 和 `p{5.2in}`，行高是原始行高的 `1.7` 倍，列间距是 `10pt`，并且在表格结束后减少 `0.3cm` 的前导空白。
 
-
-
-
-
-% Define 'SectionTableSingleSpace' environment
-\newenvironment{SectionTableSingleSpace}[1]{
-	\renewcommand*{\arraystretch}{1.0}
-	\setlength{\tabcolsep}{10pt}
-	\begin{longtable}{Rp{5.2in}} & #1 \\[0.6em]
-	}
-	{
-\end{longtable}\vspace{-.3cm}
-}
 
 % --- Document starts here ---
 
@@ -282,7 +271,7 @@ B.Mgmt. Major: Logistics Management
 	Research Project: Big data analysis and marketing strategy formulation
 	\newline
 	Date: Device information of Android users, as well as limited demographic information such as the gender and age of users, provided by \href{https://en.fuller-inc.com/}{Fuller, Inc.}. \newline
-	Teaming up with others, we are focusing on the problem of predicting app-usage prediction problem using graph neural network (GNN).
+	Teaming up with others, we are focusing on the problem of predicting app-usage prediction problem using graph neural network.
 \end{SectionTable}
 
 % --- Section: Professional society memberships ---
@@ -393,7 +382,7 @@ B.Mgmt. Major: Logistics Management
 	Each lasted for six weeks, totaling 12 hours of instruction. During the COVID-19 pandemic, I uploaded the course videos to the \href{https://space.bilibili.com/16115578}{Bilibili platform} to help those students in need. \\
 	 
 	 2019 -- 2021 &
-	 \textbf{University-High School Collaboration Project: Optimizing Issues in the Community.} \newline	
+	 \textbf{University of Tsukuba, University-High School Collaboration Project: Optimizing Issues in the Community.} \newline	
 	This project is a part of the "Science Partner Project" supported by the Japan Science and Technology Agency. Its aim is to enable high school students to identify problems within their living environment and propose solutions using optimization models (e.g., MILP) and solvers (e.g., Xpress, Gurobi). From 2019 to 2021, I had the privilege of serving as a TA, during which time my responsibilities included guiding a group and overseeing the following topics: \newline	
 	--  \textit{Developing a self-study schedule program to maximize efficiency}. (2021) \newline
 	--  \textit{Selecting evacuation shelters during disasters}. (2020) \newline 
