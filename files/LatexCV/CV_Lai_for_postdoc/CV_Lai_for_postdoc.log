@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.13)  29 JUL 2023 16:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.13)  31 JUL 2023 16:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -373,7 +373,7 @@ LaTeX Info: Redefining \nameref on input line 131.
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: letterpaper
+* paper: <default>
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
@@ -417,6 +417,40 @@ LaTeX Info: Redefining \nameref on input line 131.
 \makeMPintoPDFobject=\count298
 \everyMPtoPDFconversion=\toks27
 )
+Overfull \hbox (18.31876pt too wide) in alignment at lines 141--147
+ [] [] 
+ []
+
+
+Overfull \hbox (18.31876pt too wide) in alignment at lines 164--182
+ [] [] 
+ []
+
+
+Overfull \hbox (18.31876pt too wide) in alignment at lines 186--188
+ [] [] 
+ []
+
+
+Overfull \hbox (18.31876pt too wide) in alignment at lines 192--201
+ [] [] 
+ []
+
+
+Overfull \hbox (18.31876pt too wide) in alignment at lines 204--212
+ [] [] 
+ []
+
+
+Overfull \hbox (18.31876pt too wide) in alignment at lines 262--275
+ [] [] 
+ []
+
+
+Overfull \hbox (18.31876pt too wide) in alignment at lines 278--312
+ [] [] 
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -433,6 +467,20 @@ Package fancyhdr Warning: \footskip is too small (8.53581pt):
 [1{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
+Overfull \hbox (18.31876pt too wide) in alignment at lines 314--323
+ [] [] 
+ []
+
+
+Overfull \hbox (18.31876pt too wide) in alignment at lines 325--334
+ [] [] 
+ []
+
+
+Overfull \hbox (18.31876pt too wide) in alignment at lines 338--389
+ [] [] 
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -447,6 +495,30 @@ Package fancyhdr Warning: \footskip is too small (8.53581pt):
 (fancyhdr)                \setlength{\footskip}{13.59999pt}.
 
 [2]
+Overfull \hbox (18.31876pt too wide) in alignment at lines 395--400
+ [] [] 
+ []
+
+
+Overfull \hbox (18.31876pt too wide) in alignment at lines 403--410
+ [] [] 
+ []
+
+
+Overfull \hbox (18.31876pt too wide) in alignment at lines 415--431
+ [] [] 
+ []
+
+
+Overfull \hbox (18.31876pt too wide) in alignment at lines 434--437
+ [] [] 
+ []
+
+
+Overfull \hbox (18.31876pt too wide) in alignment at lines 446--461
+ [] [] 
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -481,16 +553,16 @@ Package rerunfilecheck Info: File `CV_Lai_for_postdoc.out' has not changed.
 Here is how much of TeX's memory you used:
  10181 strings out of 478268
  156432 string characters out of 5850345
- 486013 words of memory out of 5000000
+ 485058 words of memory out of 5000000
  28263 multiletter control sequences out of 15000+600000
  482870 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,11n,63p,496b,442s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 60i,11n,63p,496b,447s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texm
 f-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1
 /urw/times/utmr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on CV_Lai_for_postdoc.pdf (4 pages, 61384 bytes).
+Output written on CV_Lai_for_postdoc.pdf (4 pages, 61052 bytes).
 PDF statistics:
  69 PDF objects out of 1000 (max. 8388607)
  56 compressed objects within 1 object stream

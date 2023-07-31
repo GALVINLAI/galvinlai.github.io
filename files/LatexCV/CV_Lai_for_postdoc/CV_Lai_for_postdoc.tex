@@ -2,7 +2,7 @@
 
 % --- Set document class and font size ---
 
-\documentclass[letterpaper,11pt]{article}
+\documentclass[11pt]{article}
 
 % --- Package imports ---
 
@@ -22,7 +22,7 @@
 
 % Set link colors
 \usepackage[dvipsnames]{xcolor}
-\hypersetup{colorlinks=true, linkcolor=black, urlcolor=black} % MidnightBlue
+\hypersetup{colorlinks=true, linkcolor=MidnightBlue, urlcolor=MidnightBlue} % MidnightBlue
 
 % Set font to Libertine, including math support
 %\usepackage{libertine}
@@ -79,7 +79,7 @@
 % title of the section. See main document for how these environments are used.
 
 % Define settings for left-hand column in which dates are printed
-\newcolumntype{R}{>{\raggedleft}p{1in}}
+\newcolumntype{R}{>{\raggedleft}p{1.0in}}
 %这段 LaTeX 代码定义了一个新的列类型 `R`，它用于表格中的列格式设置。
 %
 %下面是对这段代码的解释：
@@ -99,7 +99,7 @@
 \newenvironment{SectionTable}[1]{
 	\renewcommand*{\arraystretch}{1.0}
 	\setlength{\tabcolsep}{10pt}
-	\begin{longtable}{Rp{5.2in}} 
+	\begin{longtable}{Rp{5.7in}} 
 		\rule{2.5cm}{4pt} 
 		& \underline{#1} \\ % `R` 和 `p{5.2in}` 是两个列的格式
 	}
@@ -231,28 +231,28 @@ B.Mgmt. Major: Logistics Management
 %	Mar. 2023 & The 2023 spring national conference of Operations Research Society of Japan (ORSJ), Tokyo, Japan. \newline 
 %	\textit{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}. \\
 %	
-%	Dec. 2022 & International Workshop on Continuous Optimization, Tokyo, Japan (virtual). \newline 
+%	Dec. 2022 & International Workshop on Continuous Optimization, Tokyo, Japan. \newline 
 %	\textit{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}. \\
 %	
-%	Sep. 2022 & The 2022 autumn national conference of ORSJ, Niigata, Japan (virtual). \newline
+%	Sep. 2022 & The 2022 autumn national conference of ORSJ, Niigata, Japan. \newline
 %	\textit{On the Global Convergence of Riemannian Interior Point Method}.\\
 %	
 %	Sep. 2022 & JSIAM 2022 annual meeting, Sapporo, Japan. \newline
 %	\textit{On the Global Convergence of Riemannian Interior Point Method}.\\
 %	
-%	Mar. 2022 & The 2022 spring national conference of ORSJ, Gunma, Japan (virtual). \newline
+%	Mar. 2022 & The 2022 spring national conference of ORSJ, Gunma, Japan. \newline
 %	\textit{Superlinear and Quadratic Convergence of Riemannian Interior Point Methods}. \\
 %	
-%	July 2021 &	SIAM OP21, Hong Kong (virtual). \newline 
+%	July 2021 &	SIAM OP21, Hong Kong. \newline 
 %	\textit{Completely Positive Factorization via Orthogonality Constrained Problem}. \\
 %	
-%	Aug. 2021 & Meeting 2021 of Kyoto University Research Institute for Mathematical Sciences, Kyoto, Japan (virtual). \newline
+%	Aug. 2021 & Meeting 2021 of Kyoto University Research Institute for Mathematical Sciences, Kyoto, Japan. \newline
 %	\textit{Application of Smoothing Methods for Completely Positive Matrices via Orthogonality Constrained Problem}. \\
 %	
-%	Mar. 2021 & The 2021 spring national conference of ORSJ, Tokyo, Japan (virtual). \newline
+%	Mar. 2021 & The 2021 spring national conference of ORSJ, Tokyo, Japan. \newline
 %	\textit{Completely Positive Factorization via Orthogonality Constrained Problem}. \\
 %	
-%	Aug. 2020 & Meeting 2020 of Kyoto University Research Institute for Mathematical Sciences, Kyoto, Japan (virtual). \newline
+%	Aug. 2020 & Meeting 2020 of Kyoto University Research Institute for Mathematical Sciences, Kyoto, Japan. \newline
 %	\textit{A New Approach to the Recognition Problem of Completely Positive Matrices}. \\
 %	
 %\end{SectionTable}
@@ -276,63 +276,61 @@ B.Mgmt. Major: Logistics Management
 
 % --- Section: Professional society memberships ---
 \begin{SectionTable}{\headingfont Conference Talks}
-	Aug. 2023 & 10th International Congress on Industrial and Applied Mathematics (ICIAM), Tokyo, Japan. ``\textit{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}''. \\
+	Aug. 2023 & 10th International Congress on Industrial and Applied Mathematics (ICIAM), Tokyo, Japan.  \newline ``\textit{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}''. \\
 	
 	June 2023 & SIAM Conference on Optimization (OP23), Seattle, US.  
-	``\textit{Interior Point Methods for Nonlinear Optimization on Riemannian Manifolds}''. \\
+	 \newline ``\textit{Interior Point Methods for Nonlinear Optimization on Riemannian Manifolds}''. \\
 	
 	May 2023 & Operations Research Society of Japan, Research Division: Theory and Algorithms of Optimization, Tsukuba, Japan.  
-	``\textit{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}''. \\
+	 \newline ``\textit{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}''. \\
 	
 	Mar. 2023 & The 2023 Spring National Conference of Operations Research Society of Japan, Tokyo, Japan.  
-	``\textit{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}''. \\
+	 \newline ``\textit{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}''. \\
 	
-	Dec. 2022 & International Workshop on Continuous Optimization, Tokyo, Japan (virtual).  
-	``\textit{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}''. \\
+	Dec. 2022 & International Workshop on Continuous Optimization, Tokyo, Japan.  
+	 \newline ``\textit{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}''. \\
 	
-	Sep. 2022 & The 2022 Autumn National Conference of Operations Research Society of Japan, Niigata, Japan (virtual). 
-	``\textit{On the Global Convergence of Riemannian Interior Point Method}''.\\
+	Sep. 2022 & The 2022 Autumn National Conference of Operations Research Society of Japan, Niigata, Japan. 
+	 \newline ``\textit{On the Global Convergence of Riemannian Interior Point Method}''.\\
 	
 	Sep. 2022 & The Japan Society for Industrial and Applied Mathematics 2022 Annual Meeting, Sapporo, Japan. 
-	``\textit{On the Global Convergence of Riemannian Interior Point Method}''.\\
+	 \newline ``\textit{On the Global Convergence of Riemannian Interior Point Method}''.\\
 	
-	Mar. 2022 & The 2022 Spring National Conference of Operations Research Society of Japan, Gunma, Japan (virtual).
-	``\textit{Superlinear and Quadratic Convergence of Riemannian Interior Point Methods}''. \\
+	Mar. 2022 & The 2022 Spring National Conference of Operations Research Society of Japan, Gunma, Japan.
+	 \newline ``\textit{Superlinear and Quadratic Convergence of Riemannian Interior Point Methods}''. \\
 	
-	July 2021 & SIAM Conference on Optimization (OP21), Hong Kong (virtual).  
-	``\textit{Completely Positive Factorization via Orthogonality Constrained Problem}''. \\
+	July 2021 & SIAM Conference on Optimization (OP21), Hong Kong.  
+	 \newline ``\textit{Completely Positive Factorization via Orthogonality Constrained Problem}''. \\
 	
-	Aug. 2021 & Meeting 2021 of Kyoto University Research Institute for Mathematical Sciences, Kyoto, Japan (virtual). 
-	``\textit{Application of Smoothing Methods for Completely Positive Matrices via Orthogonality Constrained Problem}''. \\
+	Aug. 2021 & Meeting 2021 of Kyoto University Research Institute for Mathematical Sciences, Kyoto, Japan. 
+	 \newline ``\textit{Application of Smoothing Methods for Completely Positive Matrices via Orthogonality Constrained Problem}''. \\
 	
-	Mar. 2021 & The 2021 Spring National Conference of Operations Research Society of Japan, Tokyo, Japan (virtual). 
-	``\textit{Completely Positive Factorization via Orthogonality Constrained Problem}''. \\
+	Mar. 2021 & The 2021 Spring National Conference of Operations Research Society of Japan, Tokyo, Japan. 
+	 \newline ``\textit{Completely Positive Factorization via Orthogonality Constrained Problem}''. \\
 	
-	Aug. 2020 & Meeting 2020 of Kyoto University Research Institute for Mathematical Sciences, Kyoto, Japan (virtual).``\textit{A New Approach to the Recognition Problem of Completely Positive Matrices}''.
+	Aug. 2020 & Meeting 2020 of Kyoto University Research Institute for Mathematical Sciences, Kyoto, Japan. \newline ``\textit{A New Approach to the Recognition Problem of Completely Positive Matrices}''.
 \end{SectionTable}
 
 \begin{SectionTable}{\headingfont Posters}
 	Aug. 2023 & Summer School on Continuous Optimization and Related Fields, Institue of Statistical Mathematics, Tokyo, Japan.  
-	``\textit{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}``. \\
+	 \newline ``\textit{Riemannian Interior Point Methods for Constrained Optimization on Manifolds}``. \\
 	
 	Mar. 2023 & 2022 SPRING Fellowship Research Meeting, Tsukuba, Japan. 
-	``\textit{Riemannian Interior Point Methods for Manifold Optimization}``. \\
+	 \newline ``\textit{Riemannian Interior Point Methods for Manifold Optimization}``. \\
 	
 	Mar. 2022 & 2021 SPRING Fellowship Research Meeting, Tsukuba, Japan.
-	``\textit{Riemannian Optimization and Its Applications}``. 
+	 \newline ``\textit{Riemannian Optimization and Its Applications}``. 
 \end{SectionTable}
 
 \begin{SectionTable}{\headingfont Grant and Fellowship}
-	2023 & The Institue of Statistical Mathematics Summer Travel Grant \\
+	Aug. 2023 & The Institue of Statistical Mathematics Summer Travel Grant \\
 	
 	2021 -- Present &
 	Research fellowship of 
 	{\textbf{S}upport for \textbf{P}ioneering \textbf{R}esearch \textbf{I}nitiated by the \textbf{N}ext \textbf{G}eneration} (SPRING), funded by Japan Science and Technology Agency. \newline
 	Research Topic: ``\textit{The development of optimization theory of Riemannian manifolds and cones and its application to mathematical information engineering}''. \newline
 	Fellowship Qualified Students (Class 1):
-	Annual amount of 20,503 US dollars. 
-	
-	%	American Council of Learning Societies Predissertation Summer Travel Grant
+	Annual amount of 20,503 US dollars. 	%	American Council of Learning Societies Predissertation Summer Travel Grant
 \end{SectionTable}
 
 % --- Section: Teaching experience ---
@@ -388,11 +386,6 @@ B.Mgmt. Major: Logistics Management
 	--  \textit{Selecting evacuation shelters during disasters}. (2020) \newline 
 	--  \textit{Leveling out the number of people using the school cafeterias}. (2019) \newline
 	--  \textit{Ease congestion by determining stops on the Tobu Isezaki Line}. (2019) 
-%	 \begin{itemize}[nosep, leftmargin=*] \vspace{-15pt} 
-%	 	\item Collaborated with high school students to develop a model for mitigating overcrowding during tsunami evacuations in Hitachi City.
-%	 	\item Taught basic math and programming to the students while collecting data and conducting experiments.
-%	 	\item Assisted high school students in creating the final presentation.
-%	 \vspace{-15pt} \end{itemize}
 \end{SectionTable}
 
 
