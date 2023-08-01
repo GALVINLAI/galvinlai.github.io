@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.13)  31 JUL 2023 16:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.13)  1 AUG 2023 14:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -417,37 +417,62 @@ LaTeX Info: Redefining \nameref on input line 131.
 \makeMPintoPDFobject=\count298
 \everyMPtoPDFconversion=\toks27
 )
-Overfull \hbox (18.31876pt too wide) in alignment at lines 141--147
+Overfull \hbox (6.08932pt too wide) in paragraph at lines 141--141
+ []|[]|
+ []
+
+
+Overfull \hbox (11.09132pt too wide) in alignment at lines 141--147
  [] [] 
  []
 
 
-Overfull \hbox (18.31876pt too wide) in alignment at lines 164--182
+Overfull \hbox (6.08932pt too wide) in paragraph at lines 164--164
+ []|[]|
+ []
+
+
+Overfull \hbox (11.09132pt too wide) in alignment at lines 164--182
  [] [] 
  []
 
 
-Overfull \hbox (18.31876pt too wide) in alignment at lines 186--188
+Overfull \hbox (6.08932pt too wide) in paragraph at lines 186--186
+ []|[]|
+ []
+
+
+Overfull \hbox (11.09132pt too wide) in alignment at lines 186--188
  [] [] 
  []
 
 
-Overfull \hbox (18.31876pt too wide) in alignment at lines 192--201
+Overfull \hbox (6.08932pt too wide) in paragraph at lines 192--192
+ []|[]|
+ []
+
+
+Overfull \hbox (11.09132pt too wide) in alignment at lines 192--201
  [] [] 
  []
 
 
-Overfull \hbox (18.31876pt too wide) in alignment at lines 204--212
+Overfull \hbox (6.08932pt too wide) in paragraph at lines 204--204
+ []|[]|
+ []
+
+
+Overfull \hbox (11.09132pt too wide) in alignment at lines 204--212
  [] [] 
  []
 
 
-Overfull \hbox (18.31876pt too wide) in alignment at lines 262--275
- [] [] 
+Overfull \hbox (6.08932pt too wide) in paragraph at lines 215--215
+ []|[]|
  []
 
 
-Overfull \hbox (18.31876pt too wide) in alignment at lines 278--312
+Overfull \hbox (11.09132pt too wide) in alignment at lines 215--228
  [] [] 
  []
 
@@ -467,17 +492,22 @@ Package fancyhdr Warning: \footskip is too small (8.53581pt):
 [1{c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-Overfull \hbox (18.31876pt too wide) in alignment at lines 314--323
+Overfull \hbox (6.08932pt too wide) in paragraph at lines 231--231
+ []|[]|
+ []
+
+
+Overfull \hbox (11.09132pt too wide) in alignment at lines 231--265
  [] [] 
  []
 
 
-Overfull \hbox (18.31876pt too wide) in alignment at lines 325--334
- [] [] 
+Overfull \hbox (6.08932pt too wide) in paragraph at lines 267--267
+ []|[]|
  []
 
 
-Overfull \hbox (18.31876pt too wide) in alignment at lines 338--389
+Overfull \hbox (11.09132pt too wide) in alignment at lines 267--276
  [] [] 
  []
 
@@ -495,27 +525,42 @@ Package fancyhdr Warning: \footskip is too small (8.53581pt):
 (fancyhdr)                \setlength{\footskip}{13.59999pt}.
 
 [2]
-Overfull \hbox (18.31876pt too wide) in alignment at lines 395--400
+Overfull \hbox (6.08932pt too wide) in paragraph at lines 278--278
+ []|[]|
+ []
+
+
+Overfull \hbox (11.09132pt too wide) in alignment at lines 278--287
  [] [] 
  []
 
 
-Overfull \hbox (18.31876pt too wide) in alignment at lines 403--410
+Overfull \hbox (6.08932pt too wide) in paragraph at lines 291--291
+ []|[]|
+ []
+
+
+Overfull \hbox (11.09132pt too wide) in alignment at lines 291--343
  [] [] 
  []
 
 
-Overfull \hbox (18.31876pt too wide) in alignment at lines 415--431
+Overfull \hbox (6.08932pt too wide) in paragraph at lines 346--346
+ []|[]|
+ []
+
+
+Overfull \hbox (11.09132pt too wide) in alignment at lines 346--352
  [] [] 
  []
 
 
-Overfull \hbox (18.31876pt too wide) in alignment at lines 434--437
- [] [] 
+Overfull \hbox (6.08932pt too wide) in paragraph at lines 354--354
+ []|[]|
  []
 
 
-Overfull \hbox (18.31876pt too wide) in alignment at lines 446--461
+Overfull \hbox (11.09132pt too wide) in alignment at lines 354--361
  [] [] 
  []
 
@@ -533,6 +578,35 @@ Package fancyhdr Warning: \footskip is too small (8.53581pt):
 (fancyhdr)                \setlength{\footskip}{13.59999pt}.
 
 [3]
+Overfull \hbox (6.08932pt too wide) in paragraph at lines 365--365
+ []|[]|
+ []
+
+
+Overfull \hbox (11.09132pt too wide) in alignment at lines 365--381
+ [] [] 
+ []
+
+
+Overfull \hbox (6.08932pt too wide) in paragraph at lines 384--384
+ []|[]|
+ []
+
+
+Overfull \hbox (11.09132pt too wide) in alignment at lines 384--387
+ [] [] 
+ []
+
+
+Overfull \hbox (6.08932pt too wide) in paragraph at lines 396--396
+ []|[]|
+ []
+
+
+Overfull \hbox (11.09132pt too wide) in alignment at lines 396--411
+ [] [] 
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -553,16 +627,16 @@ Package rerunfilecheck Info: File `CV_Lai_for_postdoc.out' has not changed.
 Here is how much of TeX's memory you used:
  10181 strings out of 478268
  156432 string characters out of 5850345
- 485058 words of memory out of 5000000
+ 479070 words of memory out of 5000000
  28263 multiletter control sequences out of 15000+600000
  482870 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,11n,63p,496b,447s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 60i,11n,63p,495b,447s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texm
 f-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1
 /urw/times/utmr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on CV_Lai_for_postdoc.pdf (4 pages, 61052 bytes).
+Output written on CV_Lai_for_postdoc.pdf (4 pages, 60994 bytes).
 PDF statistics:
  69 PDF objects out of 1000 (max. 8388607)
  56 compressed objects within 1 object stream
