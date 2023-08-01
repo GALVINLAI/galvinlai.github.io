@@ -14,7 +14,7 @@
 \usepackage[left=0.75in, right=0.75in, bottom=.5in, top=0.5in, headsep=0in, footskip=.2in]{geometry}
 
 % Set line spacing
-\renewcommand{\baselinestretch}{1.2}
+\renewcommand{\baselinestretch}{1.05}
 
 %\linespread{1.5}
 
@@ -99,8 +99,8 @@
 \newenvironment{SectionTable}[1]{
 	\renewcommand*{\arraystretch}{1.0}
 	\setlength{\tabcolsep}{10pt}
-	\begin{longtable}{Rp{5.7in}} 
-		\rule{2.5cm}{4pt} 
+	\begin{longtable}{Rp{5.5in}} 
+		\rule{2.3cm}{4pt} 
 		& \underline{#1} \\ % `R` 和 `p{5.2in}` 是两个列的格式
 	}
 	{
@@ -273,6 +273,13 @@ B.Mgmt. Major: Logistics Management
 	
 	Mar. 2022 & 2021 SPRING Fellowship Research Meeting, Tsukuba, Japan.
 	 \newline ``\textit{Riemannian Optimization and Its Applications}``. 
+\end{SectionTable}
+
+\begin{SectionTable}{\headingfont Softwares}
+	2022 & \textbf{RIPM}, a primal-dual interior point methods solver for nonlinear optimization problems on Riemannian manifolds. 
+	Code: \href{https://github.com/GALVINLAI/RIPM}{https://github.com/GALVINLAI/RIPM}  \\
+	2021 & \textbf{RieSmooth}, a general Riemannian smoothing solver for nonsmooth Riemannian optimization problems. 
+	Code: \href{https://github.com/GALVINLAI/RieSmooth}{https://github.com/GALVINLAI/RieSmooth} 
 \end{SectionTable}
 
 \begin{SectionTable}{\headingfont Grant and Fellowship}
