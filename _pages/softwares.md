@@ -27,10 +27,9 @@ Code & Instruction: [GitHub](https://github.com/GALVINLAI/General-Riemannian-Smo
 Reference: Zhijian Lai, Akiko Yoshise. Completely positive factorization by a Riemannian smoothing method. *Computational Optimization and Applications*. 83, 933–966 (2022). https://doi.org/10.1007/s10589-022-00417-4
 
 Examples of problems:
-
-1. Completely positive matrix factorization problem (CPfact)
-2. Finding the sparsest vector in a subspace (FSV)
-3. Robust low-rank matrix completion (RMC)
+    Completely positive matrix factorization problem (CPfact)
+    Finding the sparsest vector in a subspace (FSV)
+    Robust low-rank matrix completion (RMC)
 
 
 
