@@ -1,3 +1,11 @@
+---
+layout: archive
+title: " "
+permalink: /softwares/
+author_profile: true
+---
+
+
 # Solvers for Manifold Optimization
 
 Although [Manopt](https://www.manopt.org/tutorial.html) is already the most popular and widely used Riemannian manifold solver, it is not applicable to some cases involving non-smooth objective functions and additional constraints. Therefore, we have developed its extension to address these issues.
