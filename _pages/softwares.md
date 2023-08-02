@@ -8,9 +8,7 @@ author_profile: true
 
 # Solvers for Manifold Optimization
 
-Although [Manopt](https://www.manopt.org/tutorial.html) is already the most popular and widely used Riemannian manifold solver, it is not applicable to some cases involving non-smooth objective functions and additional constraints. Therefore, we have developed its extension to address these issues.
-
-
+Although [Manopt](https://www.manopt.org/tutorial.html) is already the most popular and widely used Riemannian manifold solver, it is not applicable to some cases involving nonsmooth cost functions and additional constraints. Therefore, we have developed its extension to address these issues.
 
 ## Nonsmooth Objective on Riemannian manifold： RieSmooth
 
@@ -26,12 +24,7 @@ Code & Instruction: [GitHub](https://github.com/GALVINLAI/General-Riemannian-Smo
 
 Reference: Zhijian Lai, Akiko Yoshise. Completely positive factorization by a Riemannian smoothing method. *Computational Optimization and Applications*. 83, 933–966 (2022). https://doi.org/10.1007/s10589-022-00417-4
 
-Examples of problems:
-    Completely positive matrix factorization problem (CPfact)
-    Finding the sparsest vector in a subspace (FSV)
-    Robust low-rank matrix completion (RMC)
-
-
+Examples of problems: Completely positive matrix factorization problem (CPfact); Finding the sparsest vector in a subspace (FSV); Robust low-rank matrix completion (RMC).
 
 ## Additional Constrains on Riemannian manifold： RIPM
 
