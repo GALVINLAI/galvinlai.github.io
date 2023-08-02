@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-## About Me
+# About Me
 
 
 Hi, here is **Zhjian Lai (Galvin, 赖志坚)**. 
