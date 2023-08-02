@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.13)  1 AUG 2023 18:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.13)  2 AUG 2023 16:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -373,24 +373,24 @@ LaTeX Info: Redefining \nameref on input line 131.
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: <default>
+* paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(54.2025pt, 505.89pt, 54.2025pt)
-* v-part:(T,H,B)=(36.135pt, 722.7pt, 36.135pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=505.89pt
-* \textheight=722.7pt
+* h-part:(L,W,R)=(54.2025pt, 489.10287pt, 54.2025pt)
+* v-part:(T,H,B)=(50.58878pt, 736.64186pt, 57.81621pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=489.10287pt
+* \textheight=736.64186pt
 * \oddsidemargin=-18.06749pt
 * \evensidemargin=-18.06749pt
-* \topmargin=-48.135pt
+* \topmargin=-33.68121pt
 * \headheight=12.0pt
 * \headsep=8.53581pt
 * \topskip=11.0pt
 * \footskip=8.53581pt
-* \marginparwidth=59.0pt
+* \marginparwidth=50.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.0pt plus 4.0pt minus 2.0pt
@@ -481,7 +481,7 @@ Package rerunfilecheck Info: File `CV_Lai_for_postdoc.out' has not changed.
 Here is how much of TeX's memory you used:
  10183 strings out of 478268
  156446 string characters out of 5850345
- 479106 words of memory out of 5000000
+ 486104 words of memory out of 5000000
  28264 multiletter control sequences out of 15000+600000
  482870 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -490,7 +490,7 @@ Here is how much of TeX's memory you used:
 f-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1
 /urw/times/utmr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on CV_Lai_for_postdoc.pdf (4 pages, 61444 bytes).
+Output written on CV_Lai_for_postdoc.pdf (4 pages, 59939 bytes).
 PDF statistics:
  72 PDF objects out of 1000 (max. 8388607)
  59 compressed objects within 1 object stream

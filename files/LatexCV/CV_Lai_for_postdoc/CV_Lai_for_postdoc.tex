@@ -2,7 +2,7 @@
 
 % --- Set document class and font size ---
 
-\documentclass[11pt]{article}
+\documentclass[a4paper,11pt]{article}
 
 % --- Package imports ---
 
@@ -11,10 +11,10 @@
 % --- Page layout settings ---
 
 % Set page margins
-\usepackage[left=0.75in, right=0.75in, bottom=.5in, top=0.5in, headsep=0in, footskip=.2in]{geometry}
+\usepackage[left=0.75in, right=0.75in, bottom=0.8in, top=0.7in, headsep=0in, footskip=.2in]{geometry}
 
 % Set line spacing
-\renewcommand{\baselinestretch}{1.05}
+\renewcommand{\baselinestretch}{1.0}
 
 %\linespread{1.5}
 
@@ -99,7 +99,7 @@
 \newenvironment{SectionTable}[1]{
 	\renewcommand*{\arraystretch}{1.0}
 	\setlength{\tabcolsep}{10pt}
-	\begin{longtable}{Rp{5.5in}} 
+	\begin{longtable}{Rp{5.2in}} 
 		\rule{2.3cm}{4pt} 
 		& \underline{#1} \\ % `R` 和 `p{5.2in}` 是两个列的格式
 	}
@@ -189,7 +189,7 @@ B.Mgmt. Major: Logistics Management
 
 % --- Section: Publications ---
 
-\begin{SectionTable}{\headingfont Publications} 
+\begin{SectionTable}{\headingfont Publications \& Reprints} 
 2022 & 
 \textbf{Zhijian Lai}, Akiko Yoshise. 
 ``Riemannian Interior Point Methods for Constrained Optimization on Manifolds''.
@@ -343,10 +343,10 @@ B.Mgmt. Major: Logistics Management
 	 \textbf{University of Tsukuba, University-High School Collaboration Project: Optimizing Issues in the Community.} \newline	
 	This project is supported by the Japan Science and Technology Agency. Its aim is to enable high school students to identify problems within their living environment and propose solutions using optimization models (e.g., MILP) and solvers (e.g., Xpress, Gurobi). \newline	
 	From 2019 to 2021, I served as a TA, during which time my responsibilities included guiding a group and overseeing the following topics: \newline
-	--  \textit{Developing a self-study schedule program to maximize efficiency}. (2021) \newline
-	--  \textit{Selecting evacuation shelters during disasters}. (2020) \newline 
-	--  \textit{Leveling out the number of people using the school cafeterias}. (2019) \newline
-	--  \textit{Ease congestion by determining stops on the Tobu Isezaki Line}. (2019) 
+	--  {Developing a self-study schedule program to maximize efficiency}. (2021) \newline
+	--  {Selecting evacuation shelters during disasters}. (2020) \newline 
+	--  {Leveling out the number of people using the school cafeterias}. (2019) \newline
+	--  {Ease congestion by determining stops on the Tobu Isezaki Line}. (2019) 
 \end{SectionTable}
 
 
@@ -406,15 +406,19 @@ Chinese (Native), English (Fluent), Japanese (Advanced): JLPT N1.
 	Provost, Faculty of Engineering, Information and Systems, University of Tsukuba \newline 
 	Phone: +81-29-853-5557, Email: yoshise@sk.tsukuba.ac.jp \\
 	
-	& 
-	\textbf{Prof. Ying Miao} \newline
-	Faculty of Engineering, Information and Systems, University of Tsukuba \newline 
-	Phone: ?, Email: miao@sk.tsukuba.ac.jp\\
+%	繁野先生
+%	佐藤先生
+%	劉先生
 	
-	& 
-	\textbf{Asst. Prof. Qian Wu} \newline
-	Faculty of Science and Engineering, Hosei University \newline 
-	Phone: +81-42-387-6205, Email: qian.wu.87@hosei.ac.jp \\
+%	& 
+%	\textbf{Prof. Ying Miao} \newline
+%	Faculty of Engineering, Information and Systems, University of Tsukuba \newline 
+%	Phone: ?, Email: miao@sk.tsukuba.ac.jp\\
+%	
+%	& 
+%	\textbf{Asst. Prof. Qian Wu} \newline
+%	Faculty of Science and Engineering, Hosei University \newline 
+%	Phone: +81-42-387-6205, Email: qian.wu.87@hosei.ac.jp \\
 \end{SectionTable}
 	
 % --- End of CV! ---
