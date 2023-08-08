@@ -46,5 +46,5 @@ August 20-25, 2023. I will give a talk [here](https://iciam2023.org/registered_d
 
 
 <center>
-<a href='https://clustrmaps.com/site/1bv2n'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=ffffff&w=a&t=tt&d=J6_1YGeLg-J7t5ToGOrm1lj_HeE4j7CR-SSuDJOBqso'/></a>
+<a href='https://clustrmaps.com/site/1bv2n'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=ffffff&w=350&t=tt&d=J6_1YGeLg-J7t5ToGOrm1lj_HeE4j7CR-SSuDJOBqso&co=2d78ad&ct=ffffff'/></a>
 </center>
