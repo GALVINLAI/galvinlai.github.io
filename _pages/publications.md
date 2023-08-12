@@ -10,7 +10,7 @@ author_profile: true
 
 1. <ins>Z. Lai</ins>, A. Yoshise.\
    **[Riemannian Interior Point Methods for Constrained Optimization on Manifolds.](https://arxiv.org/abs/2203.09762)**\
-   *arxiv.org/abs/2203.09762*, Mar. 2022.
+   *arxiv.org/abs/2203.09762*, Mar. 2022. (Under review)
 
 ## Journal Papers
 
