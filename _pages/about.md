@@ -33,9 +33,17 @@ My supervisor is [Prof. Akiko Yoshise](https://infoshako.sk.tsukuba.ac.jp/~yoshi
  - The 10th [International Congress on Industrial and Applied Mathematics (ICIAM)](https://iciam2023.org/). 
 	Waseda University, Tokyo, Japan, August 20-25, 2023. 
 	I will give a talk [here](https://iciam2023.org/registered_data?id=01064).
+	
+	ICIAM 2023 Tokyo is surprisingly large. The official website only provides a web version of the program for online browsing, in which the details of each session need to be opened one by one to view. For the convenience of globally searching program information in one go, I have created the PDF files containing all the information. This way, you can directly search for keywords within the PDF file.
+	
+	Please click below to download:
+	[Whole_Programs of Accepted Minisymposia](https://galvinlai.github.io/files/ICIAM2023_whole_program/whole_program_minisymposia.pdf)
+	[Whole_Programs of Accepted Contributed Talks](https://galvinlai.github.io/files/ICIAM2023_whole_program/whole_program_contributed_talks.pdf)
+
 
 ## News and Updates
 
+- **[2023.08]** I presented a [poster](https://galvinlai.github.io/talks/) at the "[Summer School on Continuous Optimization and Related Fields](https://www.ism.ac.jp/~mirai/sscoke/2023/)," which was held by the Institute of Statistical Mathematics in Tachikawa, Tokyo. 
 - **[2023.06]** Opened this website.
 
 ## Contact
