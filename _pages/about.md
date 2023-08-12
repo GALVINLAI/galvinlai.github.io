@@ -34,11 +34,12 @@ My supervisor is [Prof. Akiko Yoshise](https://infoshako.sk.tsukuba.ac.jp/~yoshi
 	Waseda University, Tokyo, Japan, August 20-25, 2023. 
 	I will give a talk [here](https://iciam2023.org/registered_data?id=01064).
 	
-	ICIAM 2023 Tokyo is surprisingly large. The official website only provides a web version of the program for online browsing, in which the details of each session need to be opened one by one to view. For the convenience of globally searching program information in one go, I have created the PDF files containing all the information. This way, you can directly search for keywords within the PDF file.
-	
-	Please click below to download:\
-	[Whole_Programs of Accepted Minisymposia](https://galvinlai.github.io/files/ICIAM2023_whole_program/whole_program_minisymposia.pdf)\
-	[Whole_Programs of Accepted Contributed Talks](https://galvinlai.github.io/files/ICIAM2023_whole_program/whole_program_contributed_talks.pdf)
+	ICIAM 2023 Tokyo is surprisingly large. The [official website](https://iciam2023.org/accepted_ms) only provides a web version of the program for online browsing, in which the details of each session need to be opened one by one to view.
+	For the convenience of globally searching program information in one go, I have created the PDF files containing all the information. This way, you can directly search for keywords within the PDF file.
+
+	Feel free to download the following files for your convenience:\
+	[Minisymposia Programs](https://galvinlai.github.io/files/ICIAM2023_whole_program/whole_program_minisymposia.pdf)\
+	[Contributed Talks Programs](https://galvinlai.github.io/files/ICIAM2023_whole_program/whole_program_contributed_talks.pdf)
 
 
 ## News and Updates
