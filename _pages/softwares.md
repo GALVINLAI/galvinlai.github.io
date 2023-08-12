@@ -13,11 +13,13 @@ Although [Manopt](https://www.manopt.org/tutorial.html) is already the most popu
 ## Nonsmooth Objective on Riemannian manifold： RieSmooth
 
 **RieSmooth** is a general Riemannian smoothing algorithm used to solve nonsmooth Riemannian optimization problems:
-```math
+
+$$
 \begin{equation*}
 \min _{x \in \mathcal{M}} f(x),
 \end{equation*}
-```
+$$
+
 where $\mathcal{M}$ is any available manifold in solver [Manopt](https://www.manopt.org/tutorial.html) and $f:\mathcal{M} \to \mathbb{R}$ is **nonsmooth**.
 
 Code & Instruction: [GitHub](https://github.com/GALVINLAI/General-Riemannian-Smoothing-Method)
@@ -31,14 +33,16 @@ Completely positive matrix factorization problem (CPfact); Finding the sparsest 
 ## Additional Constrains on Riemannian manifold： RIPM
 
 **Riemannian Interior Point Methods (RIPM)**  a primal-dual interior point methods solver for nonlinear optimization problems on Riemannian manifolds, which aims to minimize the cost function in the given problem structure with (in)equality constraints:
-```math
+
+$$
 \begin{equation*}
 \begin{array}{cl}
 \min _{x \in \mathcal{M}} & f(x) \\
 \text { s.t. } & h(x)=0, \text { and } g(x) \leqslant 0,
 \end{array}
 \end{equation*}
-```
+$$
+
 where $\mathcal{M}$ is any available manifold in solver [Manopt](https://www.manopt.org/tutorial.html) and and $f: \mathcal{M} \rightarrow \mathbb{R}, h: \mathcal{M} \rightarrow \mathbb{R}^l$, and $g: \mathcal{M} \rightarrow \mathbb{R}^m$ are smooth.
 
 Code & Instruction: [GitHub](https://github.com/GALVINLAI/RIPM)
