@@ -44,7 +44,7 @@ My supervisor is [Prof. Akiko Yoshise](https://infoshako.sk.tsukuba.ac.jp/~yoshi
 
 ## News and Updates
 
-- **[2023.08]** I presented a [poster](https://galvinlai.github.io/talks/) at the "[Summer School on Continuous Optimization and Related Fields](https://www.ism.ac.jp/~mirai/sscoke/2023/)," which was held by the Institute of Statistical Mathematics in Tachikawa, Tokyo. 
+- **[2023.08]** I presented a [poster](https://galvinlai.github.io/talks/) at the "[Summer School on Continuous Optimization and Related Fields](https://www.ism.ac.jp/~mirai/sscoke/2023/)," which was held by the Institute of Statistical Mathematics in Tachikawa, Tokyo. [[Photo]](https://galvinlai.github.io/images/2023-08-11-sscoke-group-photo-b.jpg)
 - **[2023.06]** Opened this website.
 
 ## Contact
