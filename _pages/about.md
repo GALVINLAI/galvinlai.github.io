@@ -30,21 +30,19 @@ My supervisor is [Prof. Akiko Yoshise](https://infoshako.sk.tsukuba.ac.jp/~yoshi
 
 <font color='red'>Currently, I will participate in the following events:</font> 
 
- - The 10th [International Congress on Industrial and Applied Mathematics (ICIAM)](https://iciam2023.org/). 
-	Waseda University, Tokyo, Japan, August 20-25, 2023. 
-	I will give a talk [here](https://iciam2023.org/registered_data?id=01064).
+ - [Japan OR Society Research Division: Theory and Algorithms of Optimization (RAOTA](https://orsj.org/raota/) ), 2nd Study Group, Sep. 20, 2023.
 	
-	ICIAM 2023 Tokyo is surprisingly large. The [official website](https://iciam2023.org/accepted_ms) only provides a web version of the program for online browsing, in which the details of each session need to be opened one by one to view.
-	For the convenience of globally searching program information in one go, I have created the PDF files containing all the information. This way, you can directly search for keywords within the PDF file.
-
-	Feel free to download the following files for your convenience:\
-	[Minisymposia Programs](https://galvinlai.github.io/files/ICIAM2023_whole_program/whole_program_minisymposia.pdf)\
-	[Contributed Talks Programs](https://galvinlai.github.io/files/ICIAM2023_whole_program/whole_program_contributed_talks.pdf)
+	Face-to-face venue: Room 1208, 12th floor, National Institute of Informatics (NII)
 
 
 ## News and Updates
 
+- **[2023.08]** I finished an oral presentation the 10th [International Congress on Industrial and Applied Mathematics (ICIAM)](https://iciam2023.org/) in Waseda University, Tokyo, Japan. [[Photo]](https://galvinlai.github.io/images/ICIAM2023.jpg)
+
+  Many thanks to [Prof. Hiroyuki Sato](https://sites.google.com/site/hiroyukisatoeng/home) for inviting and organizing this wonderful minisymposium [(Recent Advances on Manifold Optimization)](https://iciam2023.org/registered_data?id=01064).
+
 - **[2023.08]** I presented a [poster](https://galvinlai.github.io/talks/) at the "[Summer School on Continuous Optimization and Related Fields](https://www.ism.ac.jp/~mirai/sscoke/2023/)," which was held by the Institute of Statistical Mathematics in Tachikawa, Tokyo. [[Photo]](https://galvinlai.github.io/images/2023-08-11-sscoke-group-photo-b.jpg)
+
 - **[2023.06]** Opened this website.
 
 ## Contact
