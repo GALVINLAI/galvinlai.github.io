@@ -11,7 +11,7 @@ Oral Presentations at International Conference
 ------
 
 1. <ins>Z. Lai</ins>, A. Yoshise:\
-    **Riemannian Interior Point Methods for Constrained Optimization on Manifolds.**\
+    **[Riemannian Interior Point Methods for Constrained Optimization on Manifolds.](https://galvinlai.github.io/files/slides/2023_08_24_ICIAM2023.pdf)**\
     *[The 10th International Congress on Industrial and Applied Mathematics (ICIAM)](https://iciam2023.org/registered_data?id=01064)*\
     Waseda University, Tokyo, Japan, Aug. 2023.
 
