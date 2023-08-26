@@ -37,7 +37,7 @@ My supervisor is [Prof. Akiko Yoshise](https://infoshako.sk.tsukuba.ac.jp/~yoshi
 
 ## News and Updates
 
-- **[2023.08]** I finished an oral presentation the 10th [International Congress on Industrial and Applied Mathematics (ICIAM)](https://iciam2023.org/) in Waseda University, Tokyo, Japan. [[Photo]](https://galvinlai.github.io/images/ICIAM2023.jpg)
+- **[2023.08]** I finished an oral presentation in the 10th [International Congress on Industrial and Applied Mathematics (ICIAM)](https://iciam2023.org/) at Waseda University, Tokyo, Japan. [[Photo]](https://galvinlai.github.io/images/ICIAM2023.jpg)
 
   Many thanks to [Prof. Hiroyuki Sato](https://sites.google.com/site/hiroyukisatoeng/home) for inviting and organizing this wonderful minisymposium [(Recent Advances on Manifold Optimization)](https://iciam2023.org/registered_data?id=01064).
 
