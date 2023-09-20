@@ -17,7 +17,6 @@ Currently, I am a Ph.D. student at [Graduate School of Systems and Information E
 
 My supervisor is [Prof. Akiko Yoshise](https://infoshako.sk.tsukuba.ac.jp/~yoshise/). We are team PhilOpt )))). 
 
-<font color='red'>Right now I'm actively looking for a postdoctoral position.</font> 
 
 ## Research Interests
 
@@ -28,11 +27,7 @@ My supervisor is [Prof. Akiko Yoshise](https://infoshako.sk.tsukuba.ac.jp/~yoshi
 
 ## Agenda
 
-<font color='red'>Currently, I will participate in the following events:</font> 
-
- - [Japan OR Society Research Division: Theory and Algorithms of Optimization (RAOTA](https://orsj.org/raota/) ), 2nd Study Group, Sep. 20, 2023.
-	
-	Face-to-face venue: Room 1208, 12th floor, National Institute of Informatics (NII)
+ - 
 
 
 ## News and Updates
