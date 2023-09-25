@@ -1,3 +1,10 @@
 typora中，应手动设置：图片相对路径设置，如下
 
 ../images/${filename}.assets
+
+
+有一个bug，生成如下
+
+![graphviz](../images/note_dot_and_graphviz.assets/graphviz.png)
+
+![graphviz](/images/note_dot_and_graphviz.assets/graphviz.png) 才能最终实现网页这场显示

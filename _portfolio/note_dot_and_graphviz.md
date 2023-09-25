@@ -108,4 +108,4 @@ strict digraph {
 
 
 
-![graphviz](../images/note_dot_and_graphviz.assets/graphviz.png)
+![graphviz](/images/note_dot_and_graphviz.assets/graphviz.png)
