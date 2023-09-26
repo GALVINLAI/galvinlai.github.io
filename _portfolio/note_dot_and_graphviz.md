@@ -52,8 +52,9 @@ Graphviz 是一个非常强大的工具，支持节点和边的各种属性（�
 | [Edotor](https://edotor.net/)                                | 很多预加载例子                                               |
 | [Graphviz Online](https://dreampuf.github.io/GraphvizOnline/) | 暗色背景的代码编辑器                                         |
 | [Viz.js](https://viz-js.com/)                                | 支持更多的输出格式                                           |
+| [Cheatsheet](https://www.devtoolsdaily.com/cheatsheets/graphviz/) |                                                              |
 
-以下是一个示例，制作一篇thesis的各章节的关系图。可以使用上述任何在线工具编译。
+以下是一个示例，制作一篇thesis的各章节的z关系图。可以使用上述任何在线工具编译。
 
 ```dot
 /*******************************************************
