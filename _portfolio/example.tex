@@ -1,0 +1,92 @@
+\documentclass{article}
+\usepackage[x11names, svgnames, rgb]{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\usetikzlibrary{snakes,arrows,shapes}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{mathtools}
+\usepackage{amsthm}
+\usepackage{nameref}
+\usepackage{thmtools}
+\usepackage{xcolor}
+%
+
+%
+
+%
+
+\begin{document}
+\pagestyle{empty}
+%
+%
+%
+
+\enlargethispage{100cm}
+% Start of code
+% \begin{tikzpicture}[anchor=mid,>=latex',line join=bevel,]
+\begin{tikzpicture}[>=latex',line join=bevel,]
+  \pgfsetlinewidth{1bp}
+%%
+  \pgfsetcolor{black}
+  % Edge: A -> B
+  \draw [->] (47.464bp,216.05bp) .. controls (44.479bp,208.32bp) and (40.869bp,198.96bp)  .. (33.476bp,179.79bp);
+  % Edge: B -> C
+  \draw [->] (27.0bp,143.7bp) .. controls (27.0bp,136.41bp) and (27.0bp,127.73bp)  .. (27.0bp,108.1bp);
+  % Edge: C -> D
+  \draw [->] (33.536bp,72.055bp) .. controls (36.521bp,64.317bp) and (40.131bp,54.957bp)  .. (47.524bp,35.789bp);
+  % Edge: D -> A
+  \draw [->] (57.654bp,36.092bp) .. controls (59.676bp,46.431bp) and (61.981bp,59.91bp)  .. (63.0bp,72.0bp) .. controls (67.032bp,119.83bp) and (67.032bp,132.17bp)  .. (63.0bp,180.0bp) .. controls (62.323bp,188.03bp) and (61.079bp,196.67bp)  .. (57.654bp,215.91bp);
+  % Node: A
+\begin{scope}
+  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
+  \pgfsetstrokecolor{strokecol}
+  \draw (54.0bp,234.0bp) ellipse (40.0bp and 18.0bp);
+  \draw (54.0bp,234.0bp) node {$\min _{x \in \mathbb{R}}\left(x^2+1\right)$};
+\end{scope}
+  % Node: B
+\begin{scope}
+  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
+  \pgfsetstrokecolor{strokecol}
+  \draw (27.0bp,162.0bp) ellipse (27.0bp and 18.0bp);
+  \draw (27.0bp,162.0bp) node {$B$};
+\end{scope}
+  % Node: C
+\begin{scope}
+  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
+  \pgfsetstrokecolor{strokecol}
+  \draw (27.0bp,90.0bp) ellipse (27.0bp and 18.0bp);
+  \draw (27.0bp,90.0bp) node {$C$};
+\end{scope}
+  % Node: D
+\begin{scope}
+  \definecolor{strokecol}{rgb}{0.0,0.0,0.0};
+  \pgfsetstrokecolor{strokecol}
+  \draw (54.0bp,18.0bp) ellipse (27.0bp and 18.0bp);
+  \draw (54.0bp,18.0bp) node {$D$};
+\end{scope}
+%
+\end{tikzpicture}
+% End of code
+
+
+
+
+
+
+
+
+
+
+
+
+%
+\end{document}
+%
+
+
+
