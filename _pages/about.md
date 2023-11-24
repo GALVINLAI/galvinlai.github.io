@@ -17,6 +17,8 @@ Currently, I am a Ph.D. student at [Graduate School of Systems and Information E
 
 My supervisor is [Prof. Akiko Yoshise](https://infoshako.sk.tsukuba.ac.jp/~yoshise/). We are team PhilOpt )))). 
 
+**<span style="color:red">[New!]</span>** Starting in May 2024, I'll be joining [Zaiwen Wen](http://faculty.bicmr.pku.edu.cn/~wenzw/)'s group at [Peking University](https://www.pku.edu.cn/)'s [Beijing International Center for Mathematical Research (BICMR)](https://bicmr.pku.edu.cn/) as a postdoc.
+
 
 ## Research Interests
 
