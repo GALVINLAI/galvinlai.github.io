@@ -47,7 +47,10 @@ My supervisor is [Prof. Akiko Yoshise](https://infoshako.sk.tsukuba.ac.jp/~yoshi
 ## Contact
 
 
- - WeChat ID: EulerRiemann ![qr_code](/images/qr_code.jpg)
+ - WeChat ID: EulerRiemann 
+<center>
+![qr_code](/images/qr_code.jpg)
+</center>
 
  - E-mail: galvin.lai@outlook.com
 
