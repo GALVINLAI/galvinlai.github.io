@@ -46,9 +46,10 @@ My supervisor is [Prof. Akiko Yoshise](https://infoshako.sk.tsukuba.ac.jp/~yoshi
 
 ## Contact
 
- - E-mail: galvin.lai@outlook.com
- - WeChat ID: EulerRiemann
 
+ - WeChat ID: EulerRiemann ![qr_code](/images/qr_code.jpg)
+
+ - E-mail: galvin.lai@outlook.com
 
 <center>
 <a href='https://clustrmaps.com/site/1bv2n'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=ffffff&w=300&t=tt&d=J6_1YGeLg-J7t5ToGOrm1lj_HeE4j7CR-SSuDJOBqso'/></a>
