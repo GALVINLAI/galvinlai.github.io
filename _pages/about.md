@@ -29,10 +29,12 @@ My supervisor is [Prof. Akiko Yoshise](https://infoshako.sk.tsukuba.ac.jp/~yoshi
 
 ## Agenda
 
- - 
+ - From 2024.03.05 to 2024.04.10, I am a research visitor in [Beijing International Center for Mathematical Research (BICMR)](https://bicmr.pku.edu.cn/).
 
 
 ## News and Updates
+
+- **[2024.03.04]** My new paper has published in *Journal of Optimization Theory and Applications*. Please click here: [Riemannian Interior Point Methods for Constrained Optimization on Manifolds.]( https://doi.org/10.1007/s10957-024-02403-8)
 
 - **[2024.01.22]** Today, I finished the final defense [(slides)](https://galvinlai.github.io/files/slides/2024_01_22_PhD_FinalDefense.pdf) of my PhD. I am very thankful to Prof. Yoshise for her guidance over the past five years. I also appreciate the valuable suggestions that Prof. Sato provided for my thesis. [[Photo]](https://galvinlai.github.io/images/sato_yoshise_lai_2024-01-22.jpg)
 
