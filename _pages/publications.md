@@ -5,6 +5,12 @@ permalink: /publications/
 author_profile: true
 ---
 
+## PhD Thesis
+
+1. <ins>Z. Lai.</ins>\
+   **[Riemannian Optimization Algorithms for Applications and Their Theoretical Properties](https://galvinlai.github.io/files/doc/phd_thesis_2024.pdf)**\
+   (2024).
+
 ## Journal Papers
 
 1. <ins>Z. Lai</ins>, A. Yoshise.\
