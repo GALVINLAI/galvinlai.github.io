@@ -7,6 +7,17 @@ author_profile: true
 
 # Talks
 
+
+Other Talks
+------
+
+1. <ins>Z. Lai</ins>:\
+    **[A Tutorial on Riemannian Optimization](https://galvinlai.github.io/files/slides/2024_04_29_DFO_seminar_intro_RO.pdf)**\
+    *Derivative-Free Optimization Seminar held by [Liyuan Cao](https://liyuancao.github.io/)*\
+    Peking University, Peking, China, Apr. 2024.
+
+
+
 Oral Presentations at International Conference
 ------
 
