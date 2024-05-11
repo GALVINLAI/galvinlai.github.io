@@ -10,6 +10,9 @@ author_profile: true
 1. <ins>Z. Lai.</ins>\
    **[Riemannian Optimization Algorithms for Applications and Their Theoretical Properties](https://galvinlai.github.io/files/doc/phd_thesis_2024.pdf)**\
    (2024).
+2. <ins>Z. Lai.</ins>\
+   **[A New Method for Completely Positive Matrix Factorization](https://galvinlai.github.io/files/doc/master_thesis_2021.pdf)**\
+   (2024).
 
 ## Journal Papers
 
