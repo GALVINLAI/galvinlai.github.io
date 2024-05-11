@@ -12,7 +12,7 @@ author_profile: true
    (2024).
 2. <ins>Z. Lai.</ins>\
    **[A New Method for Completely Positive Matrix Factorization](https://galvinlai.github.io/files/doc/master_thesis_2021.pdf)**\
-   (2024).
+   (2021).
 
 ## Journal Papers
 
