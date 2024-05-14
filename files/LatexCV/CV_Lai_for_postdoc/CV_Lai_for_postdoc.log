@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.29)  14 MAY 2024 10:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.29)  14 MAY 2024 13:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -441,31 +441,26 @@ Package fancyhdr Warning: \footskip is too small (8.53581pt):
 (fancyhdr)                Make it at least 12.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-[3]
-
-Package fancyhdr Warning: \footskip is too small (8.53581pt): 
-(fancyhdr)                Make it at least 12.0pt, for example:
-(fancyhdr)                \setlength{\footskip}{12.0pt}.
-
-[4] (./CV_Lai_for_postdoc.aux)
+[3] (./CV_Lai_for_postdoc.aux)
 Package rerunfilecheck Info: File `CV_Lai_for_postdoc.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10261 strings out of 476025
- 158646 string characters out of 5794015
+ 10260 strings out of 476025
+ 158640 string characters out of 5794015
  1878382 words of memory out of 5000000
  30588 multiletter control sequences out of 15000+600000
  522939 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,76p,495b,558s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023
-/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/
-type1/urw/times/utmri8a.pfb>
-Output written on CV_Lai_for_postdoc.pdf (4 pages, 60195 bytes).
+<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/tex
+live/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-di
+st/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw
+/times/utmri8a.pfb>
+Output written on CV_Lai_for_postdoc.pdf (3 pages, 69272 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
- 21 named destinations out of 1000 (max. 500000)
+ 71 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
+ 20 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
