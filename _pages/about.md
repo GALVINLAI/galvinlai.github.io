@@ -14,7 +14,7 @@ redirect_from:
 Postdoc\
 [Beijing International Center for Mathematical Research (BICMR)](http://bicmr.pku.edu.cn/)\
 [Peking University](https://english.pku.edu.cn/)\
-Co-advisor: [Zaiwen Wen](http://faculty.bicmr.pku.edu.cn/~wenzw/) (文再文)\
+Co-advisor: [Zaiwen Wen](http://faculty.bicmr.pku.edu.cn/~wenzw/) (文再文)
 
 ## Contact
 
