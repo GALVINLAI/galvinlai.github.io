@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Zhijian Lai (頼志堅)" # on the top # 重要
+title                    : "Zhijian Lai (赖志坚)" # on the top # 重要
 title_separator          : "-"
 name                     : &name "ZHIJIAN LAI" # 重要 # 出现在最下方页脚
 description              : &description "personal description"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Zhijian Lai" # on the left side  # 重要
   avatar           : "myphoto.png" # your photo here! # 重要
-  bio              : "Ph.D. student at University of Tsukuba" # 重要
-  location         : "Ibaraki, Japan" # 重要
+  bio              : "Postdoc at Peking University" # 重要
+  location         : "Beijing, China" # 重要
   employer         :
   pubmed           :  # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=0OJnW0wAAAAJ&hl=en&oi=sra" # 重要
-  email            : "s2130117@s.tsukuba.ac.jp" # 重要
+  email            : "lai_zhijian@pku.edu.cn" # 重要
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
