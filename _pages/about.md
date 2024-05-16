@@ -44,11 +44,11 @@ Co-advisor: [Zaiwen Wen](http://faculty.bicmr.pku.edu.cn/~wenzw/) (文再文)
 
 ## Education
 
-- **Ph.D in Policy and Planning Sciences** (2024.3)
+- **Ph.D in Policy and Planning Sciences** (2024.3)\
   Graduate School of Systems and Information Engineering, University of Tsukuba, Japan
-- **M.S in Policy and Planning Sciences** (2021.3)
+- **M.S in Policy and Planning Sciences** (2021.3)\
   Graduate School of Systems and Information Engineering, University of Tsukuba, Japan
-- **B.Mgmt. in Logistics Management** (2017.6)
+- **B.Mgmt. in Logistics Management** (2017.6)\
   School of Business Administration, Dongbei University of Finance and Economics, China
 
 
