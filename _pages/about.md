@@ -51,6 +51,4 @@ Co-advisor: [Zaiwen Wen](http://faculty.bicmr.pku.edu.cn/~wenzw/) (文再文)
 - **B.Mgmt. in Logistics Management** (2017.6)
   School of Business Administration, Dongbei University of Finance and Economics, China
 
-<center>
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=J6_1YGeLg-J7t5ToGOrm1lj_HeE4j7CR-SSuDJOBqso&cl=ffffff&w=a"></script>
-</center>
+<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=J6_1YGeLg-J7t5ToGOrm1lj_HeE4j7CR-SSuDJOBqso"></script>
