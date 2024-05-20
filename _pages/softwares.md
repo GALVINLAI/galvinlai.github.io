@@ -48,4 +48,4 @@ where $\mathcal{M}$ is any available manifold in solver [Manopt](https://www.man
 Code & Instruction: [GitHub](https://github.com/GALVINLAI/RIPM)
 
 Reference:\
-Zhijian Lai, Akiko Yoshise. Riemannian Interior Point Methods for Constrained Optimization on Manifolds. *https://arxiv.org/abs/2203.09762*. (Under review)
+Zhijian Lai, Akiko Yoshise. Riemannian Interior Point Methods for Constrained Optimization on Manifolds. *Journal of Optimization Theory and Applications*. 201, 433–469, (2024)
