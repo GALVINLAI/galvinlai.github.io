@@ -15,6 +15,14 @@ Other Talks
     **[A Tutorial on Riemannian Optimization](https://galvinlai.github.io/files/slides/2024_04_29_DFO_seminar_intro_RO.pdf)**\
     *Derivative-Free Optimization Seminar held by [Liyuan Cao](https://liyuancao.github.io/)*\
     Peking University, Peking, China, Apr. 2024.
+2. <ins>Z. Lai</ins>:\
+    **[Riemannian Interior Point Methods for Constrained Optimization on Manifolds](https://galvinlai.github.io/files/slides/2024_06_06_SUEP_CAS.pdf)**\
+    *Seminar held by [Xiaojing Zhu (竺筱晶)](https://slxy.shiep.edu.cn/8d/b6/c3280a232886/page.htm)*\
+    Shanghai University of Electric Power, online, June 5. 2024.
+3. <ins>Z. Lai</ins>:\
+    **[Riemannian Interior Point Methods for Constrained Optimization on Manifolds](https://galvinlai.github.io/files/slides/2024_06_06_SUEP_CAS.pdf)**\
+    *Seminar held by Li Zhang (章丽)*\
+    Institute of Computational Mathematics and Sclentific/Engineening Compuing, Academy of Mathematics and Systems Science, CAS, June 6. 2024.
 
 
 
