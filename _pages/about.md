@@ -33,6 +33,7 @@ Co-advisor: [Zaiwen Wen](http://faculty.bicmr.pku.edu.cn/~wenzw/) (文再文)
 
 ## News and Updates
 
+- **[2024.08.04]** Riemannian Interior Point Methods has published by using Manopt.jl in Julia, with the [documentation](https://manoptjl.org/stable/solvers/interior_point_Newton/).
 - **[2024.05.14]** Today, I start my postdoctoral life in Peking University. [[Photo]](https://galvinlai.github.io/images/weiming_lake_20240516092531.jpg)
 - **[2024.03.25]** Today, I obtained my Ph.D. certificate and graduated from [Graduate School of Systems and Information Engineering](https://www.sie.tsukuba.ac.jp/eng/), [University of Tsukuba](https://www.tsukuba.ac.jp/en/). Many thanks to my supervisor [Prof. Akiko Yoshise](https://infoshako.sk.tsukuba.ac.jp/~yoshise/).
 - **[From 2024.03.05 to 2024.05.13]** I am a research visitor in [Beijing International Center for Mathematical Research (BICMR)](https://bicmr.pku.edu.cn/), Peking University.
