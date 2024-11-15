@@ -5,9 +5,12 @@ permalink: /publications/
 author_profile: true
 ---
 
-## Journal Papers
+## Papers
 
-1. <ins>Z. Lai,</ins> A. Yoshise.\
+1.  Xin Yang, Heng Chang, <ins>Zhijian Lai</ins>, Jinze Yang, Xingrun Li, Yu Lu, Shuaiqiang Wang, Dawei Yin, Erxue Min.\
+   **[Hyperbolic Contrastive Learning for Cross-Domain Recommendation](https://dl.acm.org/doi/abs/10.1145/3627673.3679572)**\
+   CIKM '24: Proceedings of the 33rd ACM International Conference on Information and Knowledge Management, 21 October 2024.
+2. <ins>Z. Lai,</ins> A. Yoshise.\
    **[Riemannian Interior Point Methods for Constrained Optimization on Manifolds](https://link.springer.com/article/10.1007/s10957-024-02403-8)**\
    *J Optim Theory Appl* **201**, 433–469 (2024).
 2. <ins>Z. Lai,</ins> A. Yoshise.\
