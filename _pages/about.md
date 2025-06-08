@@ -25,11 +25,20 @@ Advisor: [Zaiwen Wen](http://faculty.bicmr.pku.edu.cn/~wenzw/) (文再文)
 
 - Riemannian Optimization, Riemannian Interior Point Method
 - Quantum Computation and Optimization, Quantum Approximation Optimization Algorithms
-- Deep Learning
+
+## 北京大学 高数讲义
+
+:top: [**北京大学《高等数学》 (B) (一) 2024 年秋学期 全部内容-合订版 1-6章-最新整合版 (2025年6月8日)**](https://gitee.com/galvin-lai/Advanced-Mathematics-Class-B-07/raw/master/AM-B-1-PKU-ALL.pdf)
+
+课程主页: https://gitee.com/galvin-lai/Advanced-Mathematics-Class-B-07
+
+:top: [**北京大学《高等数学》 (B) (二) 2025 年春学期 全部内容-合订版 7-12章-最新整合版 (2025年6月8日)**](https://gitee.com/galvin-lai/Advanced-Mathematics-Class-B2-07/raw/master/AM-B-2-PKU-ALL.pdf) 
+
+课程主页: https://gitee.com/galvin-lai/Advanced-Mathematics-Class-B2-07
 
 ## Agenda
 
- - 
+ - None.
 
 ## News and Updates
 
