@@ -15,8 +15,8 @@ Postdoc\
 [Beijing International Center for Mathematical Research (BICMR)](http://bicmr.pku.edu.cn/)\
 [Peking University](https://english.pku.edu.cn/)\
 Advisor: [Zaiwen Wen](http://faculty.bicmr.pku.edu.cn/~wenzw/) (文再文)\
-WeChat ID: EulerRiemann [[QR code]](https://galvinlai.github.io/images/qr_code_300.jpg)、
-E-mail:  lai_zhijian at pku dot edu dot cn
+WeChat ID: EulerRiemann [[QR code]](https://galvinlai.github.io/images/qr_code_300.jpg)\
+E-mail:  lai_zhijian at pku dot edu dot cn\
 Research Interests: Riemannian Optimization, Quantum Computation and Optimization, VQA
 
 ## 北京大学 高数讲义
