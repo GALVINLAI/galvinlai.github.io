@@ -19,13 +19,13 @@ WeChat ID: EulerRiemann [[QR code]](https://galvinlai.github.io/images/qr_code_3
 E-mail:  lai_zhijian at pku dot edu dot cn\
 Research Interests: Riemannian Optimization, Quantum Computation and Optimization, VQA
 
-## 北京大学 高数讲义
+## 北京大学 24-25学年 高数B 讲义 (2025年6月8日汇总)
 
-[北京大学《高等数学》 (B) (一) 2024 年秋学期 全部内容-合订版 1-6章-最新整合版 (2025年6月8日)](https://gitee.com/galvin-lai/Advanced-Mathematics-Class-B-07/raw/master/AM-B-1-PKU-ALL.pdf)
+[北京大学《高等数学》 (B) (一) 2024 年秋学期 全部内容-合订版 1-6章-最新整合版](https://gitee.com/galvin-lai/Advanced-Mathematics-Class-B-07/raw/master/AM-B-1-PKU-ALL.pdf)
 
 课程主页: https://gitee.com/galvin-lai/Advanced-Mathematics-Class-B-07
 
-[北京大学《高等数学》 (B) (二) 2025 年春学期 全部内容-合订版 7-12章-最新整合版 (2025年6月8日)](https://gitee.com/galvin-lai/Advanced-Mathematics-Class-B2-07/raw/master/AM-B-2-PKU-ALL.pdf) 
+[北京大学《高等数学》 (B) (二) 2025 年春学期 全部内容-合订版 7-12章-最新整合版](https://gitee.com/galvin-lai/Advanced-Mathematics-Class-B2-07/raw/master/AM-B-2-PKU-ALL.pdf) 
 
 课程主页: https://gitee.com/galvin-lai/Advanced-Mathematics-Class-B2-07
 
