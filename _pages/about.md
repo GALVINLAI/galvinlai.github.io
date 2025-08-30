@@ -46,7 +46,7 @@ Postdoc / 博士后
   完成博士论文答辩，感谢吉濑章子教授五年来的指导，以及佐藤教授对论文的宝贵建议。  
 
 - **[2023.08]** I finished an oral presentation in the 10th [International Congress on Industrial and Applied Mathematics (ICIAM)](https://iciam2023.org/) at Waseda University, Tokyo, Japan. [[Photo]](https://galvinlai.github.io/images/ICIAM2023.jpg) Many thanks to [Prof. Hiroyuki Sato](https://sites.google.com/site/hiroyukisatoeng/home) for inviting and organizing this wonderful minisymposium [(Recent Advances on Manifold Optimization)](https://iciam2023.org/registered_data?id=01064).  
-  在东京早稻田大学召开的第十届 ICIAM 大会上作口头报告，感谢佐藤博之教授的邀请与组织。  
+  在东京早稻田大学召开的第十届 ICIAM 大会上作口头报告，感谢佐藤寛之教授的邀请与组织。  
 
 - **[2023.08]** I presented a [poster](https://galvinlai.github.io/talks/) at the "[Summer School on Continuous Optimization and Related Fields](https://www.ism.ac.jp/~mirai/sscoke/2023/)," which was held by the Institute of Statistical Mathematics in Tachikawa, Tokyo. [[Photo]](https://galvinlai.github.io/images/2023-08-11-sscoke-group-photo-b.jpg)  
   在日本立川市统计数学研究所暑期学校展示学术海报。  
