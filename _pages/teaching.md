@@ -9,6 +9,15 @@ redirect_from:
 
 # Teaching
 
+## PKU Advanced Mathematics (Class B) 2024–2025 (Collected, June 8, 2025)
+北京大学 24-25 学年 高数B 讲义 (2025年6月8日汇总)
+
+- 📘 [北京大学《高等数学》 (B) (一) 2024年秋学期 · 全部内容合订版 (1–6章)](https://gitee.com/galvin-lai/Advanced-Mathematics-Class-B-07/raw/master/AM-B-1-PKU-ALL.pdf)  
+  课程主页 / Course Homepage: [AM-B-1](https://gitee.com/galvin-lai/Advanced-Mathematics-Class-B-07)  
+
+- 📘 [北京大学《高等数学》 (B) (二) 2025年春学期 · 全部内容合订版 (7–12章)](https://gitee.com/galvin-lai/Advanced-Mathematics-Class-B2-07/raw/master/AM-B-2-PKU-ALL.pdf)  
+  课程主页 / Course Homepage: [AM-B-2](https://gitee.com/galvin-lai/Advanced-Mathematics-Class-B2-07)  
+
 ## Teaching Assistant, College of Policy and Planning Sciences, University of Tsukuba
 
 I will be a teaching assistant for:
