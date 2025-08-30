@@ -23,23 +23,24 @@ Postdoc / 博士后
 
 ## News and Updates / 新闻与动态
 
-- **[2025.08.27]** 获批NSFC青年科学基金项目（C类） [原青年科学基金项目]  
-  ✅ Granted Youth Science Fund Project (Category C)  
+- **[2025.08.27]** 获批 NSFC 青年科学基金项目（C类） [原青年科学基金项目]  
+  ✅ Granted the NSFC Young Scientists Fund (Category C)  
 
-- **[2024.08.04]** Riemannian Interior Point Methods has published by using Manopt.jl in Julia, with the [documentation](https://manoptjl.org/stable/solvers/interior_point_Newton/).  
-  发表 *黎曼内点法*，基于 Julia 的 Manopt.jl 实现，并提供文档。  
+- **[2024.08.04]** *Riemannian Interior Point Methods* has been implemented in Julia using **Manopt.jl**, with the accompanying [documentation](https://manoptjl.org/stable/solvers/interior_point_Newton/).  
+  已在 Julia 的 **Manopt.jl** 中实现 *黎曼内点法*，并提供了[相关文档](https://manoptjl.org/stable/solvers/interior_point_Newton/)。
+
 
 - **[2024.05.14]** Today, I start my postdoctoral life in Peking University. [[Photo]](https://galvinlai.github.io/images/weiming_lake_20240516092531.jpg)  
   今天正式入职北京大学，开启博士后生活。  
 
 - **[2024.03.25]** Today, I obtained my Ph.D. certificate and graduated from [Graduate School of Systems and Information Engineering](https://www.sie.tsukuba.ac.jp/eng/), [University of Tsukuba](https://www.tsukuba.ac.jp/en/). Many thanks to my supervisor [Prof. Akiko Yoshise](https://infoshako.sk.tsukuba.ac.jp/~yoshise/).  
-  获得日本筑波大学博士学位，衷心感谢导师吉濑章子教授的指导。  
+  获得日本筑波大学博士学位，衷心感谢我的博士导师吉濑章子教授的指导。  
 
 - **[From 2024.03.05 to 2024.05.13]** I am a research visitor in [Beijing International Center for Mathematical Research (BICMR)](https://bicmr.pku.edu.cn/), Peking University.  
   作为访问学者在北京大学数学研究中心进行合作研究。  
 
 - **[2024.03.04]** My new paper has published in *Journal of Optimization Theory and Applications*. Please click here: [Riemannian Interior Point Methods for Constrained Optimization on Manifolds.](https://doi.org/10.1007/s10957-024-02403-8)  
-  新论文发表于 *Journal of Optimization Theory and Applications*，题为《黎曼流形上的约束优化内点法》。  
+  新论文发表于 *Journal of Optimization Theory and Applications*，题为《黎曼流形上的有约束优化的内点法》。  
 
 - **[2024.01.22]** Today, I finished the final defense [(slides)](https://galvinlai.github.io/files/slides/2024_01_22_PhD_FinalDefense.pdf) of my PhD. I am very thankful to Prof. Yoshise for her guidance over the past five years. I also appreciate the valuable suggestions that Prof. Sato provided for my thesis. [[Photo]](https://galvinlai.github.io/images/sato_yoshise_lai_2024-01-22.jpg)  
   完成博士论文答辩，感谢吉濑章子教授五年来的指导，以及佐藤教授对论文的宝贵建议。  
@@ -58,10 +59,12 @@ Postdoc / 博士后
 ## Education / 教育背景
 
 - **Ph.D in Policy and Planning Sciences** (2024.3)  
-  Graduate School of Systems and Information Engineering, University of Tsukuba, Japan   
+  Graduate School of Systems and Information Engineering, University of Tsukuba, Japan.  
+  Supervisor [Prof. Akiko Yoshise](https://infoshako.sk.tsukuba.ac.jp/~yoshise/)   
 
 - **M.S in Policy and Planning Sciences** (2021.3)  
   Graduate School of Systems and Information Engineering, University of Tsukuba, Japan  
+  Supervisor [Prof. Akiko Yoshise](https://infoshako.sk.tsukuba.ac.jp/~yoshise/)
 
 - **B.Mgmt. in Logistics Management** (2017.6)  
   School of Business Administration, Dongbei University of Finance and Economics, China  
