@@ -31,9 +31,11 @@ Research Interests: Riemannian Optimization, Quantum Computation and Optimizatio
 
 ## Agenda
 
- - None.
+ - 
 
 ## News and Updates
+
+- **[2025.08.27]** 获批青年科学基金项目（C类）[原青年科学基金项目] 
 
 - **[2024.08.04]** Riemannian Interior Point Methods has published by using Manopt.jl in Julia, with the [documentation](https://manoptjl.org/stable/solvers/interior_point_Newton/).
 - **[2024.05.14]** Today, I start my postdoctoral life in Peking University. [[Photo]](https://galvinlai.github.io/images/weiming_lake_20240516092531.jpg)
