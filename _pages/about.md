@@ -26,8 +26,8 @@ Postdoc / 博士后
 - **[2025.08.27]** 获批 NSFC 青年科学基金项目（C类） [原青年科学基金项目]  
   ✅ Granted the NSFC Young Scientists Fund (Category C)  
 
-- **[2024.08.04]** *Riemannian Interior Point Methods* has been implemented in Julia using **Manopt.jl**, with the accompanying [documentation](https://manoptjl.org/stable/solvers/interior_point_Newton/).  
-  已在 Julia 的 **Manopt.jl** 中实现 *黎曼内点法*，并提供了[相关文档](https://manoptjl.org/stable/solvers/interior_point_Newton/)。
+- **[2024.08.04]** Riemannian Interior Point Methods has been implemented in Julia using **Manopt.jl**, with the accompanying [documentation](https://manoptjl.org/stable/solvers/interior_point_Newton/).  
+  已在 Julia 的 **Manopt.jl** 中实现黎曼内点法，并提供了[相关文档](https://manoptjl.org/stable/solvers/interior_point_Newton/)。
 
 
 - **[2024.05.14]** Today, I start my postdoctoral life in Peking University. [[Photo]](https://galvinlai.github.io/images/weiming_lake_20240516092531.jpg)  
@@ -43,7 +43,7 @@ Postdoc / 博士后
   新论文发表于 *Journal of Optimization Theory and Applications*，题为《黎曼流形上的有约束优化的内点法》。  
 
 - **[2024.01.22]** Today, I finished the final defense [(slides)](https://galvinlai.github.io/files/slides/2024_01_22_PhD_FinalDefense.pdf) of my PhD. I am very thankful to Prof. Yoshise for her guidance over the past five years. I also appreciate the valuable suggestions that Prof. Sato provided for my thesis. [[Photo]](https://galvinlai.github.io/images/sato_yoshise_lai_2024-01-22.jpg)  
-  完成博士论文答辩，感谢吉濑章子教授五年来的指导，以及佐藤教授对论文的宝贵建议。  
+  完成博士论文答辩，感谢吉濑章子教授五年来的指导，以及佐藤寛之教授对论文的宝贵建议。  
 
 - **[2023.08]** I finished an oral presentation in the 10th [International Congress on Industrial and Applied Mathematics (ICIAM)](https://iciam2023.org/) at Waseda University, Tokyo, Japan. [[Photo]](https://galvinlai.github.io/images/ICIAM2023.jpg) Many thanks to [Prof. Hiroyuki Sato](https://sites.google.com/site/hiroyukisatoeng/home) for inviting and organizing this wonderful minisymposium [(Recent Advances on Manifold Optimization)](https://iciam2023.org/registered_data?id=01064).  
   在东京早稻田大学召开的第十届 ICIAM 大会上作口头报告，感谢佐藤寛之教授的邀请与组织。  
