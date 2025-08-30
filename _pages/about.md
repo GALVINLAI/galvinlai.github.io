@@ -58,16 +58,13 @@ Postdoc / 博士后
 ## Education / 教育背景
 
 - **Ph.D in Policy and Planning Sciences** (2024.3)  
-  Graduate School of Systems and Information Engineering, University of Tsukuba, Japan  
-  日本筑波大学 系统与信息工程研究科，政策与规划科学专业 博士  
+  Graduate School of Systems and Information Engineering, University of Tsukuba, Japan   
 
 - **M.S in Policy and Planning Sciences** (2021.3)  
   Graduate School of Systems and Information Engineering, University of Tsukuba, Japan  
-  日本筑波大学 系统与信息工程研究科，政策与规划科学专业 硕士  
 
 - **B.Mgmt. in Logistics Management** (2017.6)  
   School of Business Administration, Dongbei University of Finance and Economics, China  
-  中国东北财经大学 工商管理学院 物流管理学士  
 
 ---
 
