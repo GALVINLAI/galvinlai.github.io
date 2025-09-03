@@ -19,10 +19,8 @@ Postdoc / 博士后
 **E-mail / 邮箱**: lai_zhijian at pku dot edu dot cn  
 **Research Interests / 研究方向**: Riemannian Optimization · Quantum Computation and Optimization · VQA  
 
----
 
-## News and Updates / 新闻与动态
-
+# News and Updates / 新闻与动态
 
 - **[2025.08.27]** ✅ Granted the NSFC Young Scientists Fund (Category C) \
 Project name: Manifold Optimization Theory and Algorithms in Quantum Information Science\
@@ -80,17 +78,15 @@ I presented a [poster](https://galvinlai.github.io/talks/) at the [Summer School
 - **[2023.06]** Opened this website. \
   建立个人主页. 
 
----
-
-## Education / 教育背景
+# Education / 教育背景
 
 - **Ph.D in Policy and Planning Sciences** (2024.3)  
   Graduate School of Systems and Information Engineering, University of Tsukuba, Japan. 
-  Supervisor[Prof. Akiko Yoshise](https://infoshako.sk.tsukuba.ac.jp/~yoshise/)   
+  Supervisor [Prof. Akiko Yoshise](https://infoshako.sk.tsukuba.ac.jp/~yoshise/)   
 
 - **M.S in Policy and Planning Sciences** (2021.3)  
   Graduate School of Systems and Information Engineering, University of Tsukuba, Japan  
-  Supervisor[Prof. Akiko Yoshise](https://infoshako.sk.tsukuba.ac.jp/~yoshise/)
+  Supervisor [Prof. Akiko Yoshise](https://infoshako.sk.tsukuba.ac.jp/~yoshise/)
 
 - **B.Mgmt. in Logistics Management** (2017.6)  
   School of Business Administration, Dongbei University of Finance and Economics, China  
