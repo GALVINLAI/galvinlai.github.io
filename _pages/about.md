@@ -12,7 +12,8 @@ redirect_from:
 
 **Zhjian Lai (赖志坚)**  
 Postdoc / 博士后  
-[Beijing International Center for Mathematical Research (BICMR)](http://bicmr.pku.edu.cn/) ·[Peking University](https://english.pku.edu.cn/) / 北京大学, 北京国际数学研究研究中心
+[Beijing International Center for Mathematical Research (BICMR)](http://bicmr.pku.edu.cn/) ·[Peking University](https://english.pku.edu.cn/)  \
+北京大学, 北京国际数学研究研究中心
 
 **Advisor / 导师**: [Zaiwen Wen](http://faculty.bicmr.pku.edu.cn/~wenzw/) (文再文)  
 **WeChat ID / 微信**: EulerRiemann [[QR code / 二维码]](https://galvinlai.github.io/images/qr_code_300.jpg)  
