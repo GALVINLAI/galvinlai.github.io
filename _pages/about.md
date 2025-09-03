@@ -37,9 +37,9 @@ Project name: Manifold Optimization Theory and Algorithms in Quantum Information
 It's been one year since I started my postdoc at PKU. During this time, I also taught *Calculus B* for two semesters. The first round of prep took a ton of effort — I ended up putting together over a thousand pages of lecture notes (only Chinese) that can basically be used as a self-study textbook. I'd be really happy if more people could see them and make use of them. \
 来 PKU 做博后正好一年, 这一年兼任了两个学期《高数 B》的教学. 第一次备课花了大量精力, 整理共千页的讲义 (仅中文), 完全可以用于自学. 如果有更多人能看到, 用到, 就很开心了.
 
-  - 📘[北京大学《高等数学》 (B) (一) 2024年秋学期 · 全部内容合订版 (1–6章)](https://gitee.com/galvin-lai/Advanced-Mathematics-Class-B-07/raw/master/AM-B-1-PKU-ALL.pdf) 课程主页[AM-B-1](https://gitee.com/galvin-lai/Advanced-Mathematics-Class-B-07)  
+  - 📘[北京大学《高等数学》 (B) (一) 2024年秋学期 · 全部内容合订版 (1–6章)](https://gitee.com/galvin-lai/Advanced-Mathematics-Class-B-07/raw/master/AM-B-1-PKU-ALL.pdf), [课程主页](https://gitee.com/galvin-lai/Advanced-Mathematics-Class-B-07)  
 
-  - 📘[北京大学《高等数学》 (B) (二) 2025年春学期 · 全部内容合订版 (7–12章)](https://gitee.com/galvin-lai/Advanced-Mathematics-Class-B2-07/raw/master/AM-B-2-PKU-ALL.pdf) 课程主页[AM-B-2](https://gitee.com/galvin-lai/Advanced-Mathematics-Class-B2-07)  
+  - 📘[北京大学《高等数学》 (B) (二) 2025年春学期 · 全部内容合订版 (7–12章)](https://gitee.com/galvin-lai/Advanced-Mathematics-Class-B2-07/raw/master/AM-B-2-PKU-ALL.pdf), [课程主页](https://gitee.com/galvin-lai/Advanced-Mathematics-Class-B2-07)  
 
 - **[2025.03.06]** 📄 New preprint~ \
 **Zhijian Lai**, Jiang Hu, Taehee Ko, Jiayuan Wu, Dong An (2025). Optimal Interpolation-based Coordinate Descent Method for Parameterized Quantum Circuits. [arXiv: 2503.04620](https://arxiv.org/abs/2503.04620). \
