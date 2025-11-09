@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-My complete CV is [here](https://galvinlai.github.io/files/LatexCV/CV_Lai_for_postdoc/CV_Lai_for_postdoc.pdf).
+My complete CV is [here](https://galvinlai.github.io/files/LatexCV/2026_CV_faculty_20251109.pdf).
 
 <!---(https://galvinlai.github.io/files/LatexCV/CV_Lai_for_postdoc/CV_Lai_for_postdoc.pdf)
 -->
