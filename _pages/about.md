@@ -27,7 +27,7 @@ Chenyi Li, **Zhijian Lai**, Dong An, Jiang Hu, Zaiwen Wen (2025). Advancing Math
 在arXiv上传了一篇探索如何使用 AI 辅助数学研究的新工作. [arXiv: 2512.09443](https://arxiv.org/abs/2512.09443).
 
 - **[2025.12.9]** 📄 New preprint~ \
-**Zhijian Lai**, Dong An, Jiang Hu, Zaiwen Wen (2025). A Grover-compatible manifold optimization algorithm for quantum search. [arXiv: 2508.08802](https://arxiv.org/abs/2512.08432). \
+**Zhijian Lai**, Dong An, Jiang Hu, Zaiwen Wen (2025). A Grover-compatible manifold optimization algorithm for quantum search. [arXiv: 2512.08432](https://arxiv.org/abs/2512.08432). \
 在arXiv上传了一篇用流形优化理论解读量子搜索算法的新工作. [arXiv: 2512.08432](https://arxiv.org/abs/2512.08432).
 
 - **[2025.08.27]** ✅ Granted the NSFC Young Scientists Fund (Category C) \
