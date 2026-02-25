@@ -17,18 +17,22 @@ Postdoc / 博士后
 **Postdoc Advisor / 导师**: [Zaiwen Wen](http://faculty.bicmr.pku.edu.cn/~wenzw/) (文再文)  
 **WeChat ID / 微信**: EulerRiemann [[QR code / 二维码]](https://galvinlai.github.io/images/qr_code_300.jpg)  
 **E-mail / 邮箱**: lai_zhijian at pku dot edu dot cn  
-**Research Interests / 研究方向**: Riemannian Optimization · Quantum Computation and Optimization · VQA  
+**Research Interests / 研究方向**: Riemannian Optimization · Quantum Computation and Optimization
 
 
 # News and Updates / 新闻与动态
 
+- **[2026.02.25]** 📄 New preprint~ \
+**Zhijian Lai**, Hantao Nie, Jiayuan Wu, Dong An (2026). Quantum circuit design from a retraction-based Riemannian optimization framework. [arXiv: 2602.20605](https://arxiv.org/abs/2602.20605) \
+我们在arXiv上传了一篇关于量子电路设计的新工作：基于回缩黎曼优化框架的量子电路设计算法
+
 - **[2025.12.11]** 📄 New preprint~ \
-Chenyi Li, **Zhijian Lai**, Dong An, Jiang Hu, Zaiwen Wen (2025). Advancing Mathematical Research via Human-AI Interactive Theorem Proving. [arXiv: 2512.09443](https://arxiv.org/abs/2512.09443). \
-在arXiv上传了一篇探索如何使用 AI 辅助数学研究的新工作. [arXiv: 2512.09443](https://arxiv.org/abs/2512.09443).
+Chenyi Li, **Zhijian Lai**, Dong An, Jiang Hu, Zaiwen Wen (2025). Advancing Mathematical Research via Human-AI Interactive Theorem Proving. [arXiv: 2512.09443](https://arxiv.org/abs/2512.09443) \
+我们在arXiv上传了一篇探索如何使用 AI 辅助数学研究的新工作.
 
 - **[2025.12.9]** 📄 New preprint~ \
-**Zhijian Lai**, Dong An, Jiang Hu, Zaiwen Wen (2025). A Grover-compatible manifold optimization algorithm for quantum search. [arXiv: 2512.08432](https://arxiv.org/abs/2512.08432). \
-在arXiv上传了一篇用流形优化理论解读量子搜索算法的新工作. [arXiv: 2512.08432](https://arxiv.org/abs/2512.08432).
+**Zhijian Lai**, Dong An, Jiang Hu, Zaiwen Wen (2025). A Grover-compatible manifold optimization algorithm for quantum search. [arXiv: 2512.08432](https://arxiv.org/abs/2512.08432) \
+我们在arXiv上传了一篇用流形优化理论解读量子搜索算法的新工作.
 
 - **[2025.08.27]** ✅ Granted the NSFC Young Scientists Fund (Category C) \
 Project name: Manifold Optimization Theory and Algorithms in Quantum Information Science\
@@ -36,8 +40,11 @@ Project name: Manifold Optimization Theory and Algorithms in Quantum Information
 项目名称: 量子信息科学中的流形优化理论与算法研究
 
 - **[2025.08.12]** 📄 New preprint~ \
-**Zhijian Lai**, Jiang Hu, Dong An, Zaiwen Wen (2025). Extended Parameter Shift Rules with Minimal Derivative Variance for Parameterized Quantum Circuits. [arXiv: 2508.08802](https://arxiv.org/abs/2508.08802). \
-在arXiv上传了一篇关于参数化量子电路梯度计算的新工作. [arXiv: 2508.08802](https://arxiv.org/abs/2508.08802).
+**Zhijian Lai**, Jiang Hu, Dong An, Zaiwen Wen (2025). Extended Parameter Shift Rules with Minimal Derivative Variance for Parameterized Quantum Circuits. [arXiv: 2508.08802](https://arxiv.org/abs/2508.08802) \
+我们在arXiv上传了一篇关于参数化量子电路梯度计算的新工作.
+
+  > Published at [Physical Review Applied](https://journals.aps.org/prapplied/abstract/10.1103/f57b-q28w)
+  
 
 - **[2025.06.13]** 🧑🏻‍🏫 Lecture notes~ \
 It's been one year since I started my postdoc at PKU. During this time, I also taught *Calculus B* for two semesters. The first round of prep took a ton of effort — I ended up putting together over a thousand pages of lecture notes (only Chinese) that can basically be used as a self-study textbook. I'd be really happy if more people could see them and make use of them. \
@@ -46,8 +53,10 @@ It's been one year since I started my postdoc at PKU. During this time, I also t
   📘[北京大学《高等数学》 (B) (二) 2025年春学期 · 全部内容合订版 (7–12章)](https://gitee.com/galvin-lai/Advanced-Mathematics-Class-B2-07/raw/master/AM-B-2-PKU-ALL.pdf), [课程主页](https://gitee.com/galvin-lai/Advanced-Mathematics-Class-B2-07)  
 
 - **[2025.03.06]** 📄 New preprint~ \
-**Zhijian Lai**, Jiang Hu, Taehee Ko, Jiayuan Wu, Dong An (2025). Optimal Interpolation-based Coordinate Descent Method for Parameterized Quantum Circuits. [arXiv: 2503.04620](https://arxiv.org/abs/2503.04620). \
-在arXiv上传了一篇基于最优插值的坐标下降法 (OICD)的参数化量子电路优化的新工作. [arXiv: 2503.04620](https://arxiv.org/abs/2503.04620).
+**Zhijian Lai**, Jiang Hu, Taehee Ko, Jiayuan Wu, Dong An (2025). Interpolation-based coordinate descent method for parameterized quantum circuits. [arXiv: 2503.04620](https://arxiv.org/abs/2503.04620) \
+在arXiv上传了一篇基于插值的坐标下降法 (ICD)的参数化量子电路优化的新工作.
+
+  > Published at [Communications Physics](https://www.nature.com/articles/s42005-025-02473-8)
 
 - **[2024.10.21]** 📄 New publication~ \
 Xin Yang, Heng Chang, **Zhijian Lai**, Jinze Yang, Xingrun Li, Yu Lu, Shuaiqiang Wang, Dawei Yin, Erxue Min (2024). [Hyperbolic contrastive learning for cross-domain recommendation.](https://dl.acm.org/doi/abs/10.1145/3627673.3679572) Proceedings of the 33rd ACM International Conference on Information and Knowledge Management. 2024. \
