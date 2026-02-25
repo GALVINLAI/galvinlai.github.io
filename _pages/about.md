@@ -42,9 +42,9 @@ Project name: Manifold Optimization Theory and Algorithms in Quantum Information
 - **[2025.08.12]** 📄 New preprint~ \
 **Zhijian Lai**, Jiang Hu, Dong An, Zaiwen Wen (2025). Extended Parameter Shift Rules with Minimal Derivative Variance for Parameterized Quantum Circuits. [arXiv: 2508.08802](https://arxiv.org/abs/2508.08802) \
 我们在arXiv上传了一篇关于参数化量子电路梯度计算的新工作.
+
   > Published at [Physical Review Applied](https://journals.aps.org/prapplied/abstract/10.1103/f57b-q28w)
   
-
 - **[2025.06.13]** 🧑🏻‍🏫 Lecture notes~ \
 It's been one year since I started my postdoc at PKU. During this time, I also taught *Calculus B* for two semesters. The first round of prep took a ton of effort — I ended up putting together over a thousand pages of lecture notes (only Chinese) that can basically be used as a self-study textbook. I'd be really happy if more people could see them and make use of them. \
 来 PKU 做博后正好一年, 这一年兼任了两个学期《高数 B》的教学. 第一次备课花了大量精力, 整理共千页的讲义 (仅中文), 完全可以用于自学. 如果有更多人能看到, 用到, 就很开心了.\
@@ -54,6 +54,7 @@ It's been one year since I started my postdoc at PKU. During this time, I also t
 - **[2025.03.06]** 📄 New preprint~ \
 **Zhijian Lai**, Jiang Hu, Taehee Ko, Jiayuan Wu, Dong An (2025). Interpolation-based coordinate descent method for parameterized quantum circuits. [arXiv: 2503.04620](https://arxiv.org/abs/2503.04620) \
 在arXiv上传了一篇基于插值的坐标下降法 (ICD)的参数化量子电路优化的新工作.
+
   > Published at [Communications Physics](https://www.nature.com/articles/s42005-025-02473-8)
 
 - **[2024.10.21]** 📄 New publication~ \
