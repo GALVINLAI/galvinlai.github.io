@@ -1,0 +1,11 @@
+---
+title: "CV"
+description: "Curriculum vitae of Zhijian Lai"
+toc: false
+---
+
+My complete CV is available here:
+
+<div class="link-row">
+  <a class="pill-link" href="files/LatexCV/2026_CV_faculty_20251217.pdf">Download CV PDF</a>
+</div>

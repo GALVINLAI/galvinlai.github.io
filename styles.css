@@ -1,0 +1,353 @@
+:root {
+  --zl-ink: #24323a;
+  --zl-muted: #68737d;
+  --zl-faint: #eef2f4;
+  --zl-accent: #6f4bb5;
+  --zl-accent-dark: #4b2d80;
+  --zl-bg: #fff;
+  --zl-soft: #fbfafc;
+}
+
+body {
+  color: var(--zl-ink);
+  background: var(--zl-bg);
+  font-family: "Aptos", "Inter", "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  font-size: 15.5px;
+  line-height: 1.62;
+}
+
+.navbar {
+  background: #fff;
+  border-bottom: 1px solid var(--zl-faint);
+  box-shadow: none;
+}
+
+.navbar-title {
+  display: none;
+}
+
+.navbar-title,
+.navbar-nav .nav-link {
+  color: var(--zl-ink) !important;
+  font-size: 0.92rem;
+  letter-spacing: 0;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: var(--zl-accent) !important;
+}
+
+.quarto-title-block .title {
+  color: var(--zl-ink);
+  font-size: 1.72rem;
+  font-weight: 650;
+  letter-spacing: 0;
+}
+
+main.content {
+  max-width: 880px;
+  width: 100%;
+  min-width: 0;
+}
+
+a {
+  color: var(--zl-accent);
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(111, 75, 181, 0.35);
+}
+
+a:hover {
+  color: var(--zl-accent-dark);
+  border-bottom-color: var(--zl-accent-dark);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--zl-ink);
+  letter-spacing: 0;
+  line-height: 1.25;
+}
+
+h1 {
+  font-size: 1.65rem;
+  margin-top: 1.4rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin-top: 2.2rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid #dce4e8;
+}
+
+h3 {
+  font-size: 1.02rem;
+  margin-top: 1.55rem;
+}
+
+blockquote {
+  color: var(--zl-muted);
+  border-left: 3px solid #d7c9ef;
+  background: var(--zl-soft);
+  padding: 0.75rem 1rem;
+}
+
+.profile {
+  text-align: center;
+  margin: 2.2rem auto 1.8rem;
+}
+
+.profile-name {
+  font-size: 2rem;
+  font-weight: 350;
+  line-height: 1.1;
+  margin-bottom: 0.55rem;
+}
+
+.profile-name strong {
+  color: var(--zl-accent);
+  font-weight: 650;
+}
+
+.profile-name .meta {
+  font-size: 1em;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0.75rem auto 0.95rem;
+  border: 1px solid #e6e9ec;
+}
+
+.profile-subtitle {
+  color: var(--zl-muted);
+  margin-bottom: 0.25rem;
+  overflow-wrap: anywhere;
+}
+
+.profile-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.profile-links a,
+.pill-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.32rem;
+  padding: 0.16rem 0.52rem;
+  border: 1px solid #d5dce1;
+  border-radius: 4px;
+  background: #fff;
+  color: var(--zl-ink);
+  font-size: 0.82rem;
+  text-decoration: none;
+  box-shadow: 0 1px 2px rgba(20, 30, 40, 0.03);
+}
+
+.profile-links a:hover,
+.pill-link:hover {
+  color: #fff;
+  background: var(--zl-accent);
+  border-color: var(--zl-accent);
+}
+
+.compact-list li {
+  margin-bottom: 0.55rem;
+}
+
+.news-list li {
+  margin-bottom: 0.8rem;
+}
+
+.pub-item,
+.talk-item,
+.software-item,
+.note-item {
+  margin: 0 0 1.05rem;
+  padding-bottom: 1.05rem;
+  border-bottom: 1px solid var(--zl-faint);
+}
+
+.pub-title,
+.talk-title,
+.software-title,
+.note-title {
+  font-weight: 650;
+}
+
+.meta {
+  color: var(--zl-muted);
+  font-size: 0.92rem;
+}
+
+.link-row {
+  display: flex;
+  gap: 0.45rem;
+  flex-wrap: wrap;
+  margin-top: 0.35rem;
+}
+
+.callout-note {
+  border-left-color: var(--zl-accent);
+}
+
+.cell-output-display,
+img {
+  max-width: 100%;
+}
+
+.math-display {
+  margin: 1.2rem 0;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.05rem;
+  font-style: italic;
+  line-height: 1.65;
+}
+
+.math-display sub,
+.math-display sup,
+.math-inline sup {
+  font-style: normal;
+}
+
+.math-inline {
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+}
+
+.content p,
+.content li,
+.content a,
+.pub-item,
+.talk-item,
+.software-item,
+.note-item {
+  overflow-wrap: anywhere;
+}
+
+.visitor-map {
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.visitor-map img {
+  width: 300px;
+  max-width: 100%;
+}
+
+@media (max-width: 720px) {
+  html,
+  body {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+
+  body.nav-fixed {
+    min-width: 0 !important;
+  }
+
+  .quarto-container,
+  .page-columns,
+  body .page-columns,
+  #quarto-content {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    overflow-x: hidden;
+    box-sizing: border-box !important;
+  }
+
+  main.content,
+  #quarto-document-content,
+  body .page-columns main.content,
+  body .page-columns #quarto-document-content,
+  body .page-columns .content {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    grid-column: auto !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 1.15rem;
+    padding-right: 1.15rem;
+    box-sizing: border-box !important;
+  }
+
+  body {
+    font-size: 15px;
+  }
+
+  .profile {
+    margin-top: 1.5rem;
+  }
+
+  .profile-name {
+    font-size: 1.65rem;
+  }
+
+  .profile-photo {
+    width: 128px;
+    height: 128px;
+  }
+
+  .profile-links {
+    padding-left: 0.35rem;
+    padding-right: 0.35rem;
+    justify-content: center;
+  }
+
+  main.content > *,
+  #quarto-document-content > *,
+  .profile,
+  .profile-links,
+  .profile-subtitle,
+  .news-list,
+  .news-list ul,
+  .news-list li,
+  .news-list p {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+    white-space: normal !important;
+  }
+
+  .content p,
+  .content li,
+  .content li *,
+  .news-list,
+  .news-list * {
+    overflow-wrap: anywhere !important;
+    word-break: break-word !important;
+    white-space: normal !important;
+  }
+
+  .profile-links a,
+  .pill-link {
+    max-width: 100%;
+    flex: 0 1 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  main.content,
+  #quarto-document-content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

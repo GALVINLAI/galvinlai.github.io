@@ -1,0 +1,41 @@
+---
+title: "Software"
+description: "Software and solvers by Zhijian Lai"
+---
+
+## Solvers for Manifold Optimization
+
+Although [Manopt](https://www.manopt.org/tutorial.html) is a widely used Riemannian manifold solver, some problems require nonsmooth objectives or additional constraints. The following projects extend this direction.
+
+::: {.software-item}
+<div class="software-title">RieSmooth: nonsmooth objectives on Riemannian manifolds</div>
+
+**RieSmooth** is a general Riemannian smoothing algorithm for nonsmooth Riemannian optimization problems
+
+<div class="math-display">min<sub>x &isin; M</sub> f(x)</div>
+
+where <span class="math-inline">M</span> is any available manifold in [Manopt](https://www.manopt.org/tutorial.html), and <span class="math-inline">f: M &rarr; R</span> is nonsmooth.
+
+<div class="link-row"><a class="pill-link" href="https://github.com/GALVINLAI/General-Riemannian-Smoothing-Method">Code and Instructions</a></div>
+
+Reference: Zhijian Lai, Akiko Yoshise. *Completely positive factorization by a Riemannian smoothing method*. Computational Optimization and Applications, 83, 933--966, 2022. <https://doi.org/10.1007/s10589-022-00417-4>
+
+Examples include completely positive matrix factorization (CPfact), finding the sparsest vector in a subspace (FSV), and robust low-rank matrix completion (RMC).
+:::
+
+::: {.software-item}
+<div class="software-title">RIPM: additional constraints on Riemannian manifolds</div>
+
+**Riemannian Interior Point Methods (RIPM)** is a primal-dual interior point solver for nonlinear optimization problems on Riemannian manifolds with equality and inequality constraints:
+
+<div class="math-display">
+  <div>min<sub>x &isin; M</sub> f(x)</div>
+  <div>s.t. &nbsp; h(x) = 0, &nbsp; g(x) &le; 0,</div>
+</div>
+
+where <span class="math-inline">M</span> is any available manifold in [Manopt](https://www.manopt.org/tutorial.html), and <span class="math-inline">f: M &rarr; R</span>, <span class="math-inline">h: M &rarr; R<sup>l</sup></span>, and <span class="math-inline">g: M &rarr; R<sup>m</sup></span> are smooth.
+
+<div class="link-row"><a class="pill-link" href="https://github.com/GALVINLAI/RIPM">Code and Instructions</a><a class="pill-link" href="https://manoptjl.org/stable/solvers/interior_point_Newton/">Manopt.jl Implementation</a></div>
+
+Reference: Zhijian Lai, Akiko Yoshise. *Riemannian Interior Point Methods for Constrained Optimization on Manifolds*. Journal of Optimization Theory and Applications, 201, 433--469, 2024.
+:::
