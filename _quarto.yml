@@ -6,7 +6,6 @@ project:
   resources:
     - files/
     - images/
-    - talkmap/
     - .nojekyll
 
 website:
