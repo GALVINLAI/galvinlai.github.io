@@ -28,7 +28,7 @@ toc: false
 
 I am a postdoctoral researcher at the [Beijing International Center for Mathematical Research (BICMR)](http://bicmr.pku.edu.cn/), [Peking University](https://english.pku.edu.cn/), advised by [Zaiwen Wen](http://faculty.bicmr.pku.edu.cn/~wenzw/).
 
-Previously, I received my Ph.D. and M.S. in Policy and Planning Sciences from the University of Tsukuba in 2024 and 2021, respectively, under the supervision of [Prof. Akiko Yoshise](https://infoshako.sk.tsukuba.ac.jp/~yoshise/), and my B.Mgmt. in Logistics Management from Dongbei University of Finance and Economics in 2017.
+Previously, I received my Ph.D. and M.S. in Policy and Planning Sciences from the University of Tsukuba (Japan) in 2024 and 2021, respectively, under the supervision of [Prof. Akiko Yoshise](https://infoshako.sk.tsukuba.ac.jp/~yoshise/), and my B.Mgmt. in Logistics Management from Dongbei University of Finance and Economics (China) in 2017.
 
 ## Research Interests
 
