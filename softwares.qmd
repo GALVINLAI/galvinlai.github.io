@@ -1,6 +1,5 @@
 ---
 title: "Software"
-description: "Software and solvers by Zhijian Lai"
 ---
 
 ## Solvers for Manifold Optimization

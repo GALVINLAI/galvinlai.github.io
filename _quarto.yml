@@ -2,7 +2,13 @@ project:
   type: website
   output-dir: _site
   render:
-    - "*.qmd"
+    - index.qmd
+    - publications.qmd
+    - softwares.qmd
+    - talks.qmd
+    - teaching.qmd
+    - cv.qmd
+    - 404.qmd
   resources:
     - files/
     - images/
