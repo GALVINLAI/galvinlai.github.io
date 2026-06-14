@@ -63,6 +63,13 @@
     link.href = counterpartPath();
     link.textContent = isChinese ? "English" : "中文";
     link.setAttribute("aria-label", isChinese ? "Switch to English" : "切换到中文版");
+
+    const navbar = document.querySelector(".navbar");
+    if (navbar) {
+      navbar.appendChild(link);
+      return;
+    }
+
     document.body.appendChild(link);
   }
 
