@@ -1,0 +1,101 @@
+---
+title: "报告"
+---
+
+## 其他报告
+
+::: {.talk-item}
+<div class="talk-title"><a href="../files/slides/2024_04_29_DFO_seminar_intro_RO.pdf">黎曼优化入门教程</a></div>
+<div class="meta">北京大学 [Liyuan Cao](https://liyuancao.github.io/) 组织的 Derivative-Free Optimization Seminar，北京，中国，2024 年 4 月。</div>
+:::
+
+::: {.talk-item}
+<div class="talk-title"><a href="../files/slides/2024_06_06_SUEP_CAS.pdf">流形约束优化的黎曼内点方法</a></div>
+<div class="meta">上海电力大学[竺筱晶](https://slxy.shiep.edu.cn/8d/b6/c3280a232886/page.htm)老师组织的研讨会，线上，2024 年 6 月 5 日。</div>
+:::
+
+::: {.talk-item}
+<div class="talk-title"><a href="../files/slides/2024_06_06_SUEP_CAS.pdf">流形约束优化的黎曼内点方法</a></div>
+<div class="meta">中国科学院数学与系统科学研究院计算数学与科学工程计算研究所章丽老师组织的研讨会，2024 年 6 月 6 日。</div>
+:::
+
+## 国际会议口头报告
+
+::: {.talk-item}
+<div class="talk-title"><a href="../files/slides/2023_08_24_ICIAM2023.pdf">流形约束优化的黎曼内点方法</a></div>
+<div class="meta">[第十届国际工业与应用数学大会（ICIAM）](https://iciam2023.org/registered_data?id=01064)，早稻田大学，东京，日本，2023 年 8 月。</div>
+:::
+
+::: {.talk-item}
+<div class="talk-title"><a href="../files/slides/SeattleSIAMOP.pdf">黎曼流形上非线性优化的内点方法</a></div>
+<div class="meta">[SIAM Conference on Optimization (OP23)](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=75974)，西雅图，美国，2023 年 6 月。</div>
+:::
+
+::: {.talk-item}
+<div class="talk-title"><a href="../files/slides/2022_12_4_IWCO.pdf">流形约束优化的黎曼内点方法</a></div>
+<div class="meta">[International Workshop on Continuous Optimization](http://www.opt.c.titech.ac.jp/DecemberWorkshop/schedule.html)，东京（线上），2022 年 12 月。</div>
+:::
+
+::: {.talk-item}
+<div class="talk-title"><a href="../files/slides/2021_07_22_SIAM_OP21.pdf">通过正交约束问题进行完全正矩阵分解</a></div>
+<div class="meta">[SIAM Conference on Optimization (OP21)](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=71097)，香港（线上），2021 年 7 月。</div>
+:::
+
+## 日本国内会议口头报告
+
+::: {.talk-item}
+<div class="talk-title"><a href="../files/slides/2023_05_20_RAOTA.pdf">流形约束优化的黎曼内点方法</a></div>
+<div class="meta">[Research Association of Optimization Theory and Algorithms (RAOTA): Gathering of Young Researchers for the Future 2023](https://orsj.org/raota/wp-content/uploads/sites/16/2023/05/tsukuba23program.pdf)，筑波大学，筑波，茨城，2023 年 5 月。</div>
+:::
+
+::: {.talk-item}
+<div class="talk-title"><a href="../files/slides/2023_03_07_OR.pdf">流形约束优化的黎曼内点方法</a></div>
+<div class="meta">[日本运筹学会 2023 年春季全国大会](https://orsj.org/nc2023s/wp-content/uploads/sites/14/2023/01/detail.pdf)，中央大学，东京，2023 年 3 月。</div>
+:::
+
+::: {.talk-item}
+<div class="talk-title"><a href="../files/slides/2022_09_08_JSIAM2022.pdf">黎曼内点方法的全局收敛性</a></div>
+<div class="meta">[日本运筹学会 2022 年秋季全国大会](https://orsj.org/nc2022f/wp-content/uploads/sites/13/2022/09/program2022f.pdf)，新潟（线上），2022 年 9 月。</div>
+:::
+
+::: {.talk-item}
+<div class="talk-title"><a href="../files/slides/2022_09_08_JSIAM2022.pdf">黎曼内点方法的全局收敛性</a></div>
+<div class="meta">[日本工业与应用数学学会 2022 年年会](https://conference.wdc-jp.com/jsiam/2022/program/program_flash.html)，北海道大学，札幌，北海道，2022 年 9 月。</div>
+:::
+
+::: {.talk-item}
+<div class="talk-title"><a href="../files/slides/2022_03_17_OR.pdf">黎曼内点方法的超线性和二次收敛性</a></div>
+<div class="meta">[日本运筹学会 2022 年春季全国大会](https://orsj.org/nc2022s/wp-content/uploads/sites/12/2022/02/2022s-program_all.pdf)，群马大学，群马（线上），2022 年 3 月。</div>
+:::
+
+::: {.talk-item}
+<div class="talk-title"><a href="../files/slides/2021_08_19_RIMS.pdf">通过正交约束问题研究完全正矩阵的光滑方法应用</a></div>
+<div class="meta">[京都大学数理解析研究所研究集会](https://sites.google.com/view/rimsoptimization2021/%E3%83%9B%E3%83%BC%E3%83%A0)，京都大学，京都（线上），2021 年 8 月。</div>
+:::
+
+::: {.talk-item}
+<div class="talk-title"><a href="../files/slides/20210302_OR21_spring.pdf">通过正交约束问题进行完全正矩阵分解</a></div>
+<div class="meta">[日本运筹学会 2021 年春季全国大会](https://www.orsj.or.jp/nc/2021s/?page_id=20)，东京工业大学，东京（线上），2021 年 3 月。</div>
+:::
+
+::: {.talk-item}
+<div class="talk-title"><a href="../files/slides/RIMSmeeting20200824.pdf">完全正矩阵识别问题的一种新方法</a></div>
+<div class="meta">[京都大学数理解析研究所研究集会](https://sites.google.com/view/akiyoshishioura/rimsmeeting2020)，京都大学，京都（线上），2020 年 8 月。</div>
+:::
+
+## 海报报告
+
+::: {.talk-item}
+<div class="talk-title"><a href="../files/posters/2023_08_09_summer_scholl_poster.pdf">流形约束优化的黎曼内点方法</a></div>
+<div class="meta">[Summer School on Continuous Optimization and Related Fields](https://www.ism.ac.jp/~mirai/sscoke/2023/)，统计数理研究所，东京，日本，2023 年 8 月。</div>
+:::
+
+::: {.talk-item}
+<div class="talk-title"><a href="../files/posters/2023_03_22_jst_poster.pdf">流形优化的黎曼内点方法</a></div>
+<div class="meta">2022 SPRING Fellowship Research Meeting，筑波，茨城，日本，2023 年 3 月。</div>
+:::
+
+::: {.talk-item}
+<div class="talk-title"><a href="../files/posters/2022_03_22_jst_poster.pdf">黎曼优化及其应用</a></div>
+<div class="meta">2021 SPRING Fellowship Research Meeting，筑波，茨城，日本，2022 年 3 月。</div>
+:::

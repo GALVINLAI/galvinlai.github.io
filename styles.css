@@ -43,6 +43,34 @@ body {
   color: var(--zl-accent) !important;
 }
 
+.language-switch {
+  position: fixed;
+  top: 0.78rem;
+  right: 4.1rem;
+  z-index: 1100;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 3.25rem;
+  min-height: 1.55rem;
+  padding: 0.08rem 0.55rem;
+  border: 1px solid #cfd8df;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.94);
+  color: var(--zl-ink) !important;
+  font-family: var(--zl-main-font);
+  font-size: 0.78rem;
+  line-height: 1;
+  text-decoration: none !important;
+  box-shadow: 0 1px 3px rgba(20, 30, 40, 0.04);
+}
+
+.language-switch:hover {
+  border-color: var(--zl-accent);
+  background: var(--zl-accent);
+  color: #fff !important;
+}
+
 .quarto-title-block .title {
   color: var(--zl-ink);
   font-size: 1.72rem;
@@ -513,6 +541,15 @@ img {
     padding-left: 0.35rem;
     padding-right: 0.35rem;
     justify-content: center;
+  }
+
+  .language-switch {
+    top: 0.84rem;
+    right: 3.8rem;
+    min-width: 3rem;
+    min-height: 1.45rem;
+    padding: 0.06rem 0.45rem;
+    font-size: 0.74rem;
   }
 
   .news-list {

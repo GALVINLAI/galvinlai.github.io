@@ -1,0 +1,43 @@
+---
+title: "教学"
+---
+
+## 北京大学高等数学 B，2024--2025
+
+北京大学 24--25 学年高数 B 讲义（2025 年 6 月 8 日汇总）。
+
+- [北京大学《高等数学》(B) (一) 2024 年秋学期 · 全部内容合订版 (1--6 章)](https://gitee.com/galvin-lai/Advanced-Mathematics-Class-B-07/raw/master/AM-B-1-PKU-ALL.pdf)。课程主页：[AM-B-1](https://gitee.com/galvin-lai/Advanced-Mathematics-Class-B-07)。
+- [北京大学《高等数学》(B) (二) 2025 年春学期 · 全部内容合订版 (7--12 章)](https://gitee.com/galvin-lai/Advanced-Mathematics-Class-B2-07/raw/master/AM-B-2-PKU-ALL.pdf)。课程主页：[AM-B-2](https://gitee.com/galvin-lai/Advanced-Mathematics-Class-B2-07)。
+
+## 筑波大学助教
+
+我将担任以下课程的助教：
+
+- FH61141 [社会与优化](https://kdb.tsukuba.ac.jp/syllabi/2023/FH61141/jpn/0)，2023 年秋季学期。
+
+我曾担任以下课程的助教：
+
+- FH35012 [问题发现与解决](https://kdb.tsukuba.ac.jp/syllabi/2023/FH35012/jpn/0)，2022 年秋季学期。
+- FH61141 [社会与优化](https://kdb.tsukuba.ac.jp/syllabi/2023/FH61141/jpn/0)，2022 年秋季学期。
+- 0AL5100 [供应链管理](https://kdb.tsukuba.ac.jp/syllabi/2021/0AL5100/jpn/0)，2021 年秋季学期。
+
+## 研究生入学考试数学辅导
+
+我曾被正式聘为课程辅导教师，支持准备[筑波大学政策与规划科学以及社会工程学位项目入学考试](https://www.sk.tsukuba.ac.jp/PPS/en/ap/)的国际学生。
+
+- 2021 年 8 月入学考试线性代数辅导。
+- 2019 年 12 月入学考试微积分辅导。
+- 2019 年 8 月入学考试微积分辅导。
+
+在 COVID-19 疫情期间，我将课程视频上传至 [Bilibili](https://space.bilibili.com/16115578)，以帮助有需要的学生。
+
+## 大学-高中协作项目
+
+该项目由日本科学技术振兴机构支持，目标是帮助高中生识别生活环境中的问题，并使用优化模型，例如 MILP，以及 Xpress、Gurobi 等求解器提出解决方案。
+
+2019 年至 2021 年期间，我担任助教并指导学生小组完成以下主题：
+
+- 设计自习计划程序以最大化学习效率，2021。
+- 灾害发生时选择避难所，2020。
+- 均衡学校食堂使用人数，2019。
+- 通过确定东武伊势崎线停车站缓解拥堵，2019。
