@@ -21,9 +21,9 @@ toc: false
 <img class="profile-photo" src="../images/profile-photo-seattle.jpg" alt="赖志坚">
 -->
 <div class="portrait-compare" style="--split: 50%;">
-  <img class="portrait-compare-image portrait-compare-base" src="../images/profile-illustration-seattle.jpg" alt="赖志坚插画头像" width="900" height="900" decoding="async">
+  <img class="portrait-compare-image portrait-compare-base" src="../images/profile-photo-seattle.jpg" alt="赖志坚照片" width="900" height="900" decoding="async">
   <div class="portrait-compare-overlay">
-    <img class="portrait-compare-image" src="../images/profile-photo-seattle.jpg" alt="赖志坚照片" width="900" height="900" decoding="async">
+    <img class="portrait-compare-image" src="../images/profile-illustration-seattle.jpg" alt="赖志坚插画头像" width="900" height="900" decoding="async">
   </div>
   <div class="portrait-compare-divider" aria-hidden="true"></div>
   <input class="portrait-compare-range" type="range" min="0" max="100" value="50" aria-label="切换两张头像图片">

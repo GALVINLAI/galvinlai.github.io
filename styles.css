@@ -543,6 +543,11 @@ img {
     justify-content: center;
   }
 
+  .profile-email {
+    margin-top: 0.28rem;
+    margin-bottom: 1.15rem;
+  }
+
   .language-switch {
     top: 0.84rem;
     right: 3.8rem;
