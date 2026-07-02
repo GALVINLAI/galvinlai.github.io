@@ -6,5 +6,5 @@ toc: false
 完整简历可在此下载：
 
 <div class="link-row">
-  <a class="pill-link" href="../files/LatexCV/2026_CV_faculty_20251217.pdf">下载 CV PDF</a>
+  <a class="pill-link" href="../files/LatexCV/main-public-20260702.pdf">下载 CV PDF</a>
 </div>

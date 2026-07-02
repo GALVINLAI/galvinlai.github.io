@@ -6,5 +6,5 @@ toc: false
 My complete CV is available here:
 
 <div class="link-row">
-  <a class="pill-link" href="files/LatexCV/2026_CV_faculty_20251217.pdf">Download CV PDF</a>
+  <a class="pill-link" href="files/LatexCV/main-public-20260702.pdf">Download CV PDF</a>
 </div>
