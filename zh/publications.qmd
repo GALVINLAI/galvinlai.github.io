@@ -2,7 +2,28 @@
 title: "论文"
 ---
 
-## 期刊与会议论文
+## 已发表与已接收论文
+
+::: {.pub-item}
+<div class="pub-title">Achieving double-logarithmic precision dependence in optimization-based quantum unstructured search</div>
+<div>**Zhijian Lai**, Dong An, Jiang Hu, Zaiwen Wen.</div>
+<div class="meta"><em>Physical Review A</em>, to appear, 2026.</div>
+<div class="link-row"><a class="pill-link" href="https://arxiv.org/abs/2603.26039">arXiv:2603.26039</a></div>
+:::
+
+::: {.pub-item}
+<div class="pub-title">Retraction-free optimization over the Stiefel manifold for the LoRA fine-tuning</div>
+<div>Yuan Zhang, Jiang Hu, **Zhijian Lai**, Lin Lin, Zaiwen Wen.</div>
+<div class="meta"><em>IEEE Transactions on Pattern Analysis and Machine Intelligence</em>, to appear, 2026.</div>
+<div class="link-row"><a class="pill-link" href="https://arxiv.org/abs/2607.25299">arXiv:2607.25299</a></div>
+:::
+
+::: {.pub-item}
+<div class="pub-title">A Grover-compatible manifold optimization algorithm for quantum search</div>
+<div>**Zhijian Lai**, Dong An, Jiang Hu, Zaiwen Wen.</div>
+<div class="meta"><em>SIAM Journal on Scientific Computing</em>, to appear, 2026.</div>
+<div class="link-row"><a class="pill-link" href="https://arxiv.org/abs/2512.08432">arXiv:2512.08432</a></div>
+:::
 
 ::: {.pub-item}
 <div class="pub-title">Interpolation-based coordinate descent method for parameterized quantum circuits</div>
@@ -49,13 +70,6 @@ title: "论文"
 :::
 
 ::: {.pub-item}
-<div class="pub-title">Achieving double-logarithmic precision dependence in optimization-based quantum unstructured search</div>
-<div>**Zhijian Lai**, Dong An, Jiang Hu, Zaiwen Wen.</div>
-<div class="meta">预印本，2026.</div>
-<div class="link-row"><a class="pill-link" href="https://arxiv.org/abs/2603.26039">arXiv:2603.26039</a></div>
-:::
-
-::: {.pub-item}
 <div class="pub-title">Quantum circuit design from a retraction-based Riemannian optimization framework</div>
 <div>**Zhijian Lai**, Hantao Nie, Jiayuan Wu, Dong An.</div>
 <div class="meta">预印本，2026.</div>
@@ -63,17 +77,10 @@ title: "论文"
 :::
 
 ::: {.pub-item}
-<div class="pub-title">Advancing Mathematical Research via Human-AI Interactive Theorem Proving</div>
+<div class="pub-title">Advancing mathematical research via human-AI interactive theorem proving</div>
 <div>Chenyi Li, **Zhijian Lai**, Dong An, Jiang Hu, Zaiwen Wen.</div>
 <div class="meta">预印本，2025.</div>
 <div class="link-row"><a class="pill-link" href="https://arxiv.org/abs/2512.09443">arXiv:2512.09443</a></div>
-:::
-
-::: {.pub-item}
-<div class="pub-title">A Grover-compatible manifold optimization algorithm for quantum search</div>
-<div>**Zhijian Lai**, Dong An, Jiang Hu, Zaiwen Wen.</div>
-<div class="meta">预印本，2025.</div>
-<div class="link-row"><a class="pill-link" href="https://arxiv.org/abs/2512.08432">arXiv:2512.08432</a></div>
 :::
 
 ## 学位论文
