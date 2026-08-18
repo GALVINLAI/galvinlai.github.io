@@ -7,8 +7,8 @@ title: "论文"
 ::: {.pub-item}
 <div class="pub-title">Achieving double-logarithmic precision dependence in optimization-based quantum unstructured search</div>
 <div>**Zhijian Lai**, Dong An, Jiang Hu, Zaiwen Wen.</div>
-<div class="meta"><em>Physical Review A</em>, to appear, 2026.</div>
-<div class="link-row"><a class="pill-link" href="https://arxiv.org/abs/2603.26039">arXiv:2603.26039</a></div>
+<div class="meta"><em>Physical Review A</em> <strong>114</strong>(2), 022436, 2026.</div>
+<div class="link-row"><a class="pill-link" href="https://link.aps.org/doi/10.1103/7k6t-m463">期刊</a><a class="pill-link" href="https://arxiv.org/abs/2603.26039">arXiv:2603.26039</a></div>
 :::
 
 ::: {.pub-item}
